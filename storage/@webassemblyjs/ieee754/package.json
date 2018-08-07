@@ -1,0 +1,264 @@
+{
+	"name": "@webassemblyjs/ieee754",
+	"versions": {
+		"1.5.8": {
+			"name": "@webassemblyjs/ieee754",
+			"version": "1.5.8",
+			"description": "IEEE754 decoder and encoder",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"ieee754": "^1.1.11"
+			},
+			"_id": "@webassemblyjs/ieee754@1.5.8",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-r0gly5YsSJj2vITYJnS/MYT0xw7nyANBzsUtfVZyo1OHyYql96SEYKFrSEaoXKexew00TCd7JufCK5PGoF55AQ==",
+				"shasum": "29383c7172e90121613d5614d532f22c19255c3b",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.8.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2247,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbC/qqCRA9TVsSAnZWagAAUaYP/37P7KlNU6wx0S5m1D+8\n1rVjSC3gYVV+FKstRmwsfdi8i+hj9veHBRqgAOwz+U90QaYOpRyyHmeuRwfZ\nky19M4om5pVGv1uQzCvNyuxgxe2q5M3cpH7N1VdFk1hqip3M8tXhyCX5U3mw\nOHBedE6fBDv6ogN0QbGEPND6RplnY5OSGVA8Ay0+g/hf1L0sOD0bA9KEdxhr\n6UmLwVvHBXEvC/9w3mgPWJjDcWlhO1ade1YPQ8lUZR4K2WliC6iFEjlIq7tE\n/3EMbQR7pyzYmO18M2LvjLU0H5A1QOgb8seDlJ/gL/8bohpcadplWbyM+wiY\nfjic7cO8jx+MqHJpQTVQHL38pLqy9VuELi2ND+hutZQ+R/zlm3lCgpS8gu0S\nsQD8lYjMLtXuq0Om7Dww3j/fHwU/p5kdOUf6VrR4279rDXjU0NdygmFJH8gO\nLEWbbfPzAvYSTC9IEGDLKjNjH3dd7DxahUoPyOPfLZdT226qz1JC1GpihRsC\n5lezN1rjnA+lVbzxp9fWFarD+Zp56e0BplFMdZPBTB61J0tIipPA88IawT1d\nyp0sfYzQyMifq90jf+IOPn+bbelzA52C4A/mAPawHpelXNqZvOL8QtegH+5e\nw8Zr/U1kARZhlkrKKqjenzkuNsWzXfkys8OoZxLO6EEiRIbqp1eq8KEqA1fR\nzcaH\r\n=KkXL\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ieee754_1.5.8_1527511722423_0.9984228551459373"
+			}
+		},
+		"1.5.9": {
+			"name": "@webassemblyjs/ieee754",
+			"version": "1.5.9",
+			"description": "IEEE754 decoder and encoder",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"ieee754": "^1.1.11"
+			},
+			"_id": "@webassemblyjs/ieee754@1.5.9",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-mhetZBDnpV3VYqZb5Aail9X01VyIqDDZrNYdYj8bfx/PsVPG2znX90wRyVNTeqC5ylqHCgGkJ63bPaPEyINfsw==",
+				"shasum": "846856ece040c7debd5b5645b319c26523613bcf",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.9.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2979,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDVHeCRA9TVsSAnZWagAAoFgP+wQQgdsk5YyFyjCWZDEj\nwXYjiK3HWokmS6cvVFXOYKpy2Zi1+4mkv5iLX2hjzWUfcdWtwDA3Mha1RFGq\noF6VrsVD6n3XX9d3+fboyc+u90FxZ+4s30VqnAlWxDJ0UGQ4Aj3SRXCaLVnE\ncjGJH6wjobaNoFe8QitlmeBEnnNLNyOOb7YXkQrOQYwOjhWrAYs1bXwcG1Bg\nzMUjYeyly4kFEdj56WDVdP0rYKPxiklUDMrlaf9YHMULiTwsUBtfyMSYTepK\n1l7P7EyfBi1OzymxnwkNovNtk4CUIDSsDB6CHP1FgxRY1FyqoXATjDz1YMoU\nEZci4HlpORhwiSsDGqVLuQuYoOv/MhwbScRQKCo3LXmQu84gGOpcSAjh7MOS\nRyN/OnmYWArB3zlqBMJrnaRLi+OtNpDr7zhxan5HfIYajkXw7KAUo45Z95vC\nrAybgUwfUsjiJqb6U1tsLJu+ubjlQGg1n7PWlWBAlLrNlBiSMXsTRyVxmeJx\nHFCS2ZmJpWHsHwCDlXNCr2i2HfGEtd5vyNTleGZKTbQVzyJ6FBNvPNYD8Cn+\n9ofqaQbYQmgAgFSzwvi/9n/OmG0Dzpfv58vdST7+MtCHn0Scexcus9cqRG8o\nF25vyt1ebsg+rT6dj7+rVDn9aoHVKx0qf8kgV6FdhKd3UUJnegYvAdniWiG4\nv/Sg\r\n=6UGM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ieee754_1.5.9_1527599582493_0.13298773485469795"
+			}
+		},
+		"1.5.10": {
+			"name": "@webassemblyjs/ieee754",
+			"version": "1.5.10",
+			"description": "IEEE754 decoder and encoder",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"ieee754": "^1.1.11"
+			},
+			"_id": "@webassemblyjs/ieee754@1.5.10",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-WWlO5quQd3qOUT4wJiuodh5E1A8BfXYkOueuZZjEPL3budH5snqdWsPDieTqkBJnfCZGwRkRSn14OH4OPY1hsw==",
+				"shasum": "257cad440dd6c8a339402d31e035ba2e38e9c245",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.10.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2980,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbEUgpCRA9TVsSAnZWagAAs2YP/A0vQoi1mSGBB37Nwun7\ndz8ApeB1rIOx/DlVpU7BHfFuuT4aY7RhU7lCkPHrwda/H5vqj7rXfm7NHsOH\n+BHCGBGLCJyCVhwv+ro9zVtNbU7t+pjFQuq6GleIO87XBlROF5SdF6H030tf\nk/XRZfXEHdGYIw8Pfb38BfQpgTIWpq/WwQKgo+RCJof0eRkMmat3P/wKHQ0e\n1aJLt8qsjQHQryn/yNj/5F3OwiGxS998p/iCE9PTxlC5s1h66YN1s3Vq0efK\n5t4s5kj7pdXx3hFYOchk7ACUICh02h9O8KMb5cMKEzdp1c9JR8OS03trGysK\n02/BOAOlRxJhLIfyYNSUO3iJ47Czx2AtKew0oQox2cTatSaUVcgeA/rV1l5S\n1BdMckgt3krNkXE1VmjnCG68w4nkOSK1RaChqdsnFswwK+Y7qwTDpdulHmLq\n+rUZ6MDdb5iAHnR0l0KOsvmKhqet3q6IyQ0dqmLmg8/0u7mjesZgYED1NdMJ\nFQdES0wPBFGrMRP28hWz3iz6V8QvMKjHuiJE+wLQtdRg4JjvoN7Hdb7GUle3\nysfL/bkxt9Qp4DuI4eBObtaAxMIR4S1GVf+9kYxtxmRzRZel1jmEoradWVMX\nEuVG0i91aXR3Q44gHMbCbNR/wa2uoOsIjSX1i54hdM8mihodRI1e6cM4hczE\njNrF\r\n=A5j/\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ieee754_1.5.10_1527859240836_0.1670388831923204"
+			}
+		},
+		"1.5.11": {
+			"name": "@webassemblyjs/ieee754",
+			"version": "1.5.11",
+			"description": "IEEE754 decoder and encoder",
+			"license": "MIT",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"ieee754": "^1.1.11"
+			},
+			"_id": "@webassemblyjs/ieee754@1.5.11",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-0B8u3Fkyvwo/Y9hfgpAcP2P64kD2bIjPPYR9JTOtcQ1ZH405miXAp/BvqlJ9aw1rMyRPZe9V3QYhReyIhL3nGg==",
+				"shasum": "520658507f4033645d9f12742a4156a31b0c2e6d",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.11.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3000,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbF6IbCRA9TVsSAnZWagAAYhgQAI9sjUkbh2rAdTjWmXSX\nIeDeo+MZVcJSSyuh8xdB1O+uy5HshzJbJdVzHmnbL0N52h7H1HN/FX0biQjV\nlarPgmpTXFL/OCCeOP+6+wLPGbck/z2OkFBuU8edFTOX37YCPVdcUFuhyS3r\nKG5ksnybApSQdszCo08O8eWZw+AtBqL0UV8Exe1cACXLZYLS+9b59jWEefB9\n8XIc4pvOxu2rcDZWVdKYua4KkgsoULXgeOyln92uCkNOBkW72ozFQHGFNMo2\nzLWllyh9MQcA0eqkaPEFC1B86a1sT25fujnzqbpsgy8bAzc7EbTECcWNqTHF\nI0BOJnIzFc4Y1KV9+ztChgaCDOA0mxj9Lnqxsw8SMgxA408hNb6cWFLgJxrr\nizxNrrPPdYixIbgXcq9do4GyCTX71IcK/rucyvbs2wAdnmb8cou/aCkzmQFd\nQ/xsPdH857NCczjAn+I2jOcGcF0BP805s4y47KHaDkRp5B1VBOf0GmHbqlB7\nni5+RwhMYAqIIIj/a1U7SNiy/Sbab84hflvKI5tf7cXhQAhpqv3BSdjBPaKZ\nUUxCKzgd3TPADlzwIaAJzkAljL+rrnT7TVeXWLddh7uEwkr3XQS45dUtJ2I3\n6Ll4VVp8MZ1BzvfUbNkT5GaH7rLM0/GGRIANV1hhXKmk17RB7wOkiLZ1XdoT\naI8i\r\n=VGVO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ieee754_1.5.11_1528275483016_0.9511900850726824"
+			}
+		},
+		"1.5.12": {
+			"name": "@webassemblyjs/ieee754",
+			"version": "1.5.12",
+			"description": "IEEE754 decoder and encoder",
+			"license": "MIT",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"ieee754": "^1.1.11"
+			},
+			"_id": "@webassemblyjs/ieee754@1.5.12",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-F+PEv9QBzPi1ThLBouUJbuxhEr+Sy/oua1ftXFKHiaYYS5Z9tKPvK/hgCxlSdq+RY4MSG15jU2JYb/K5pkoybg==",
+				"shasum": "ee9574bc558888f13097ce3e7900dff234ea19a4",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.12.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3006,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbGPn1CRA9TVsSAnZWagAA+IQQAJwrsUmPQgtfqaFXuXri\na3ppRFNXxgQqbrOVNwkV+HgiWCYsLiq8WEt87pHOr2rdczPS2N4mOfowTn8q\nFs1N6V9b8i5O3Dldly4CrCYTfFJjHeNjSJ/G625vRNBFXnPUsQp/IM89zxzB\n3ukTWM5v8XcH0m/LIZtajlZxTco4l68wRGpBfvSzttu2Av8jMVPP8bxSNrMM\ndFFySIRov6I34x3Tvi0CuHSC+qRkZgi2/XOia62gMNEIT5Bkn+t34B14LSLu\nvcs+sr0KnxcSUQcDbB5TISmHiQv6EYoPKt4ZrktoeUxs+CmR7xOUmeWr55Q2\nGvP1o7lWUZHuDRD5yb07Jw42enAjWdn2X+DFExLvWFB3IeJkQ4nscaqp/tDR\nn9/OEKf8aNA7pEXG5WNu7lsFs/tuR7bo1tz4pfqc9Am4KkJflkFB7dYThHlI\nKm9xjuv8Ygn51fI4eznq6/mab4GIZggTfYlgXXTmMS7Fp5K6IfpaHJ5sxYZb\nzbCwD8OxVeVDtwvUny/C1KAHxaIfpuhi+Fy96zhH1GkrFUgyQHcnVTLi/YCV\npVbbMCTyV+gYMGZYf6TQSBn/U/XjhAWrbEY6Vd0c3wFsC9UCyK7EJT8xuxtK\natFGUb1cJlh7ELAIY7QB4RUrbl4QvnKRQtN942uFL1jfM+0dLHVvFzxtONQA\n6CNW\r\n=FCDi\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ieee754_1.5.12_1528363508733_0.7008721252013832"
+			}
+		}
+	},
+	"time": {
+		"created": "2018-05-28T12:48:42.337Z",
+		"1.5.8": "2018-05-28T12:48:42.498Z",
+		"modified": "2018-06-07T09:25:13.370Z",
+		"1.5.9": "2018-05-29T13:13:02.545Z",
+		"1.5.10": "2018-06-01T13:20:41.210Z",
+		"1.5.11": "2018-06-06T08:58:03.169Z",
+		"1.5.12": "2018-06-07T09:25:08.839Z"
+	},
+	"dist-tags": {
+		"latest": "1.5.12"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"573067b186da9dc67cea16bf33db8304\"",
+			"fetched": 1530308435213
+		}
+	},
+	"_distfiles": {
+		"ieee754-1.5.8.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.8.tgz",
+			"sha": "29383c7172e90121613d5614d532f22c19255c3b",
+			"registry": "npmjs"
+		},
+		"ieee754-1.5.9.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.9.tgz",
+			"sha": "846856ece040c7debd5b5645b319c26523613bcf",
+			"registry": "npmjs"
+		},
+		"ieee754-1.5.10.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.10.tgz",
+			"sha": "257cad440dd6c8a339402d31e035ba2e38e9c245",
+			"registry": "npmjs"
+		},
+		"ieee754-1.5.11.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.11.tgz",
+			"sha": "520658507f4033645d9f12742a4156a31b0c2e6d",
+			"registry": "npmjs"
+		},
+		"ieee754-1.5.12.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.12.tgz",
+			"sha": "ee9574bc558888f13097ce3e7900dff234ea19a4",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"ieee754-1.5.12.tgz": {
+			"shasum": "ee9574bc558888f13097ce3e7900dff234ea19a4"
+		}
+	},
+	"_rev": "2-262a7d8315cfc196",
+	"readme": "ERROR: No README data found!"
+}
