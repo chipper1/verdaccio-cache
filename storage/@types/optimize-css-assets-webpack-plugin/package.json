@@ -1,0 +1,244 @@
+{
+	"name": "@types/optimize-css-assets-webpack-plugin",
+	"versions": {
+		"1.3.0": {
+			"name": "@types/optimize-css-assets-webpack-plugin",
+			"version": "1.3.0",
+			"description": "TypeScript definitions for optimize-css-assets-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Armando Meziat",
+					"url": "https://github.com/odnamrataizem"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "6cce4098907cdd0d2cdb8708e23c0309c02a86868037c5042e1b9e50c2cff75a",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/optimize-css-assets-webpack-plugin@1.3.0",
+			"dist": {
+				"shasum": "26d8f45f0c8cdb8ef6da2da8f9a43c81cc64ad8b",
+				"tarball": "https://registry.npmjs.org/@types/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/optimize-css-assets-webpack-plugin-1.3.0.tgz_1489126744220_0.8536560654174536"
+			},
+			"directories": {}
+		},
+		"1.3.1": {
+			"name": "@types/optimize-css-assets-webpack-plugin",
+			"version": "1.3.1",
+			"description": "TypeScript definitions for optimize-css-assets-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Armando Meziat",
+					"url": "https://github.com/odnamrataizem"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "f0dd36b708f7cef9ef19678580c828bbff5e505b08202afa6022a34d654e8603",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/optimize-css-assets-webpack-plugin@1.3.1",
+			"dist": {
+				"shasum": "f93db4a6944aba2d3c6230a936684ac9631c994f",
+				"tarball": "https://registry.npmjs.org/@types/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/optimize-css-assets-webpack-plugin-1.3.1.tgz_1490371337692_0.013108468847349286"
+			},
+			"directories": {}
+		},
+		"1.3.2": {
+			"name": "@types/optimize-css-assets-webpack-plugin",
+			"version": "1.3.2",
+			"description": "TypeScript definitions for optimize-css-assets-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Armando Meziat",
+					"url": "https://github.com/odnamrataizem",
+					"githubUsername": "odnamrataizem"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "ce000431649163311d91ce3999eeec2eecfcbbe9f8b9410ff84e77cff976a9e4",
+			"typeScriptVersion": "2.2",
+			"_id": "@types/optimize-css-assets-webpack-plugin@1.3.2",
+			"dist": {
+				"integrity": "sha512-0Rxa4x3GE+Igbn8M9GP5Kxwc2LvbNCMLgIinf0GRBFRxpzCYWYNvy15CitC7Gzza1t/VG08ldDDnnjedlGy0KA==",
+				"shasum": "673d4b5ea120b0fe1d617fe80956c1819882ff04",
+				"tarball": "https://registry.npmjs.org/@types/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3148
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/optimize-css-assets-webpack-plugin_1.3.2_1518555528450_0.6565280999952006"
+			}
+		},
+		"1.3.3": {
+			"name": "@types/optimize-css-assets-webpack-plugin",
+			"version": "1.3.3",
+			"description": "TypeScript definitions for optimize-css-assets-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Armando Meziat",
+					"url": "https://github.com/odnamrataizem",
+					"githubUsername": "odnamrataizem"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "db33601195166ec0c1f99041b8c1b5d1a32559772fe3512dfcdc0bee1439999b",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/optimize-css-assets-webpack-plugin@1.3.3",
+			"dist": {
+				"integrity": "sha512-pnxKUggSNq3P+OtHkMc72BZ0FHvUCdMW5clkD+9MWcuWvuo+KJg3X5llMXFcDARJnqYfhaa3hVngnnwaSVwimg==",
+				"shasum": "e2b79784473ac5931ade079e4b70e525b35cd4ad",
+				"tarball": "https://registry.npmjs.org/@types/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3148
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/optimize-css-assets-webpack-plugin_1.3.3_1520648420908_0.17863606522358788"
+			}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:12:39.512Z",
+		"created": "2017-03-10T06:19:04.475Z",
+		"1.3.0": "2017-03-10T06:19:04.475Z",
+		"1.3.1": "2017-03-24T16:02:17.947Z",
+		"1.3.2": "2018-02-13T20:58:48.522Z",
+		"1.3.3": "2018-03-10T02:20:20.950Z"
+	},
+	"dist-tags": {
+		"latest": "1.3.3",
+		"ts2.0": "1.3.1",
+		"ts2.1": "1.3.1",
+		"ts2.2": "1.3.2",
+		"ts2.3": "1.3.3",
+		"ts2.4": "1.3.3",
+		"ts2.5": "1.3.3",
+		"ts2.6": "1.3.3",
+		"ts2.7": "1.3.3",
+		"ts2.8": "1.3.3",
+		"ts2.9": "1.3.3",
+		"ts3.0": "1.3.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"b814c97ac0fe5dbf504393dc4c11eb7c\"",
+			"fetched": 1530302287103
+		}
+	},
+	"_distfiles": {
+		"optimize-css-assets-webpack-plugin-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.0.tgz",
+			"sha": "26d8f45f0c8cdb8ef6da2da8f9a43c81cc64ad8b",
+			"registry": "npmjs"
+		},
+		"optimize-css-assets-webpack-plugin-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.1.tgz",
+			"sha": "f93db4a6944aba2d3c6230a936684ac9631c994f",
+			"registry": "npmjs"
+		},
+		"optimize-css-assets-webpack-plugin-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.2.tgz",
+			"sha": "673d4b5ea120b0fe1d617fe80956c1819882ff04",
+			"registry": "npmjs"
+		},
+		"optimize-css-assets-webpack-plugin-1.3.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.3.tgz",
+			"sha": "e2b79784473ac5931ade079e4b70e525b35cd4ad",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"optimize-css-assets-webpack-plugin-1.3.3.tgz": {
+			"shasum": "e2b79784473ac5931ade079e4b70e525b35cd4ad"
+		}
+	},
+	"_rev": "2-fbe947f0ce624b6f",
+	"readme": "# Installation\r\n> `npm install --save @types/optimize-css-assets-webpack-plugin`\r\n\r\n# Summary\r\nThis package contains type definitions for optimize-css-assets-webpack-plugin (https://github.com/NMFR/optimize-css-assets-webpack-plugin).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/optimize-css-assets-webpack-plugin\r\n\r\nAdditional Details\r\n * Last updated: Sat, 10 Mar 2018 02:17:46 GMT\r\n * Dependencies: webpack\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Armando Meziat <https://github.com/odnamrataizem>."
+}
