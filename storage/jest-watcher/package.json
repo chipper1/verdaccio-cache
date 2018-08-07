@@ -1,0 +1,124 @@
+{
+	"name": "jest-watcher",
+	"versions": {
+		"23.1.0": {
+			"name": "jest-watcher",
+			"description": "Delightful JavaScript Testing.",
+			"version": "23.1.0",
+			"main": "build/index.js",
+			"dependencies": {
+				"ansi-escapes": "^3.0.0",
+				"chalk": "^2.0.1",
+				"string-length": "^2.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/facebook/jest"
+			},
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "http://facebook.github.io/jest/",
+			"license": "MIT",
+			"_id": "jest-watcher@23.1.0",
+			"dist": {
+				"shasum": "a8d5842e38d9fb4afff823df6abb42a58ae6cdbd",
+				"tarball": "https://registry.npmjs.org/jest-watcher/-/jest-watcher-23.1.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 16247,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDufvCRA9TVsSAnZWagAA8hUP/20rX1xkHIAWCkAi9fIt\nRCSrYgve2zp6xQj7bSqPzWiAXArttDzZEBUP5lDjHI4h/dh3iA6zIsNMGJqg\n8r2pktvMt5O6/P/eRzNl1wlmmZ8gYcWl7pUcrcxxfauX/MVFCHbYAdOHKq7Q\n2L/dhNLLc9eBx8+gQ3Aw2ZZivKjBUuRaoHErmvNMaro8JzE1lKJkLKb7k8Ct\nMQdC4b6MOLkATBLmMPbPiQLnl6sBG866apvXlh1oqRdus8I4eHANxSfKIMvI\nMiY4DrDDMs68AZ6E+ybCeatoH1H0OYqIZTIWV8AIbRbwUKokuutE+8aRMFfa\nq+qr/fxloYeehHz2Xc0k/6Fd3K1nAfNejDQXe4gxB8oXttS/U9cvOS1VoNeJ\nKSIjrUA5kSzSHjpw5Z2dttBwcqYPidGib9pM4oBUXhpePdi+meG3hkxSm827\n0AP0eOsZ7IsgE+xpWjWJ4GbpyestDbjQkk/HJ0lVdxZS8u8CREt/YXYCqq5U\nQmTDCaHCZCRk9iY9pUPHqI99U9PhnWCmVghlqEsqbwdJL5dpucWZt1aU2OzJ\ntupKmX8hqiFx3F3iNfuaByDgfjuutc1oY0XpFfELm6XHt+zkzP4QeNCgqSpK\neq6421KSrZte006imQN4yGOT+yll7kiAA7+IcpcLoQ9TGx63FxMlhu66dDS+\nGJyc\r\n=KFtI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mjesun",
+					"email": "mjesun@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mjesun",
+				"email": "mjesun@hotmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-watcher_23.1.0_1527703534853_0.36859187631342905"
+			}
+		},
+		"23.2.0": {
+			"name": "jest-watcher",
+			"description": "Delightful JavaScript Testing.",
+			"version": "23.2.0",
+			"main": "build/index.js",
+			"dependencies": {
+				"ansi-escapes": "^3.0.0",
+				"chalk": "^2.0.1",
+				"string-length": "^2.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/facebook/jest"
+			},
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "http://facebook.github.io/jest/",
+			"license": "MIT",
+			"_id": "jest-watcher@23.2.0",
+			"dist": {
+				"shasum": "678e852896e919e9d9a0eb4b8baf1ae279620ea9",
+				"tarball": "https://registry.npmjs.org/jest-watcher/-/jest-watcher-23.2.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 16247
+			},
+			"maintainers": [
+				{
+					"name": "mjesun",
+					"email": "mjesun@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mjesun",
+				"email": "mjesun@hotmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-watcher_23.2.0_1529935513327_0.13912338196484808"
+			}
+		}
+	},
+	"time": {
+		"created": "2018-05-30T18:05:34.852Z",
+		"23.1.0": "2018-05-30T18:05:34.937Z",
+		"modified": "2018-06-25T14:05:13.362Z",
+		"23.2.0": "2018-06-25T14:05:13.362Z"
+	},
+	"dist-tags": {
+		"latest": "23.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"fbcb507e69a1ba77075a265d476ca447\"",
+			"fetched": 1530566236662
+		}
+	},
+	"_distfiles": {
+		"jest-watcher-23.1.0.tgz": {
+			"url": "https://registry.npmjs.org/jest-watcher/-/jest-watcher-23.1.0.tgz",
+			"sha": "a8d5842e38d9fb4afff823df6abb42a58ae6cdbd",
+			"registry": "npmjs"
+		},
+		"jest-watcher-23.2.0.tgz": {
+			"url": "https://registry.npmjs.org/jest-watcher/-/jest-watcher-23.2.0.tgz",
+			"sha": "678e852896e919e9d9a0eb4b8baf1ae279620ea9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"jest-watcher-23.2.0.tgz": {
+			"shasum": "678e852896e919e9d9a0eb4b8baf1ae279620ea9"
+		}
+	},
+	"_rev": "7-a7093b30e49a9cac",
+	"readme": ""
+}
