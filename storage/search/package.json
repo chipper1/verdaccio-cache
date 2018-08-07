@@ -1,0 +1,290 @@
+{
+	"name": "search",
+	"versions": {
+		"0.0.1": {
+			"name": "search",
+			"version": "0.0.1",
+			"description": "faster 'ack' written with nodejs",
+			"keywords": [
+				"ack",
+				"grep",
+				"search"
+			],
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"dependencies": {
+				"commander": "0.1.0"
+			},
+			"bin": {
+				"search": "./bin/search"
+			},
+			"main": "index",
+			"engines": {
+				"node": "0.4.x"
+			},
+			"_npmJsonOpts": {
+				"file": "/Users/tj/.npm/search/0.0.1/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "search@0.0.1",
+			"devDependencies": {},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.24",
+			"_nodeVersion": "v0.4.11",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "2c550f653e3ca567dd1fa7408b60d4289a16751e",
+				"tarball": "https://registry.npmjs.org/search/-/search-0.0.1.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "search",
+			"version": "0.0.2",
+			"description": "faster 'ack' written with nodejs",
+			"keywords": [
+				"ack",
+				"grep",
+				"search"
+			],
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"dependencies": {
+				"commander": "0.1.0"
+			},
+			"bin": {
+				"search": "./bin/search"
+			},
+			"main": "index",
+			"engines": {
+				"node": "0.4.x"
+			},
+			"_npmJsonOpts": {
+				"file": "/Users/tj/.npm/search/0.0.2/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "search@0.0.2",
+			"devDependencies": {},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.24",
+			"_nodeVersion": "v0.4.11",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "85f144894d2a66737cf1862297f48614c9ad83f3",
+				"tarball": "https://registry.npmjs.org/search/-/search-0.0.2.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "search",
+			"version": "0.0.3",
+			"description": "faster 'ack' written with nodejs",
+			"keywords": [
+				"ack",
+				"grep",
+				"search"
+			],
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"dependencies": {
+				"commander": "0.1.0"
+			},
+			"bin": {
+				"search": "./bin/search"
+			},
+			"main": "index",
+			"engines": {
+				"node": "0.4.x"
+			},
+			"_npmJsonOpts": {
+				"file": "/Users/tj/.npm/search/0.0.3/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "search@0.0.3",
+			"devDependencies": {},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.24",
+			"_nodeVersion": "v0.4.11",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "d0eb0d52be352348c9766716d0806556b74d3500",
+				"tarball": "https://registry.npmjs.org/search/-/search-0.0.3.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "search",
+			"version": "0.0.4",
+			"description": "faster 'ack' written with nodejs",
+			"keywords": [
+				"ack",
+				"grep",
+				"search"
+			],
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"dependencies": {
+				"commander": "0.1.0"
+			},
+			"bin": {
+				"search": "./bin/search"
+			},
+			"main": "index",
+			"engines": {
+				"node": "0.4.x"
+			},
+			"_npmJsonOpts": {
+				"file": "/Users/tj/.npm/search/0.0.4/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "search@0.0.4",
+			"devDependencies": {},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.24",
+			"_nodeVersion": "v0.4.11",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "e846a1b63c710a2fe2b5b9586d25c3711bb54afb",
+				"tarball": "https://registry.npmjs.org/search/-/search-0.0.4.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "search",
+			"version": "1.0.0",
+			"description": "faster 'ack' written with nodejs",
+			"keywords": [
+				"ack",
+				"grep",
+				"search"
+			],
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"dependencies": {
+				"commander": "0.3.2"
+			},
+			"bin": {
+				"search": "./bin/search"
+			},
+			"main": "index",
+			"engines": {
+				"node": ">= 0.4.x < 0.7.0"
+			},
+			"_npmUser": {
+				"name": "tjholowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"_id": "search@1.0.0",
+			"devDependencies": {},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.104",
+			"_nodeVersion": "v0.5.10",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "2dcf5eb1c4ef4699116b94226c2c1825eaf09f41",
+				"tarball": "https://registry.npmjs.org/search/-/search-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2017-03-25T20:35:29.333Z",
+		"created": "2011-08-24T23:27:00.029Z",
+		"0.0.1": "2011-08-24T23:27:01.288Z",
+		"0.0.2": "2011-08-24T23:31:41.513Z",
+		"0.0.3": "2011-08-25T16:01:59.245Z",
+		"0.0.4": "2011-08-25T16:07:07.273Z",
+		"1.0.0": "2011-11-07T16:34:23.109Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"93e4c6a39eeed9be464fe5f91f028094\"",
+			"fetched": 1530296921222
+		}
+	},
+	"_distfiles": {
+		"search-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/search/-/search-0.0.1.tgz",
+			"sha": "2c550f653e3ca567dd1fa7408b60d4289a16751e",
+			"registry": "npmjs"
+		},
+		"search-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/search/-/search-0.0.2.tgz",
+			"sha": "85f144894d2a66737cf1862297f48614c9ad83f3",
+			"registry": "npmjs"
+		},
+		"search-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/search/-/search-0.0.3.tgz",
+			"sha": "d0eb0d52be352348c9766716d0806556b74d3500",
+			"registry": "npmjs"
+		},
+		"search-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/search/-/search-0.0.4.tgz",
+			"sha": "e846a1b63c710a2fe2b5b9586d25c3711bb54afb",
+			"registry": "npmjs"
+		},
+		"search-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/search/-/search-1.0.0.tgz",
+			"sha": "2dcf5eb1c4ef4699116b94226c2c1825eaf09f41",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-926836d907ddda63",
+	"readme": ""
+}
