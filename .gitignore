@@ -1,3 +1,4 @@
 /config.yaml
 /htpasswd
 *.tgz
+/storage/.sinopia-db.json
