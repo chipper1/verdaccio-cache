@@ -1,0 +1,195 @@
+{
+	"name": "@types/stylelint-webpack-plugin",
+	"versions": {
+		"0.1.0": {
+			"name": "@types/stylelint-webpack-plugin",
+			"version": "0.1.0",
+			"description": "TypeScript definitions for https://github.com/JaKXz/stylelint-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Arne Bahlo",
+					"url": "https://github.com/bahlo",
+					"githubUsername": "bahlo"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "424204bcad84f6f004b2c9977b4690e87752f8e9f604e689bd8bc947b72add9f",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/stylelint-webpack-plugin@0.1.0",
+			"dist": {
+				"integrity": "sha512-TNvF9WmnHVEFR6fFgKCnJAoYn3j9ha3yXxHkBBB3D2aEGUiEm34EqyUEB9cxzey02gmbHdESc9Tr9WCrb5vtGg==",
+				"shasum": "ca732bb248b933490f7a4a19970aea563ba2baf1",
+				"tarball": "https://registry.npmjs.org/@types/stylelint-webpack-plugin/-/stylelint-webpack-plugin-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/stylelint-webpack-plugin-0.1.0.tgz_1505769908998_0.5130192684009671"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "@types/stylelint-webpack-plugin",
+			"version": "0.1.1",
+			"description": "TypeScript definitions for https://github.com/JaKXz/stylelint-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Arne Bahlo",
+					"url": "https://github.com/bahlo",
+					"githubUsername": "bahlo"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "5b34da76e75f126a2665ebfa28fe29b39364decf588f1efc0338ebf5e28af0a2",
+			"typeScriptVersion": "2.2",
+			"_id": "@types/stylelint-webpack-plugin@0.1.1",
+			"dist": {
+				"integrity": "sha512-l/IZviS0NvwlekHFvUbLSsqStlU6Xmdzbnhzu7c9oVnZbf0MHf77Y6LD1CmSvsspxrYF0xNuQrquFcEUXIfG0A==",
+				"shasum": "3ec78c6d9a5a3da97230ed354fbd67f9a16d0e1b",
+				"tarball": "https://registry.npmjs.org/@types/stylelint-webpack-plugin/-/stylelint-webpack-plugin-0.1.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3486
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/stylelint-webpack-plugin_0.1.1_1518555572849_0.6366889566341245"
+			}
+		},
+		"0.1.2": {
+			"name": "@types/stylelint-webpack-plugin",
+			"version": "0.1.2",
+			"description": "TypeScript definitions for https://github.com/JaKXz/stylelint-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Arne Bahlo",
+					"url": "https://github.com/bahlo",
+					"githubUsername": "bahlo"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "85629b2c75018a0157e6bb0006d3fc70373754a2e35931863fd60786023c296e",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/stylelint-webpack-plugin@0.1.2",
+			"dist": {
+				"integrity": "sha512-LTyVpqZo2ZGQZCk2kVG7He2nLq1VD2mwEdoFD1F1EUiQjDTwb/RYywmvURBczkLbAqQnh9rPJgCXeDZfqieY2Q==",
+				"shasum": "fc254558ceb1ef57762020f54df18ecfa4da93c9",
+				"tarball": "https://registry.npmjs.org/@types/stylelint-webpack-plugin/-/stylelint-webpack-plugin-0.1.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3486
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/stylelint-webpack-plugin_0.1.2_1520648468902_0.42543974624470793"
+			}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:18:34.131Z",
+		"created": "2017-09-18T21:25:09.169Z",
+		"0.1.0": "2017-09-18T21:25:09.169Z",
+		"0.1.1": "2018-02-13T20:59:32.905Z",
+		"0.1.2": "2018-03-10T02:21:08.999Z"
+	},
+	"dist-tags": {
+		"latest": "0.1.2",
+		"ts2.0": "0.1.0",
+		"ts2.1": "0.1.0",
+		"ts2.2": "0.1.1",
+		"ts2.3": "0.1.2",
+		"ts2.4": "0.1.2",
+		"ts2.5": "0.1.2",
+		"ts2.6": "0.1.2",
+		"ts2.7": "0.1.2",
+		"ts2.8": "0.1.2",
+		"ts2.9": "0.1.2",
+		"ts3.0": "0.1.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"a985570f2310ea115315289bd8aceb14\"",
+			"fetched": 1530302288973
+		}
+	},
+	"_distfiles": {
+		"stylelint-webpack-plugin-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/stylelint-webpack-plugin/-/stylelint-webpack-plugin-0.1.0.tgz",
+			"sha": "ca732bb248b933490f7a4a19970aea563ba2baf1",
+			"registry": "npmjs"
+		},
+		"stylelint-webpack-plugin-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/stylelint-webpack-plugin/-/stylelint-webpack-plugin-0.1.1.tgz",
+			"sha": "3ec78c6d9a5a3da97230ed354fbd67f9a16d0e1b",
+			"registry": "npmjs"
+		},
+		"stylelint-webpack-plugin-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/stylelint-webpack-plugin/-/stylelint-webpack-plugin-0.1.2.tgz",
+			"sha": "fc254558ceb1ef57762020f54df18ecfa4da93c9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"stylelint-webpack-plugin-0.1.2.tgz": {
+			"shasum": "fc254558ceb1ef57762020f54df18ecfa4da93c9"
+		}
+	},
+	"_rev": "2-84c95e4bbe1c778a",
+	"readme": "# Installation\r\n> `npm install --save @types/stylelint-webpack-plugin`\r\n\r\n# Summary\r\nThis package contains type definitions for https://github.com/JaKXz/stylelint-webpack-plugin (https://github.com/JaKXz/stylelint-webpack-plugin).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/stylelint-webpack-plugin\r\n\r\nAdditional Details\r\n * Last updated: Sat, 10 Mar 2018 02:17:46 GMT\r\n * Dependencies: webpack\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Arne Bahlo <https://github.com/bahlo>."
+}
