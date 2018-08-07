@@ -1,0 +1,98 @@
+{
+	"name": "pa11y-reporter-json",
+	"versions": {
+		"1.0.0": {
+			"name": "pa11y-reporter-json",
+			"version": "1.0.0",
+			"description": "A JSON reporter for Pa11y",
+			"keywords": [
+				"json",
+				"pa11y",
+				"reporter"
+			],
+			"author": {
+				"name": "Team Pa11y"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/pa11y-reporter-json/pa11y-reporter-json.git"
+			},
+			"homepage": "https://github.com/pa11y-reporter-json/pa11y-reporter-json",
+			"bugs": {
+				"url": "https://github.com/pa11y-reporter-json/pa11y-reporter-json/issues"
+			},
+			"license": "LGPL-3.0",
+			"engines": {
+				"node": ">=8"
+			},
+			"dependencies": {
+				"bfj": "^4.2.3"
+			},
+			"devDependencies": {
+				"eslint": "^3.18.0",
+				"mocha": "^3.5.0",
+				"mockery": "^2.0.0",
+				"nyc": "^10.1.2",
+				"pa11y-lint-config": "^1.2.0",
+				"proclaim": "^3.4.4",
+				"sinon": "^3.2.0"
+			},
+			"main": "./lib/reporter.js",
+			"scripts": {
+				"test": "make ci"
+			},
+			"gitHead": "cd8f543859415ae5ecfac345125a6613b8c72fb3",
+			"_id": "pa11y-reporter-json@1.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "rowanmanning",
+				"email": "accounts@rowanmanning.co.uk"
+			},
+			"maintainers": [
+				{
+					"name": "rowanmanning",
+					"email": "accounts@rowanmanning.co.uk"
+				}
+			],
+			"dist": {
+				"integrity": "sha512-EdLrzh1hyZ8DudCSSrcakgtsHDiSsYNsWLSoEAo1JnFTIK8hYpD7vL+xgd0u+LXDxz9wLLFnckdubpklaRpl/w==",
+				"shasum": "5762959eeea89cc451a2e1160aa0526280ebfe29",
+				"tarball": "https://registry.npmjs.org/pa11y-reporter-json/-/pa11y-reporter-json-1.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pa11y-reporter-json-1.0.0.tgz_1504959945822_0.7518660046625882"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2017-10-16T23:27:03.176Z",
+		"created": "2017-09-09T12:25:46.805Z",
+		"1.0.0": "2017-09-09T12:25:46.805Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"1906281ca50c42e48ad9096825285da2\"",
+			"fetched": 1531001964574
+		}
+	},
+	"_distfiles": {
+		"pa11y-reporter-json-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/pa11y-reporter-json/-/pa11y-reporter-json-1.0.0.tgz",
+			"sha": "5762959eeea89cc451a2e1160aa0526280ebfe29",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"pa11y-reporter-json-1.0.0.tgz": {
+			"shasum": "5762959eeea89cc451a2e1160aa0526280ebfe29"
+		}
+	},
+	"_rev": "5-7cd940fc90055d49",
+	"readme": "# Pa11y JSON Reporter\n\nA JSON reporter for [Pa11y 5.0](https://github.com/pa11y/pa11y).\n\n**:warning: this reporter is built into Pa11y, there's no need to install separately :warning:**\n\n[![NPM version][shield-npm]][info-npm]\n[![Build status][shield-build]][info-build]\n[![LGPL-3.0 licensed][shield-license]][info-license]\n\n\n## Table Of Contents\n\n- [Requirements](#requirements)\n- [Usage](#usage)\n  - [Command-Line](#command-line)\n  - [JavaScript](#javascript)\n- [Contributing](#contributing)\n- [License](#license)\n\n\n## Requirements\n\nPa11y JSON Reporter is compatible with Pa11y 5.0. It will not work with older versions of Pa11y.\n\n\n## Usage\n\n### Command-Line\n\nInstall Pa11y and Pa11y JSON Reporter with [npm](https://www.npmjs.com/) (locally or globally is fine):\n\n```sh\nnpm install -g pa11y pa11y-reporter-json\n```\n\nRun Pa11y using the JSON reporter:\n\n```sh\npa11y --reporter json http://example.com\n```\n\n### JavaScript\n\nAssuming you've installed both Pa11y and Pa11y JSON Reporter:\n\n```js\nconst json = require('pa11y-reporter-json');\nconst pa11y = require('pa11y');\n\npa11y('http://example.com').then(results => {\n    // Returns a string with the results formatted as JSON\n    const jsonResults = json.results(results);\n    console.log(jsonResults);\n});\n```\n\n\n## Contributing\n\nThere are many ways to contribute to Pa11y JSON Reporter, we cover these in the [contributing guide](CONTRIBUTING.md) for this repo.\n\nIf you're ready to contribute some code, clone this repo locally and commit your code on a new branch.\n\nPlease write unit tests for your code, and check that everything works by running the following before opening a <abbr title=\"pull request\">PR</abbr>:\n\n```sh\nmake ci\n```\n\nYou can also run verifications and tests individually:\n\n```sh\nmake verify              # Verify all of the code (ESLint)\nmake test                # Run all tests\nmake test-unit           # Run the unit tests\nmake test-unit-coverage  # Run the unit tests with coverage\n```\n\n\n## License\n\nPa11y JSON Reporter is licensed under the [Lesser General Public License (LGPL-3.0)][info-license].<br/>\nCopyright &copy; 2017, Team Pa11y\n\n\n[info-license]: LICENSE\n[info-npm]: https://www.npmjs.com/package/pa11y\n[info-build]: https://travis-ci.org/pa11y/pa11y\n[shield-license]: https://img.shields.io/badge/license-LGPL%203.0-blue.svg\n[shield-npm]: https://img.shields.io/npm/v/pa11y-reporter-json.svg\n[shield-build]: https://img.shields.io/travis/pa11y/pa11y-reporter-json/master.svg"
+}
