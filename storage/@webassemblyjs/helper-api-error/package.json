@@ -1,0 +1,387 @@
+{
+	"name": "@webassemblyjs/helper-api-error",
+	"versions": {
+		"1.5.5": {
+			"name": "@webassemblyjs/helper-api-error",
+			"version": "1.5.5",
+			"description": "Common API errors",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@webassemblyjs/helper-api-error@1.5.5",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-BhX9M9ryxpCIPDAKQXXUZWCqs3nZNT0nxP07+DO36s4blEDrNYIuHJ7B+dd2PObS8Hu6WVpZA9Hp9mdMT+wXkA==",
+				"shasum": "ca1e64f99cd2ff39b3f8dd8661631663a45b9684",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.5.tgz",
+				"fileCount": 1,
+				"unpackedSize": 231,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBsmoCRA9TVsSAnZWagAAwMoQAI39IQykpU2qc3hfac0p\n+BFI2MEkGpIxs1sG9dj7m1h9dqtkKsPDsmp+Pl//NNjVyPGjkoxDsv2kiNVR\n476rTCIW/3YkLc0/19VErMHza3sJzjrWF4CWiRq49TxMaw3Fzkrk/0TVV1G6\nD8ctG7cU7g80uiFDM7Is5q+aDW+Xa2enXd6WvflW/XsB0Q/aIlzgtIGDbsWT\n5wcI8pZNIYzwFrx7Kll0mxtStWVUEbDEtzEQP1JZirOVbVLuH4PNBl095u+Z\nNk8HAl75RH27nN6akTweUQ/JpBQZsm7mi/MKnfn2/c1gmAomXMQ/FnY8MmeM\nEX87iwF+NLzVj1gdFqdhMg1NjSfR334SXQ6SHadDssbCTGBUEFuSErKFjsmV\nx54agx5BLG2ZVgC0Vsbkms3GHzG8ER4JQ4YbP39FLMIgOtMfaPYX2CfTg4TG\nC6vHHRo6bjTlanLZxKLDfRs1dZKL4+n5C+LDsmuDEO8r9KVSKxMZw8TpOFfb\npLYGyZXdgPWqWfT3SjMowCj7aKGNwFfDVPqnZ38/2WngTG0rRJx767GeYSHU\n0R7LOZUwmvNIttWZmz6qUsIXSOMnIbEo8SG3DyMjEuVRXCH+r+HFFMEsWdsZ\nXNNYvh6JgDEeoEbRV7bpTwaJIGSBQQZy5M99S2ShG6ANtXipuYxNk9icWjX2\nhmtg\r\n=jzz5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/helper-api-error_1.5.5_1527171496081_0.5369540163096163"
+			}
+		},
+		"1.5.6": {
+			"name": "@webassemblyjs/helper-api-error",
+			"version": "1.5.6",
+			"description": "Common API errors",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@webassemblyjs/helper-api-error@1.5.6",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-sxUfxfWbQXWy/6bHIxsdDVz3U488iHaPmFBuW9LK+sylPc8kTKU35tInj5XnbIg1czrFOP3UEljywxkHOZwSKA==",
+				"shasum": "395a9f1889f7e57d586ef68343d4210b68db87e7",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.6.tgz",
+				"fileCount": 2,
+				"unpackedSize": 2703,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBsouCRA9TVsSAnZWagAAduYP/0s0oOZRfQtolu4Un+rI\nAQNfP+xjX/gzIeFjkgEzdG2HeH6EmVV9vDo0NaOBWI4D+lgMNnUsHhE4lwSr\nmKgLhH5LNQWi4ZWPU7i8gyNOjUDiTy0z6trl3umtihaStnw/apBdMsRMgsZR\naVYc6lTfyDmhE981zQy6BvfZxvggxZFXYCyKI/kLrP5Cc4sWEAdA9pAY6VKS\nmqA3J2G5FsTg+cDSAb5xLN4ZtNXMbwNX2N+3WUWQmGMCJYKd1WTLWcCgdTeL\nLWKTVXwxPyA1GQJ9HkiIV1dexzXbraQH7Bq3IHiXcQbnhGbViB0gFViyHVoI\nuzQLTLDjb+d9xQR6H7Wi1Z9JO+MZMPxdm+S2HkToCkePoWu1vC6Sf3Nsu6CG\n6vhEO4qunWSuKnQ78Pu7Z8jCFEzPI3N+2TdsbsQlHm1bZx0Pcr4boFs9xqiH\nhQbDG2Rpxr+PfBzCIioB0y5SF355hX5lwFdQ4PPAB7Jsd3L8Kudj1dnUV1fg\n+OhpUNRAPD0dld2nj9uldoGyKE0E0BO26UDnBSzNwWCUiSLcZ11yBFy9qcOQ\nUosBpLgXiWA+3ha9bQ6Pwzt40ldVfJOI8Be8Svl3G6v8qftTto4s3sDoTS8B\nGSGMmJwt86u+Xdf1KAwcPoZfhj2hvLhWaBmzPOMwF6/ubwKRPNy8hKjz3y5d\n8h0L\r\n=ilyo\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/helper-api-error_1.5.6_1527171630470_0.2037339430685876"
+			}
+		},
+		"1.5.7": {
+			"name": "@webassemblyjs/helper-api-error",
+			"version": "1.5.7",
+			"description": "Common API errors",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@webassemblyjs/helper-api-error@1.5.7",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-bHbJWjfPQlsIPagFxvkKYrQW7A3aBYnMioYaM5FoipAMFtHM1yWOEbxOjWuF9DkTl2dIlfUain8Z4/mOTIW38g==",
+				"shasum": "b5030962e196767ee30645ecfc03866857855ed3",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.7.tgz",
+				"fileCount": 2,
+				"unpackedSize": 2703,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbCAdrCRA9TVsSAnZWagAAHxkP/1e+h4L6sBENLMk6wBqx\n/wtHbwh+0U6yr0wtUTdV5P5ah9BRrvZCv7t19bT1rCXTKYKwIfrKsPe6Zj5v\n1UA8czFY6St49NyoXeXCu9deac9IW10yXkGhO65gZZC+zO4MGJHNeQHDZSNF\nJZRZk/PD0GAoMEYQsScNVTyQltB2wO/C64cV4Kd9eevm71CyH/48sczMAvDS\nzwkpZ9oyzor4i94NB4H3pvIIf+yhFsJ693CPZHUWNh+QJtQwDNUxill85Sz6\nDnfka26a2Q0jp0vSTpTirjrR0wMVbDHmlDF8xxSPrnBEr2bIqSvioOxYgcdc\n7Gx/y1YwhFQQrFKR+3JO5rOMf45Cv9VWJMqVzKDDsUiOgTMdHUhoSa1Z4QMF\nreW4IsAuywj+UwjcKJ7A5OF88A9qmnJmWLzuwaQxMyQav0Auf4dkU768FaSX\nAIoiEYSiczI84KtpobA7UNxZU16HorQPHtUKXf6R7rnfkKhfoMDI9qo6ixYW\nRRoPsIhsE4OfjzSAzOCCiU6Mw6DaOIzmHIFrUMO7PISTx++vN+BClWDJ+BJH\nswcSvQsL+zzR9EO9wdSwoXg74Ppj7+OTMNYaxYfldjsMHn1scLUJ02UqnUND\nrXYwB483ytykVme5mcnJW/FeOUBKHyultNtG87NmfJTC2gSHhH+H6SaHuPnL\ng/R9\r\n=UASF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/helper-api-error_1.5.7_1527252843265_0.7027145452046395"
+			}
+		},
+		"1.5.8": {
+			"name": "@webassemblyjs/helper-api-error",
+			"version": "1.5.8",
+			"description": "Common API errors",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@webassemblyjs/helper-api-error@1.5.8",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-a9GoI/KeK0JPx3IzBiA/qLOMxS8C8MST4yaR81jCWhNqyAxlJSxoJFD5L6VnXl8vlWe6JbhdlZWFd/V7k7am/w==",
+				"shasum": "f5570aff60090fae1b78a690a95d04cb021da9ca",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.8.tgz",
+				"fileCount": 2,
+				"unpackedSize": 2703,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbC/qeCRA9TVsSAnZWagAAX/MP/jhXDw/8IHdh2sbaxyrq\ngxZ4DSxxewQTSe1aqZ9wPq6pt54WmwSmwxi81HWZ4XBzuYRK4Er7wfasPuyt\nvA57WmVNLo/Dv7bQG/TOordjrttbCz0PJmP3blbaPolI/K6rl/Dj6lwL1G3b\nPG/VZ91qeqERztYgT9tbKy6h/3bQA/uQgWNRHAZJomWQPdaXB78DNh6mPA2L\nFy2UGJNk3ZowbfqY0JtlHzryDo2Dijtu2d9QY5QvJ6Z3wnehOZya2zSrrUCj\n8KA8y5BX4tPAByNco3AwCgnDHPwg+wbhyBtCb8AE50414Q8u9laG+rL4rWga\nGZxVYhKSW8ra2c0cgUtBIu3VoTpbsOIV9JLFOy+5JWqjnoe7z3vj4k6/E5cJ\n0G54APlVI+EifijTZ+TNTmqS/knEs/0daCRdLPDIy2uzZ+pHemyz+SFMMcHB\nrF+kA4eiTIvNQdx+vl867bHFMCoL195eUWy1ITcuqpt95BkPVlx5DLK1YrV4\npnvNdGZrKl8RBokrj4cDgG0xfbIZ3YqPTMsPV2JdZqA3srrOVVPwhUaS9M/5\nLVYzkM0vECM+ddmVKPCgvZUVtkhpm50UMZeaXO7j4CTO5uPKLzcEx0YFYNg2\nArDf9epabA24bLMsGGBGTFcll25ErsjgHv73NVZsxghQGgzIYPiAC2ObUOh5\nUvq3\r\n=iuKw\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/helper-api-error_1.5.8_1527511709807_0.4565770856154854"
+			}
+		},
+		"1.5.9": {
+			"name": "@webassemblyjs/helper-api-error",
+			"version": "1.5.9",
+			"description": "Common API errors",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@webassemblyjs/helper-api-error@1.5.9",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-tzGdqBo7Xf3McJcXbwbwzwElRzF/nELJN+G4MGGfm0DGRQB6UTmMe44jFIOQYT1Za89Aiz5DMQJotdnnLheixw==",
+				"shasum": "c80e204afe1ae102c23b0357f1ec25aeb61022a2",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.9.tgz",
+				"fileCount": 2,
+				"unpackedSize": 2703,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDVHXCRA9TVsSAnZWagAApzEP+wfkigdKV9MLIOpXbjle\n4HrY9nvsUk5h0bHCy9wYKKBSEzTa608H+na3UV9DHpHbfWNgRh6lj5i1j4I4\nKuWiTNVYdQsOAWUjwCV3ElXx1Lr7wfkqoFx2NVDhUhgjiMfTUeAK0Bwd/bJp\ncvqWGnxLNs87MnUnT7Ux8cazLX7exM5dX1xpZU9Vpu+wG4n4kMOXzgxyZ/Nz\nggLU+sgpQ1OuN4ZpWfe+H3WWUrfHmDgM/9NWnix9bxJY+Dpg5LSrMVkiCbjb\nEh9ECR/xtRXDDrqhnBdYakO+Y0WfGWlK98HXbV2653BZrrJ0CHi4So+pPFyK\njRsZd8F+LGWQHEmgAFWd4n6zyIqiiXl7utQtaCZ2dzOzdnoKkgzHvN6Hs9ig\naw1PKoM8lKwSupAUQMjvh/5yxk/puWKkDwAom53U7sICRWXARs41pLOWmlde\nnpZKOWdtiifL4ZTf38rzbByx4TG2jo2TIFpE6sZxFAQRzDladslgsQBFbXXA\nyqTvvxLfv7tRaYppQ1nroQEYP2jFohGhRfAkFF7LzKtyOEBKWuQjnPen1Kds\nLJxR27O0+Kg0E74SCkZmv+npd0tc6ZkXP1+s0bKLcyzRWus00p+NY9f41XdI\nNZVHqVHq+B62b7SZh8jwzGIeVmPvg+x+Yohjn9FGgnlfofJZvMwr7+wIcnP2\nX+Zd\r\n=mP4Y\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/helper-api-error_1.5.9_1527599574773_0.9127913255246503"
+			}
+		},
+		"1.5.10": {
+			"name": "@webassemblyjs/helper-api-error",
+			"version": "1.5.10",
+			"description": "Common API errors",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@webassemblyjs/helper-api-error@1.5.10",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-OeWjB1Ie44sg5Nr8GVot5l+uclK4fWEQGH1b+HQ7x9GN9UxcJUIG3+u5dj2MTkthneQT1hUo09Wtpb/bY7zfXA==",
+				"shasum": "0baf9453ce2fd8db58f0fdb4fb2852557c71d5a7",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.10.tgz",
+				"fileCount": 2,
+				"unpackedSize": 2704,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbEUgdCRA9TVsSAnZWagAAim4P/jvOgucmj1Arpl9qm57o\nGqL4Jg1kuIFgnSvhFE1yfFvLxPwoP2dD1/mbUTRhhNuWIMx0JCgde7cgfpfS\nJNPSDK8dL5Aut2xZxGM/beSgcZuATEosm4/VywBdqvegrxIl38maOluTnhTa\n+CI/d81b35U47kduNwpDjrfzh/Jr0sgiGIIU30TvH63FbLR3N6xyb7n7Vw/9\nE6Nsezpt7LYZOljhVIZeQzfY1odVTb16M8CCJs7cWbioPHIbuF6V1p0kMSg9\nmjFnG14WGx8UQ1/cqFkJjODGUXqgTGc0ZEPYDUki94JRJCfUPRjVVO1VScgb\nWplT9TF7IweSefdYvh3l1jQojMNDf3D1bv1ajVCTXv5oYgqlGRHyIAlgS3C6\ny50PZtYsuSmqXotivrIplavdHJtqrWZTbEm18I3MFtqemYteuzuqdQgWoe0I\nki7n0LcwIP0b+aRBgBaY5NBe4FMkCV5Z9cRdeGG6aF+gjszmn4TqG8dUTXKD\nZ/lUSC445sOIVmTrutyVlZh790hrbx2MYaGbmTDTh9yV11MjyFYHg726wft3\nER2k8cdf/kkoPteN/YzK/0754tNUaDs2qFPKmMXRvuKrIG5G1goZ8NnI4ycO\nqIrAKoayrqBJzZWAm4SdYP89CnLu1jcQRzxgeNuhQjUS5IS5BFs7db0IsFv4\nJTPy\r\n=qYfX\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/helper-api-error_1.5.10_1527859228985_0.18030421017384435"
+			}
+		},
+		"1.5.11": {
+			"name": "@webassemblyjs/helper-api-error",
+			"version": "1.5.11",
+			"description": "Common API errors",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@webassemblyjs/helper-api-error@1.5.11",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-uyRr3x+s2HNj7Wp8ieL2avehI9NCuI31O2vvoVGGos59G6aaKDP0YXeO8NykcDKsfuRaUQLHLt000gIOXqqaWw==",
+				"shasum": "5d8e37b29f673f311bdba10a7e1991f4b61bd9f1",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.11.tgz",
+				"fileCount": 2,
+				"unpackedSize": 2704,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbF6IRCRA9TVsSAnZWagAAYQcP/19ZaYPvhPjjx8RbJYXQ\nRdu1PBGQNkBH0r+AISZ22m3GxNGQkfLFT8qi24id5Fwvxu3B4Um97Yrvg/hw\nCCtqZ+Q9aR9tliZ8kQN1HvL5rzsSeRPFeuiyI0R5jksXdrSg2iB730p1pdV0\nImuFrdF4haZMIpOuwa18LdXCp2eIaM7ejF95P0m5Wo9xh8Cx+jxE1TZAn1d/\nUhK0MXgMaQ8wUhDEsslDtFEP0gBaUqKViVtlUPSTwJQ3G340rZhKqk+RaFH3\nasvDjcdQxhEibWDIp4ahwr3c17+y7kdXB/dTVMfTAoPzVhy5k0B3W91iQ08v\n6SXqqfS3zeuU8MN0LwEl0ERIZCimVDekMt6KAy/QQoSTZkfPnXG0LPHVeLu/\n/GH1eiifwvml78hw23xItWd5NkE71X8UNkCmRnoHjcPEWJhkNQuA7B+fgXVR\n3Q4lY0oQI2MUUrLbj1253sjVMIUmYHCj5N6DBcgy30+yXPJQCS61TsO3oS8J\nv7hbznb11YfeKNLsGLreisrNWZtXNOp1VJxQtrrMw/mQfqMs4hlyv66leozf\nTsxt8cfDkmrkfgy7SHo85L5tEq8YwuHwKy3kYUtDpyLGNQSPwqs+A+VwquG7\nys8ols5u8RF2sJow0t38fAYVyFvOIszfi+SqVl5lpjpJbhNvZW093/frz62r\nh+Nw\r\n=XmVB\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/helper-api-error_1.5.11_1528275471331_0.015687709100258518"
+			}
+		},
+		"1.5.12": {
+			"name": "@webassemblyjs/helper-api-error",
+			"version": "1.5.12",
+			"description": "Common API errors",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Sven Sauleau"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@webassemblyjs/helper-api-error@1.5.12",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "xtuc",
+				"email": "contact@xtuc.fr"
+			},
+			"dist": {
+				"integrity": "sha512-Goxag86JvLq8ucHLXFNSLYzf9wrR+CJr37DsESTAzSnGoqDTgw5eqiXSQVd/D9Biih7+DIn8UIQCxMs8emRRwg==",
+				"shasum": "05466833ff2f9d8953a1a327746e1d112ea62aaf",
+				"tarball": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.12.tgz",
+				"fileCount": 2,
+				"unpackedSize": 2704,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbGPnpCRA9TVsSAnZWagAAkfIP/irvwFpk876fHFXB1eIv\nfVgapD0HvoOp+IHWEz/72dtjmkIIy479uMEMjTzOqyhBU6Ci3h5OYcK5MjYD\n7sCVqieappRfw1j4mfe2pHU4bxuU4kprkPAi3LRL3ghGLKChYgrVOtCUS/18\nwqXSutcmMrBOQJ8dbsxn4jh5Jx6qAjBIo+uTgFKqmkJQ8TZ54M+5QHl3OZdu\n6mnQDVnYY/QGpJlsgujT+gl7k7mAevwk9TbSt9/G+rOruSc8LnloLKjJ14dk\n2Kk6SaP4zJ28RJP06Ml93wR3zF+SBwFuZks1F8xV4MMD8u8ePJajvTM2d11t\nbuMoo+65RB1K5iKgQrQGNPMk77qXqBzyfV5vRcSLyXbgAJlM1PhRMFtvlvp7\nYfiYxTGzUXNro5bbMI9YJjn/biPEGv3kV2ehp2X4LJrMipmOQxXEVlcnhP+E\nL2muo0leYJ7UUs8hNu1igIzRESDJGcx4aNMQmOLYuSRQSoPMFScc5N46PjAk\nW5RHuI28qD5klQLhs0ntFw1wOG4EdKlEyfFRErgEM6c42c3FB8q+oT58l6V1\ngpVuFbe4SUL5kH/Cz0RtpaJeWaIwO9Ca168Xcjd7CvYxTRU4jb4HDrukX4Gd\niwgZN7HmsHiIY92YQU8cbHYVKpjUFvO3yrB9FPkNCDpDnlLLMpJoua0uZVL2\nJ7X/\r\n=fyb5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "xtuc",
+					"email": "contact@xtuc.fr"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/helper-api-error_1.5.12_1528363497275_0.8414940969853197"
+			}
+		}
+	},
+	"time": {
+		"created": "2018-05-24T14:18:15.869Z",
+		"1.5.5": "2018-05-24T14:18:16.169Z",
+		"modified": "2018-06-07T09:25:04.474Z",
+		"1.5.6": "2018-05-24T14:20:30.558Z",
+		"1.5.7": "2018-05-25T12:54:03.359Z",
+		"1.5.8": "2018-05-28T12:48:29.912Z",
+		"1.5.9": "2018-05-29T13:12:54.860Z",
+		"1.5.10": "2018-06-01T13:20:29.038Z",
+		"1.5.11": "2018-06-06T08:57:51.476Z",
+		"1.5.12": "2018-06-07T09:24:57.313Z"
+	},
+	"dist-tags": {
+		"latest": "1.5.12"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"bb666f3e038583e28b1da824f1d822ee\"",
+			"fetched": 1530308430597
+		}
+	},
+	"_distfiles": {
+		"helper-api-error-1.5.5.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.5.tgz",
+			"sha": "ca1e64f99cd2ff39b3f8dd8661631663a45b9684",
+			"registry": "npmjs"
+		},
+		"helper-api-error-1.5.6.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.6.tgz",
+			"sha": "395a9f1889f7e57d586ef68343d4210b68db87e7",
+			"registry": "npmjs"
+		},
+		"helper-api-error-1.5.7.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.7.tgz",
+			"sha": "b5030962e196767ee30645ecfc03866857855ed3",
+			"registry": "npmjs"
+		},
+		"helper-api-error-1.5.8.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.8.tgz",
+			"sha": "f5570aff60090fae1b78a690a95d04cb021da9ca",
+			"registry": "npmjs"
+		},
+		"helper-api-error-1.5.9.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.9.tgz",
+			"sha": "c80e204afe1ae102c23b0357f1ec25aeb61022a2",
+			"registry": "npmjs"
+		},
+		"helper-api-error-1.5.10.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.10.tgz",
+			"sha": "0baf9453ce2fd8db58f0fdb4fb2852557c71d5a7",
+			"registry": "npmjs"
+		},
+		"helper-api-error-1.5.11.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.11.tgz",
+			"sha": "5d8e37b29f673f311bdba10a7e1991f4b61bd9f1",
+			"registry": "npmjs"
+		},
+		"helper-api-error-1.5.12.tgz": {
+			"url": "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.12.tgz",
+			"sha": "05466833ff2f9d8953a1a327746e1d112ea62aaf",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"helper-api-error-1.5.12.tgz": {
+			"shasum": "05466833ff2f9d8953a1a327746e1d112ea62aaf"
+		}
+	},
+	"_rev": "2-bf27db18fcc005b0",
+	"readme": "ERROR: No README data found!"
+}
