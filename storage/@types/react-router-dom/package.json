@@ -1,0 +1,1020 @@
+{
+	"name": "@types/react-router-dom",
+	"versions": {
+		"4.0.0": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.0",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "415503abce196f861ed8196a966f0acb0f2b6f15c17cb82aae605f1bfd77fcb0",
+			"typeScriptVersion": "2.2",
+			"_id": "@types/react-router-dom@4.0.0",
+			"dist": {
+				"shasum": "a3c26001ac47a174b1f039111db22215c03a3cfa",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-router-dom-4.0.0.tgz_1490142489502_0.23233371693640947"
+			},
+			"directories": {}
+		},
+		"4.0.1": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.1",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "3aaf9f6b2e98a9cb105abf1785c018bf27f420c3756fe4cbf0e7a87682858f93",
+			"typeScriptVersion": "2.2",
+			"_id": "@types/react-router-dom@4.0.1",
+			"dist": {
+				"shasum": "5a8dd901607f26b936482ba73b47bcd68b5bd98a",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-router-dom-4.0.1.tgz_1490312644916_0.48784023616462946"
+			},
+			"directories": {}
+		},
+		"4.0.2": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.2",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "6ca71834e3a49db1fd87ce22bad10a34230fbd360def1f916a9c3a73912a3bac",
+			"typeScriptVersion": "2.2",
+			"_id": "@types/react-router-dom@4.0.2",
+			"dist": {
+				"shasum": "4b5a3a9a29a05553e55c40e270f0716c7de3c9aa",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-router-dom-4.0.2.tgz_1490739104101_0.29600418475456536"
+			},
+			"directories": {}
+		},
+		"4.0.3": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.3",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "1e42b06be0ac907332e448c3faca31e08c871c3c826b9fb68ed792f753f6907f",
+			"typeScriptVersion": "2.2",
+			"_id": "@types/react-router-dom@4.0.3",
+			"dist": {
+				"shasum": "7073af160d7ed3c30f210a3b55c3fd24e9b5ddfb",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-router-dom-4.0.3.tgz_1490909483653_0.5144960593897849"
+			},
+			"directories": {}
+		},
+		"4.0.4": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.4",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "a09df3bfbaec097fb7f91c4866c593a399acdb880eefb9a6b557e13e46cd39d1",
+			"typeScriptVersion": "2.2",
+			"_id": "@types/react-router-dom@4.0.4",
+			"dist": {
+				"shasum": "49f4a7037958f743e764b807fcbc8062fe46e493",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-router-dom-4.0.4.tgz_1492528397209_0.6661159184295684"
+			},
+			"directories": {}
+		},
+		"4.0.5": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.5",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "95b78936f9026242ae473761e67bea8779ef109e654dd43cdcb5c162bdda59db",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-router-dom@4.0.5",
+			"dist": {
+				"integrity": "sha512-0AHAokPyW7L7M+brcaMTnFewce0tCaqG+C4KtUyizlk5tBToBEZ/bpjMDL5hbQ96Nc/wl5Ri8DJBijUmf82fdQ==",
+				"shasum": "638f89ca9053a0f3937d1604f2ed63dac6172ece",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom-4.0.5.tgz_1498239455183_0.7550721298903227"
+			},
+			"directories": {}
+		},
+		"4.0.6": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.6",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "fdb1358da888c508aa843c3321ff70b2e39eca17d9e8fb66f6d080ab7f972b23",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-router-dom@4.0.6",
+			"dist": {
+				"integrity": "sha512-cvmg0t5YxE2cIXPpFp4gI6avY/rZTO46cIsTTe1crl582uO9ZnXvbJYwpgdxvpRCGv7klmIJdzP4JMQ817ZDug==",
+				"shasum": "e3bd43e4dcae8aed421f53b02425cc83242f3983",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom-4.0.6.tgz_1499460827859_0.7381868441589177"
+			},
+			"directories": {}
+		},
+		"4.0.7": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.7",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "7271a4eef8515401943d23b46bda0fe40b33fe68e9fffaf175692d6f12bc43ed",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-router-dom@4.0.7",
+			"dist": {
+				"integrity": "sha512-U0MRf2YP/Bf23jKc+9rh9Ugn2JuAGUFfgMGnaHlL5iX7m8VvE5Mt+vuHikR10nysduEUg1Etc8xwBcLEh7E3rw==",
+				"shasum": "65b192f7a5dbd1c05a8d04cc5863c9775705a435",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom-4.0.7.tgz_1499781727872_0.692630500998348"
+			},
+			"directories": {}
+		},
+		"4.0.8": {
+			"name": "@types/react-router-dom",
+			"version": "4.0.8",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "63b289cd1b9dcfe982d808f0bb20f9c6073cfafbcae1cd9d241565a6c1a9f68d",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-router-dom@4.0.8",
+			"dist": {
+				"integrity": "sha512-+Ipm4f9eNhzu4PKoQIqrj+VMiYWLFb1UXWOpx5z1CmSoVIdA0x703aUuRPncC1o9KKcuwr3bj1tEIzg1I/vhAg==",
+				"shasum": "a9731bf35d053cdd27053baacc19e505d74514f3",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom-4.0.8.tgz_1506384780719_0.20925608393736184"
+			},
+			"directories": {}
+		},
+		"4.2.0": {
+			"name": "@types/react-router-dom",
+			"version": "4.2.0",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "cb1cd23de33bf181815f7050390600a6f149a131859dad26a1916efe1c1a83dc",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-router-dom@4.2.0",
+			"dist": {
+				"integrity": "sha512-q4Wed56xsMSYOYa8IXW/SHJ6GqKE1nGSvcm8ZNzesQPIObyoFhLDUwzF88aJTVLDvlW0+YB4sf5E0H7AZY5LHA==",
+				"shasum": "0f2f11d1553bd5aafbd8f613317e8dc9291d7a34",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom-4.2.0.tgz_1509151022951_0.4841445554047823"
+			},
+			"directories": {}
+		},
+		"4.2.1": {
+			"name": "@types/react-router-dom",
+			"version": "4.2.1",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "8917fb767669ffcd4384de16d5100bc6d21b0b71736097a7bfb9b666127ed88e",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-router-dom@4.2.1",
+			"dist": {
+				"integrity": "sha512-+iCFvtJ/X7LuBNHphm8CUDPg/J8y8iSM/XfYiIquEIUOyC+xXMfKLQFf+1zNpN8iHdB+ISuCRGq/UqOd5LVjsA==",
+				"shasum": "c5583550d7246dea60612cc55a523cf980d56df1",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom-4.2.1.tgz_1510221565068_0.5830972418189049"
+			},
+			"directories": {}
+		},
+		"4.2.2": {
+			"name": "@types/react-router-dom",
+			"version": "4.2.2",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "f17c68b43ecff988141600c8a8468f989b6d7f9d755e9b32bb0586c954d0f6f1",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-router-dom@4.2.2",
+			"dist": {
+				"integrity": "sha512-SkTG6CVbpIZOasb2NQm613RJ0T+WHMPc7+P9KT1V7WE3ukSdDO1318w5dD2znScLTT5nnFlLwbQzJiKkDXXc9w==",
+				"shasum": "4d6d71ab98560efde309c6469e1023a70dfa5ea7",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom-4.2.2.tgz_1511290958057_0.035951157566159964"
+			},
+			"directories": {}
+		},
+		"4.2.3": {
+			"name": "@types/react-router-dom",
+			"version": "4.2.3",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "04aa94f4e7804bd22b455f2ef2c3679c095bd735e7cad38f4dfa14ce2b2e4e6a",
+			"typeScriptVersion": "2.4",
+			"_id": "@types/react-router-dom@4.2.3",
+			"dist": {
+				"integrity": "sha512-q11w7Hw3mM/5C6wwKjres3476IKA7wDbpEjsSl1FsAJ8I5K7zlZmt1NAOvbKBZT4cJ4GQEZPIJWaelsLWd/muw==",
+				"shasum": "06e0b67ff536adc0681dffdbe592ae91fb85887d",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom-4.2.3.tgz_1511804937793_0.6417496439535171"
+			},
+			"directories": {}
+		},
+		"4.2.4": {
+			"name": "@types/react-router-dom",
+			"version": "4.2.4",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "26dd9118a17b3136133a0f83a5444fb670cb033cb471e42923336b821c87c2ec",
+			"typeScriptVersion": "2.6",
+			"_id": "@types/react-router-dom@4.2.4",
+			"dist": {
+				"integrity": "sha512-m90mTx1kWJ75H6WALbJtcxvbbQkt4BrlUDFrrAy7HKlAO6Vf6yRuc41m85PbIAABrJZnrMDXp1wwnR5ios8u4Q==",
+				"shasum": "02c43274129ffe0ac42b348f7c8c4a9a4e127c8a",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4383
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom_4.2.4_1518469661043_0.10498903854628794"
+			}
+		},
+		"4.2.5": {
+			"name": "@types/react-router-dom",
+			"version": "4.2.5",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "8b5bddf5bac8e06f9918a31f544fb37bdcf5ce9fb7c20ecde982b2364211c00c",
+			"typeScriptVersion": "2.6",
+			"_id": "@types/react-router-dom@4.2.5",
+			"dist": {
+				"integrity": "sha512-e03TTlYW8cEIJw8bRPmfpVvXN8BpeusjOypxNwlbovPGltR7WwQzZBlutsJC6XQxhhHd7g62Qkyt1oBCcosjkQ==",
+				"shasum": "a6fc921f1008567eae35244e30f34f5f7655d5f0",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.5.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4402
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom_4.2.5_1521156019712_0.2016249803367931"
+			}
+		},
+		"4.2.6": {
+			"name": "@types/react-router-dom",
+			"version": "4.2.6",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				},
+				{
+					"name": "Philip Jackson",
+					"url": "https://github.com/p-jackson",
+					"githubUsername": "p-jackson"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "54dcff8613f62c94657e6bcca01cd59907c07d75c2097ea9c78574325398798d",
+			"typeScriptVersion": "2.6",
+			"_id": "@types/react-router-dom@4.2.6",
+			"dist": {
+				"integrity": "sha512-K7SdbkF8xgecp2WCeXw51IMySYvQ1EuVPKfjU1fymyTSX9bZk5Qx8T5cipwtAY8Zhb/4GIjhYKm0ZGVEbCKEzQ==",
+				"shasum": "9f7eb3c0e6661a9607d878ff8675cc4ea95cd276",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.6.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4723
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom_4.2.6_1522176909297_0.2595211148382157"
+			}
+		},
+		"4.2.7": {
+			"name": "@types/react-router-dom",
+			"version": "4.2.7",
+			"description": "TypeScript definitions for React Router",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Tanguy Krotoff",
+					"url": "https://github.com/tkrotoff",
+					"githubUsername": "tkrotoff"
+				},
+				{
+					"name": "Huy Nguyen",
+					"url": "https://github.com/huy-nguyen",
+					"githubUsername": "huy-nguyen"
+				},
+				{
+					"name": "Philip Jackson",
+					"url": "https://github.com/p-jackson",
+					"githubUsername": "p-jackson"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react-router": "*",
+				"@types/react": "*",
+				"@types/history": "*"
+			},
+			"typesPublisherContentHash": "169cb9f5e4de325ca0f1035c24d526ebedc78272c93c61d7ea6d01b5d67d78e4",
+			"typeScriptVersion": "2.8",
+			"_id": "@types/react-router-dom@4.2.7",
+			"dist": {
+				"integrity": "sha512-6sIP3dIj6xquvcAuYDaxpbeLjr9954OuhCXnniMhnDgykAw2tVji9b0jKHofPJGUoHEMBsWzO83tjnk7vfzozA==",
+				"shasum": "9d36bfe175f916dd8d7b6b0237feed6cce376b4c",
+				"tarball": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.7.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4715,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbEIsZCRA9TVsSAnZWagAADVAP/A3neOQINYhO3e6h6zc3\nAeX8VqKdP08SnLgCw0hrC7gNYsDdicFX2Uad5FGjTV0w724Rb+f6ytLAaWcW\nEQn594GsL/2+9cyU8LrAyC/afVA5Ybu0dnwACMn+OwKScAci3CgGjXOr077x\n6EaG4HNs4M4GsR8fQRoEeJ7HP202hjVNDEjAclW9IrpyiEYPIfMEzIM28FSu\ncbb10109SLAJ9dbAZ9dEJAr4QibJi0Cg+F3b2GDyOd7/n78fecSnOgluMFnw\nmxR91t3q/8yZQPoPS4Hn4cVgs7enZiQUhJ5JzO53okrnMLM+hLdPw4Kc7g/1\nBKz5EDtngMZM4Gr64vS1Qlv0HSIjCVxwdqp8rrW0IqTxDeOAAxyUf8AbZQ2I\nA4pJHzxR+MQZyHn6rY/uMF+8msk+5M6ebWd7bt8ga8RDwRuxjJzLx9Dgy7w/\nK0XmYCcfx67BI1uzrG85up9GrkNBlsf2F90kBiLvWQ0WgFyGEm9XD8vW0KED\nMLNBp72WAv1o6pEEIlEDOzS6RIJRt6B+I6hNORUP3wugEI9How+gjPXsM3J3\ncyygCBrbAtSiuGmf31iJ6bc7ScvXvN7Yfo1aCUwXjOhH8bQdGdteQAvXWdPW\nuVOySE50OFQbzgoUJ/z/I9bMfGElLoZxaCrSdNdeYym4xGt5L7WaVA4iHJb9\nS0x6\r\n=D6HE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-router-dom_4.2.7_1527810841300_0.06299562369171396"
+			}
+		}
+	},
+	"time": {
+		"modified": "2018-05-31T23:54:13.004Z",
+		"created": "2017-03-22T00:28:09.725Z",
+		"4.0.0": "2017-03-22T00:28:09.725Z",
+		"4.0.1": "2017-03-23T23:44:05.145Z",
+		"4.0.2": "2017-03-28T22:11:45.818Z",
+		"4.0.3": "2017-03-30T21:31:24.185Z",
+		"4.0.4": "2017-04-18T15:13:17.454Z",
+		"4.0.5": "2017-06-23T17:37:35.268Z",
+		"4.0.6": "2017-07-07T20:53:48.108Z",
+		"4.0.7": "2017-07-11T14:02:10.873Z",
+		"4.0.8": "2017-09-26T00:13:00.817Z",
+		"4.2.0": "2017-10-28T00:37:03.019Z",
+		"4.2.1": "2017-11-09T09:59:25.727Z",
+		"4.2.2": "2017-11-21T19:02:38.176Z",
+		"4.2.3": "2017-11-27T17:48:57.853Z",
+		"4.2.4": "2018-02-12T21:07:41.086Z",
+		"4.2.5": "2018-03-15T23:20:19.881Z",
+		"4.2.6": "2018-03-27T18:55:09.384Z",
+		"4.2.7": "2018-05-31T23:54:01.403Z"
+	},
+	"dist-tags": {
+		"latest": "4.2.7",
+		"ts2.2": "4.0.4",
+		"ts2.3": "4.2.2",
+		"ts2.4": "4.2.3",
+		"ts2.5": "4.2.3",
+		"ts2.6": "4.2.6",
+		"ts2.7": "4.2.6",
+		"ts2.8": "4.2.7",
+		"ts2.9": "4.2.7",
+		"ts3.0": "4.2.7"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"7979687c0b0da2def2cb23d674496bb0\"",
+			"fetched": 1530302287124
+		}
+	},
+	"_distfiles": {
+		"react-router-dom-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.0.tgz",
+			"sha": "a3c26001ac47a174b1f039111db22215c03a3cfa",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.1.tgz",
+			"sha": "5a8dd901607f26b936482ba73b47bcd68b5bd98a",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.2.tgz",
+			"sha": "4b5a3a9a29a05553e55c40e270f0716c7de3c9aa",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.3.tgz",
+			"sha": "7073af160d7ed3c30f210a3b55c3fd24e9b5ddfb",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.4.tgz",
+			"sha": "49f4a7037958f743e764b807fcbc8062fe46e493",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.5.tgz",
+			"sha": "638f89ca9053a0f3937d1604f2ed63dac6172ece",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.6.tgz",
+			"sha": "e3bd43e4dcae8aed421f53b02425cc83242f3983",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.7.tgz",
+			"sha": "65b192f7a5dbd1c05a8d04cc5863c9775705a435",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.0.8.tgz",
+			"sha": "a9731bf35d053cdd27053baacc19e505d74514f3",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.0.tgz",
+			"sha": "0f2f11d1553bd5aafbd8f613317e8dc9291d7a34",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.1.tgz",
+			"sha": "c5583550d7246dea60612cc55a523cf980d56df1",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.2.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.2.tgz",
+			"sha": "4d6d71ab98560efde309c6469e1023a70dfa5ea7",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.2.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.3.tgz",
+			"sha": "06e0b67ff536adc0681dffdbe592ae91fb85887d",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.2.4.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.4.tgz",
+			"sha": "02c43274129ffe0ac42b348f7c8c4a9a4e127c8a",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.2.5.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.5.tgz",
+			"sha": "a6fc921f1008567eae35244e30f34f5f7655d5f0",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.2.6.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.6.tgz",
+			"sha": "9f7eb3c0e6661a9607d878ff8675cc4ea95cd276",
+			"registry": "npmjs"
+		},
+		"react-router-dom-4.2.7.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-4.2.7.tgz",
+			"sha": "9d36bfe175f916dd8d7b6b0237feed6cce376b4c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"react-router-dom-4.2.7.tgz": {
+			"shasum": "9d36bfe175f916dd8d7b6b0237feed6cce376b4c"
+		}
+	},
+	"_rev": "2-2766b8f8b1211751",
+	"readme": "# Installation\r\n> `npm install --save @types/react-router-dom`\r\n\r\n# Summary\r\nThis package contains type definitions for React Router (https://github.com/ReactTraining/react-router).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-router-dom\r\n\r\nAdditional Details\r\n * Last updated: Thu, 31 May 2018 23:51:11 GMT\r\n * Dependencies: react-router, react, history\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Tanguy Krotoff <https://github.com/tkrotoff>, Huy Nguyen <https://github.com/huy-nguyen>, Philip Jackson <https://github.com/p-jackson>."
+}
