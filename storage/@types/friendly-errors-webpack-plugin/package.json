@@ -1,0 +1,136 @@
+{
+	"name": "@types/friendly-errors-webpack-plugin",
+	"versions": {
+		"0.1.0": {
+			"name": "@types/friendly-errors-webpack-plugin",
+			"version": "0.1.0",
+			"description": "TypeScript definitions for friendly-errors-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Arne Bahlo",
+					"url": "https://github.com/bahlo",
+					"githubUsername": "bahlo"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "82987b9ca701e4c5ef7a9c361513a02ed86e72863663fed6e6e76fd2a82153c9",
+			"typeScriptVersion": "2.4",
+			"_id": "@types/friendly-errors-webpack-plugin@0.1.0",
+			"dist": {
+				"integrity": "sha512-tGCl3J0skyVMy+L16lq+U7Ued8cHJZ1pdW68UVcWUcmMRCw4I1wn+MzPOga7nCN9GUGgOL5MtemfVPa9DatHeg==",
+				"shasum": "1d9857082f8148399ec29a706e56023b545acd42",
+				"tarball": "https://registry.npmjs.org/@types/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/friendly-errors-webpack-plugin-0.1.0.tgz_1505743754973_0.0335766701027751"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "@types/friendly-errors-webpack-plugin",
+			"version": "0.1.1",
+			"description": "TypeScript definitions for friendly-errors-webpack-plugin",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Arne Bahlo",
+					"url": "https://github.com/bahlo",
+					"githubUsername": "bahlo"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "acf25310034ed551809619f52569ae8fd01222fb4af5a9841dc3600f6fbedc39",
+			"typeScriptVersion": "2.4",
+			"_id": "@types/friendly-errors-webpack-plugin@0.1.1",
+			"dist": {
+				"integrity": "sha512-GONK78W0IECTrGDtqNR+LkX3DMYT9tgHu35H1GC412gRPb4e4+RW1iFmXw8uUJrdXAMXmoTZePlZvEUNHGxF9g==",
+				"shasum": "b56dd545d235823e000c3cba67f4f624f46173d1",
+				"tarball": "https://registry.npmjs.org/@types/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-0.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/friendly-errors-webpack-plugin-0.1.1.tgz_1507124260550_0.8375616988632828"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:04:38.849Z",
+		"created": "2017-09-18T14:09:15.895Z",
+		"0.1.0": "2017-09-18T14:09:15.895Z",
+		"0.1.1": "2017-10-04T13:37:40.615Z"
+	},
+	"dist-tags": {
+		"latest": "0.1.1",
+		"ts2.4": "0.1.1",
+		"ts2.5": "0.1.1",
+		"ts2.6": "0.1.1",
+		"ts2.7": "0.1.1",
+		"ts2.8": "0.1.1",
+		"ts2.9": "0.1.1",
+		"ts3.0": "0.1.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"3460b74e9ac7ded5fe3c7d22e58a0af2\"",
+			"fetched": 1530302287766
+		}
+	},
+	"_distfiles": {
+		"friendly-errors-webpack-plugin-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-0.1.0.tgz",
+			"sha": "1d9857082f8148399ec29a706e56023b545acd42",
+			"registry": "npmjs"
+		},
+		"friendly-errors-webpack-plugin-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-0.1.1.tgz",
+			"sha": "b56dd545d235823e000c3cba67f4f624f46173d1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"friendly-errors-webpack-plugin-0.1.1.tgz": {
+			"shasum": "b56dd545d235823e000c3cba67f4f624f46173d1"
+		}
+	},
+	"_rev": "2-9614bb4655a6460a",
+	"readme": "# Installation\r\n> `npm install --save @types/friendly-errors-webpack-plugin`\r\n\r\n# Summary\r\nThis package contains type definitions for friendly-errors-webpack-plugin (https://github.com/geowarin/friendly-errors-webpack-plugin).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/friendly-errors-webpack-plugin\r\n\r\nAdditional Details\r\n * Last updated: Wed, 04 Oct 2017 13:36:50 GMT\r\n * Dependencies: webpack\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Arne Bahlo <https://github.com/bahlo>."
+}
