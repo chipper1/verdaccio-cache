@@ -1,0 +1,1003 @@
+{
+	"name": "prompts",
+	"versions": {
+		"0.0.0": {
+			"name": "prompts",
+			"version": "0.0.0",
+			"description": "",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"_id": "prompts@0.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-m7ee1XiIV4f8srJDmmxTXm4KALiydqfJEFROFL2Tnxho7HEq8HLSwaYjtpAQyKsHkNfO8VjJwf/tK+bTdMAEOA==",
+				"shasum": "97e9f526d490a017353672427d258b57d4f66091",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.0.0.tgz",
+				"fileCount": 1,
+				"unpackedSize": 203
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.0.0_1518987309803_0.544504880851508"
+			}
+		},
+		"0.1.0-1": {
+			"name": "prompts",
+			"version": "0.1.0-1",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"gitHead": "69b3761347b4e81883198e4338e200a0731babc7",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.0-1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-5CD4Hz4ZSCnLse/BslAKDCuX2T9gT8myGF36bG7CJGei159DdHHUlLTkZ/8e25nGMPmsiySez2KYbduax5zuYg==",
+				"shasum": "50e3de76b4315e5c1cb94a79748f9bc0c6e42a75",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.0-1.tgz",
+				"fileCount": 23,
+				"unpackedSize": 56724
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.0-1_1519467162182_0.6554553001332062"
+			}
+		},
+		"0.1.0": {
+			"name": "prompts",
+			"version": "0.1.0",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"gitHead": "22b388ed32bb15c5bceb880e08670344e2e39f32",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-+RlN8IAcTCkg1DSu3+SNH8fYhfHVOz67Dw8wa9uaoCAutDEr+R1iMxK8TUujWPZTdb/5AF6amQ9fXG/Ji5N42w==",
+				"shasum": "e436dc651e1b6fca10697d2cc16ca9dd9ced4d10",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.0.tgz",
+				"fileCount": 23,
+				"unpackedSize": 57577
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.0_1519515734455_0.2015390620582045"
+			}
+		},
+		"0.1.1": {
+			"name": "prompts",
+			"version": "0.1.1",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"gitHead": "6055b64441979479173028abb3df285e8ec814d1",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-BaodziZuwqbW2qy/Oo5VqbvcpEstmFNlhc5t1GNcyxwS77D2cH1x99dcMNUwCh1mpaDtw/Iq7jLUkH3smzCafQ==",
+				"shasum": "ee9c86ec59ba2a1662392a490e02e14886ace62c",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.1.tgz",
+				"fileCount": 23,
+				"unpackedSize": 60272
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.1_1519715483867_0.8529380125262322"
+			}
+		},
+		"0.1.2": {
+			"name": "prompts",
+			"version": "0.1.2",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"gitHead": "793a4c92ba2841a0964b3cc5b7867eeea461f9a2",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-t7IffM1thvhdWDv3OsfLMMzymfY0DZ3ZL9kUbl8geuV4rP1bHME59MfDHAoAGq2al/HLsasxA4D7BwUTdPA2ww==",
+				"shasum": "efea24c5bd2017d4cd15a45baf71ce1c6ab5dee6",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.2.tgz",
+				"fileCount": 23,
+				"unpackedSize": 60277
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.2_1519790259560_0.5973086706771944"
+			}
+		},
+		"0.1.3": {
+			"name": "prompts",
+			"version": "0.1.3",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"gitHead": "420515aee3617c83a5a45d823dd97f4dfc627c4f",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.3",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-tA4w6cquRUvxqy3AWnDEQ5ZK4mc7JwaJOTfxAT8RxxaNxoy6rERh76OhEmbv3SFuDTdjJM01bwv6w5hXz5c2NQ==",
+				"shasum": "975bf9d30716ced5d116a7397aae8204a8a12b7f",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.3.tgz",
+				"fileCount": 22,
+				"unpackedSize": 60616
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.3_1519806206706_0.032065731357912464"
+			}
+		},
+		"0.1.4": {
+			"name": "prompts",
+			"version": "0.1.4",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"gitHead": "b4c2b2b319d6d3a7b9e1920f60f379d87769249a",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.4",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-+1EqQSfG43l4Ab16vu5vB8wH4F7BjGHvk8rroX6Eiah6euOo2XXlA2ZG7/qnHhnBwF4o8jYrPj+jFcOYNV0Ckg==",
+				"shasum": "d5376a0441edb8c26a65a208ef964ec287ee2b6e",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.4.tgz",
+				"fileCount": 22,
+				"unpackedSize": 60621
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.4_1519837630717_0.9252952771012415"
+			}
+		},
+		"0.1.5": {
+			"name": "prompts",
+			"version": "0.1.5",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"engines": {
+				"node": ">= 8"
+			},
+			"gitHead": "2ad8dc06be4b86a253a54d57fddbef41453901a4",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.5",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.7.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-XxpK0kbwe3LV8aFoDLXfrrD9Al5w/8OKKvvOtF8bNVjd6vdV1oOqaSIYYFE4wMXfHfiElMwkju2hO4s7tDQdrg==",
+				"shasum": "c71becc063f22b80f0b1c042e55afb9fc6291f6c",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.5.tgz",
+				"fileCount": 22,
+				"unpackedSize": 62575
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.5_1520401874527_0.09999661640627067"
+			}
+		},
+		"0.1.6": {
+			"name": "prompts",
+			"version": "0.1.6",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"engines": {
+				"node": ">= 8"
+			},
+			"gitHead": "8b0c602d20810a3997858c758cbbf6edc40cbaa3",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.6",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.7.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-0sSgh+5zrCziv0UBCd3G5RORZfxjMw0UHhu1Cm6vrMb50Vc280rzJTOSD/Z24XCNMi4w6ETvydYgKkEKjOBeEA==",
+				"shasum": "77f141fde860445edd8195b131a80c2ad56fc2bb",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.6.tgz",
+				"fileCount": 22,
+				"unpackedSize": 62649
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.6_1520588959809_0.12670301785648141"
+			}
+		},
+		"0.1.7": {
+			"name": "prompts",
+			"version": "0.1.7",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"engines": {
+				"node": ">= 8"
+			},
+			"gitHead": "e2f7a2086764a5aaa0198d934e6a3761102dcef1",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.7",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.7.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-EOyq4cehZdkTsByOGI/KHH68l/QrzFufSlmcc6H84XuipcUtua22baKPeV16d8opnSxhNKAIaMeQzmVNa6lx2w==",
+				"shasum": "c326f5cf7a9627f39d3019bba5f812805665aad5",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.7.tgz",
+				"fileCount": 22,
+				"unpackedSize": 67220
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.7_1520807457400_0.9111213819183499"
+			}
+		},
+		"0.1.8": {
+			"name": "prompts",
+			"version": "0.1.8",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "lib/index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"engines": {
+				"node": ">= 8"
+			},
+			"gitHead": "6197ae453df612a3077cfcd298f6340d09d93878",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.8",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.7.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-IAV6uUb0fj4BgGyuWbjx0qZuJuUiIUhpzPq6yZyyEVmY9SHMkA+qIR7PVY2zl2nOJNVjqO8UfYgwUILU39vtQQ==",
+				"shasum": "6c43ec1f8812479d02d278e536db913f6694381c",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.8.tgz",
+				"fileCount": 22,
+				"unpackedSize": 67220
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.8_1520909651130_0.3212697160561022"
+			}
+		},
+		"0.1.9": {
+			"name": "prompts",
+			"version": "0.1.9",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib",
+				"dist",
+				"index.js"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"build": "babel lib -d dist",
+				"prepublish": "npm run build",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.1",
+				"sisteransi": "^0.1.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-object-rest-spread": "^6.26.0",
+				"babel-preset-env": "^1.7.0",
+				"tap-spec": "^4.1.1",
+				"tape": "^4.8.0"
+			},
+			"engines": {
+				"node": ">= 6"
+			},
+			"gitHead": "0b1a85198b8140e773f18ab904e1717ed2a4914a",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.9",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "9.7.1",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-RMRvwAUDVUMhP/z3YfDW6igMwT0UnL+w3XCUUNxxHjgwJnVEdHWYJVjM7hQMPub8HCk12xZYAqWlbgLBnqebwg==",
+				"shasum": "be109f62f794f138c6bbd35c25370c5c526d9d78",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.9.tgz",
+				"fileCount": 38,
+				"unpackedSize": 91739,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbKIPfCRA9TVsSAnZWagAA8AsP/2UyjEYkzw3rzT9fy7yr\nUPJJ1hq+OrVITat/dvKijQsxpkuGEQUkOr0Iwp7q3CLtT8IbxZRavEMowvu0\n/TWZdbOUXNDzDVzUY9OrvPZ6J7fNOOwuWGdzM1M3SzoyQD8u2asK6FH6NDPr\nNePv05LOFYScXyAEdsAHt3UzKeLnPh1f7F9qz7y2Nwbfr/w3zn4CExNghCG6\nCDayeq5bxeU2QGZuu0pdLEVvQLclb++SifOWpChEppVgNzoyTPk4avLIW75u\nRdlj/BZyngvAyeknfJfkjMt8q/MKw0rfwwOPvNVOFDLBLVrWJP2pTiLyiKpC\nwg6YDU8Uc5LDbI3zUPAg6nRm2nKLoZf+PuWhEHBklZCkw36aciVMThAGzm1T\nH4a83JwIs14GoDZXmuovfv0Vi64vyzPDs15kp3RAS5XcwBB0VhLI9iHJVdDy\nsqiY0LcKl5KTMwMry8KSfO2TGt0Z8BQFll5zvGh70BabzfV/p7DdwvA4FkJ3\nO0cwmAz11QDRC+qcBOIdAxUHSEPBSiyL7P7Cr+msPwJgoWnry3vjFJRjCXNs\n6dTdoIa7ajKWDkOQnFvQisztiQD+Wy5VHqVCP+CuUmY/BtRvz2u+AVfRKNve\nJoCIZj/7izjDkZapjyJrZuj0s/an3Q0iNtpyHOBre7wrkRlnE1tkwLCk/p3/\n0w4w\r\n=X3fJ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.9_1529381854087_0.15333786691516282"
+			}
+		},
+		"0.1.10": {
+			"name": "prompts",
+			"version": "0.1.10",
+			"description": "Lightweight, beautiful and user-friendly prompts",
+			"homepage": "https://github.com/terkelg/prompts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/terkelg/prompts.git"
+			},
+			"main": "index.js",
+			"author": {
+				"name": "Terkel Gjervig",
+				"email": "terkel@terkel.com",
+				"url": "https://terkel.com"
+			},
+			"files": [
+				"lib",
+				"dist",
+				"index.js"
+			],
+			"scripts": {
+				"start": "node lib/index.js",
+				"build": "babel lib -d dist",
+				"prepublish": "npm run build",
+				"test": "tape test/*.js | tap-spec"
+			},
+			"keywords": [
+				"ui",
+				"prompts",
+				"cli",
+				"prompt",
+				"interface",
+				"command-line",
+				"input"
+			],
+			"dependencies": {
+				"clorox": "^1.0.3",
+				"sisteransi": "^0.1.1"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-transform-object-rest-spread": "^6.26.0",
+				"babel-preset-env": "^1.7.0",
+				"tap-spec": "^5.0.0",
+				"tape": "^4.9.1"
+			},
+			"engines": {
+				"node": ">= 6"
+			},
+			"gitHead": "b0910726bd866df2ce9acddcc23de01d7f1f6386",
+			"bugs": {
+				"url": "https://github.com/terkelg/prompts/issues"
+			},
+			"_id": "prompts@0.1.10",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "10.5.0",
+			"_npmUser": {
+				"name": "terkelg",
+				"email": "terkel@terkel.com"
+			},
+			"dist": {
+				"integrity": "sha512-/MPwms6+g/m6fvXZlQyOL4m4ziDim2+Wc6CdWVjp+nVCkzEkK2N4rR74m/bbGf+dkta+/SBpo1FfES8Wgrk/Fw==",
+				"shasum": "832cbf6116ecb121d6884e84643bb2cf92b3ed2c",
+				"tarball": "https://registry.npmjs.org/prompts/-/prompts-0.1.10.tgz",
+				"fileCount": 38,
+				"unpackedSize": 91856,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbNH2jCRA9TVsSAnZWagAAjHEP/09Osm8cTCYzq/W/DLCn\n8k0Td2dp5EAF1eVHCIQlooyCPoXZdV0g+k/+ivsu9z+CmhfF0rFd6enMc8OY\neLjY/PljvS7Sww9cprFkB0mkE1Hqs/HvsOj05jIMiMEPgAqgNdBrL3i/+2Sr\n8F7axo+cbqA2s4qqM4Cvq7sKjPzUKNv76ykvV7w7qHPX/4BnrLh+Z792fACk\n3WqYqeUXgBTSu2qV9lGfwR+2fp4v4PFwmxlsqskNowJXJn+xUkfNe7xn6MlH\nZ12LNaa0hoXgK8+Bg8CxVXMzv6Wt/RlsnypRde1CaNqk81a3Egay0VmiZoqa\nKfOd4oyav/e3hUJlnAmC6GRcm5t0Wm6cxg/JFaSdmEI4vmHSObjb7DhYAXCY\nddZqxua1SuTsZP1qe9m6hynLjcC99A44bO0BfTCemYm3P2zamMkH1lgbCyaU\nsYvxciafz7h7Zfpf7wKK7xDiuRoQm1aso0ngrD8IR3DLH5cVPnnWCcPdzEZ8\nt/JlonbI+epb2bQVqsgX6v8PY0iqSGP7NeXhzi+YjXTue/BfoXryaIFs7w46\nLKV23d3TPUOXOJyIUL6hTPjREYNsDoMpU54UToW2hoeUlGClAmjrELA83KSe\nyE9s+ASmoX9vVkBN21sntgJ9KxzZe1ze4DObAlQAhG2S7gOTMSCiFiIidfmT\nuXD2\r\n=jKuO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "terkelg",
+					"email": "terkel@terkel.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prompts_0.1.10_1530166690986_0.4807273600719595"
+			}
+		}
+	},
+	"time": {
+		"created": "2018-02-18T20:55:09.802Z",
+		"0.0.0": "2018-02-18T20:55:09.879Z",
+		"modified": "2018-06-28T06:18:13.493Z",
+		"0.1.0-1": "2018-02-24T10:12:42.296Z",
+		"0.1.0": "2018-02-24T23:42:14.553Z",
+		"0.1.1": "2018-02-27T07:11:23.919Z",
+		"0.1.2": "2018-02-28T03:57:39.634Z",
+		"0.1.3": "2018-02-28T08:23:26.805Z",
+		"0.1.4": "2018-02-28T17:07:11.386Z",
+		"0.1.5": "2018-03-07T05:51:14.604Z",
+		"0.1.6": "2018-03-09T09:49:20.133Z",
+		"0.1.7": "2018-03-11T22:30:57.494Z",
+		"0.1.8": "2018-03-13T02:54:11.221Z",
+		"0.1.9": "2018-06-19T04:17:34.395Z",
+		"0.1.10": "2018-06-28T06:18:11.144Z"
+	},
+	"dist-tags": {
+		"latest": "0.1.10"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"33ed6f5f22539b699cb267c16c248028\"",
+			"fetched": 1530566236727
+		}
+	},
+	"_distfiles": {
+		"prompts-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.0.0.tgz",
+			"sha": "97e9f526d490a017353672427d258b57d4f66091",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.0-1.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.0-1.tgz",
+			"sha": "50e3de76b4315e5c1cb94a79748f9bc0c6e42a75",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.0.tgz",
+			"sha": "e436dc651e1b6fca10697d2cc16ca9dd9ced4d10",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.1.tgz",
+			"sha": "ee9c86ec59ba2a1662392a490e02e14886ace62c",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.2.tgz",
+			"sha": "efea24c5bd2017d4cd15a45baf71ce1c6ab5dee6",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.3.tgz",
+			"sha": "975bf9d30716ced5d116a7397aae8204a8a12b7f",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.4.tgz",
+			"sha": "d5376a0441edb8c26a65a208ef964ec287ee2b6e",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.5.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.5.tgz",
+			"sha": "c71becc063f22b80f0b1c042e55afb9fc6291f6c",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.6.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.6.tgz",
+			"sha": "77f141fde860445edd8195b131a80c2ad56fc2bb",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.7.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.7.tgz",
+			"sha": "c326f5cf7a9627f39d3019bba5f812805665aad5",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.8.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.8.tgz",
+			"sha": "6c43ec1f8812479d02d278e536db913f6694381c",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.9.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.9.tgz",
+			"sha": "be109f62f794f138c6bbd35c25370c5c526d9d78",
+			"registry": "npmjs"
+		},
+		"prompts-0.1.10.tgz": {
+			"url": "https://registry.npmjs.org/prompts/-/prompts-0.1.10.tgz",
+			"sha": "832cbf6116ecb121d6884e84643bb2cf92b3ed2c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"prompts-0.1.10.tgz": {
+			"shasum": "832cbf6116ecb121d6884e84643bb2cf92b3ed2c"
+		}
+	},
+	"_rev": "7-eca0ce34aa39165a",
+	"readme": "<p align=\"center\">\n  <img src=\"https://github.com/terkelg/prompts/raw/master/prompts.png\" alt=\"Prompts\" width=\"500\" height=\"120\" />\n</p>\n \n<h1 align=\"center\">❯ Prompts</h1>\n\n<p align=\"center\">\n  <a href=\"https://npmjs.org/package/prompts\">\n    <img src=\"https://img.shields.io/npm/v/prompts.svg\" alt=\"version\" />\n  </a>\n  <a href=\"https://travis-ci.org/terkelg/prompts\">\n    <img src=\"https://img.shields.io/travis/terkelg/prompts.svg\" alt=\"travis\" />\n  </a>\n  <a href=\"https://npmjs.org/package/prompts\">\n    <img src=\"https://img.shields.io/npm/dm/prompts.svg\" alt=\"downloads\" />\n  </a>\n   <a href=\"https://packagephobia.now.sh/result?p=prompts\">\n    <img src=\"https://packagephobia.now.sh/badge?p=prompts\" alt=\"install size\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <b>Lightweight, beautiful and user-friendly interactive prompts</b></br>\n  <sub>>_ Easy to use CLI prompts to enquire users for information▌<sub> \n</p>\n\n<br />\n\n* **Simple**: prompts has [no big dependencies](http://npm.anvaka.com/#/view/2d/prompts) nor is it broken into a [dozen](http://npm.anvaka.com/#/view/2d/inquirer) tiny modules that only work well together.\n* **User friendly**: prompt uses layout and colors to create beautiful cli interfaces.\n* **Promised**: uses promises and `async`/`await`. No callback hell.\n* **Flexible**: all prompts are independent and can be used on their own.\n* **Testable**: provides a way to submit answers programmatically.\n* **Unified**: consistent experience across all prompts. \n\n\n![split](https://github.com/terkelg/prompts/raw/master/media/split.png)\n\n\n## ❯ Install\n\n```\n$ npm install --save prompts\n```\n\n> This package supports Node 6 and above\n\n![split](https://github.com/terkelg/prompts/raw/master/media/split.png)\n\n## ❯ Usage\n\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/number.gif\" alt=\"example prompt\" width=\"499\" height=\"103\" />\n\n```js\nconst prompts = require('prompts');\n\nconst response = await prompts({\n    type: 'number',\n    name: 'value',\n    message: 'How old are you?'\n});\n\nconsole.log(response); // => { value: 23 }\n```\n\n> Examples are meant to be illustrative. `await` calls need to be run within an async function. See [`example.js`](https://github.com/terkelg/prompts/blob/master/example.js).\n\n\n![split](https://github.com/terkelg/prompts/raw/master/media/split.png)\n\n\n## ❯ Examples\n\n### Single Prompt\n\nPrompt with a single prompt object. Returns object with the response.\n\n```js\nconst prompts = require('prompts');\n\nlet response = await prompts({\n    type: 'text',\n    name: 'meaning',\n    message: 'What is the meaning of life?'\n});\n\nconsole.log(response.meaning);\n```\n\n### Prompt Chain\n\nPrompt with a list of prompt objects. Returns object with response.\nMake sure to give each prompt a unique `name` property to prevent overwriting values.\n\n```js\nconst prompts = require('prompts');\n\nlet questions = [\n    {\n        type: 'text',\n        name: 'username',\n        message: 'What is your GitHub username?'\n    },\n    {\n        type: 'number',\n        name: 'age',\n        message: 'How old are you?'\n    },\n    {\n        type: 'text',\n        name: 'about',\n        message: 'Tell something about yourself',\n        initial: 'Why should I?'\n    }\n];\n\nlet response = await prompts(questions);\n\n// => response => { username, age, about }\n```\n\n### Dynamic Prompts\n\nPrompt properties can be functions too.\nPrompt Objects with `type` set to `falsy` values are skipped.\n\n```js\nconst prompts = require('prompts');\n\nlet questions = [\n    {\n        type: 'text',\n        name: 'dish',\n        message: 'Do you like pizza?'\n    },\n    {\n        type: prev => prev == 'pizza' ? 'text' : null,\n        name: 'topping',\n        message: 'Name a topping'\n    }\n];\n\nlet response = await prompts(questions);\n```\n\n\n![split](https://github.com/terkelg/prompts/raw/master/media/split.png)\n\n\n## ❯ API\n\n### prompts(prompts, options)\n\nType: `Function`<br>\nReturns: `Object`\n\nPrompter function which takes your [prompt objects](#-prompt-objects) and returns an object with responses.\n\n\n#### prompts\n\nType: `Array|Object`<br>\n\nArray of [prompt objects](#-prompt-objects).\n These are the questions the user will be prompted. You can see the list of supported [prompt types here](#-types).\n\nPrompts can be submitted (<kbd>return</kbd>, <kbd>enter</kbd>) or canceled (<kbd>esc</kbd>, <kbd>abort</kbd>, <kbd>ctrl</kbd>+<kbd>c</kbd>, <kbd>ctrl</kbd>+<kbd>d</kbd>). No property is being defined on the returned response object when a prompt is canceled.\n\n#### options.onSubmit\n\nType: `Function`<br>\nDefault: `() => {}`\n\nCallback that's invoked after each prompt submission.\nIts signature is `(prompt, response)` where `prompt` is the current prompt object.\n\nReturn `true` to quit the prompt chain and return all collected responses so far, otherwise continue to iterate prompt objects.\n\n**Example:**\n```js\nlet questions = [{ ... }];\nlet onSubmit = (prompt, response) => console.log(`Thanks I got ${response} from ${prompt.name}`);\nlet response = await prompts(questions, { onSubmit });\n```\n\n#### options.onCancel\n\nType: `Function`<br>\nDefault: `() => {}`\n\nCallback that's invoked when the user cancels/exits the prompt.\nIts signature is `(prompt)` where `prompt` is the current prompt object.\n\nReturn `true` to continue and prevent the prompt loop from aborting.\nOn cancel responses collected so far are returned.\n\n**Example:**\n```js\nlet questions = [{ ... }];\nlet onCancel = prompt => {\n  console.log('Never stop prompting!');\n  return true;\n}\nlet response = await prompts(questions, { onCancel });\n```\n\n\n### inject(values)\n\nType: `Function`<br>\n\nProgrammatically inject responses. This enables you to prepare the responses ahead of time.\nIf any injected values are found the prompt is immediately resolved with the injected value.\nThis feature is intended for testing only.\n\n#### values\n\nType: `Object`\n\nObject with key/values to inject. Resolved values are deleted from the internal inject object.\n\n**Example:**\n```js\nconst prompts = require('prompts');\n\nprompts.inject({ q1: 'a1', q2: 'q2' });\nlet response = await prompts({\n  type: 'text',\n  name: 'q1',\n  message: 'Question 1'\n});\n\n// => { q1: 'a1' }\n\n```\n\n> When `q1` resolves it's wiped. `q2` doesn't resolve and is left untouched.\n\n\n![split](https://github.com/terkelg/prompts/raw/master/media/split.png)\n\n\n## ❯ Prompt Objects\n\nPrompts Objects are JavaScript objects that define the \"questions\" and the [type of prompt](#-types).\nAlmost all prompt objects have the following properties:\n\n```js\n{\n  type: String || Function,\n  name: String || Function,\n  message: String || Function,\n  initial: String || Function || Async Function\n  format: Function || Async Function,\n  onState: Function\n}\n```\n\nEach property be of type `function` and will be invoked right before prompting the user.\n\nThe function signature is `(prev, values, prompt)`, where `prev` is the value from the previous prompt, \n`values` is the response object with all values collected so far and `prompt` is the previous prompt object.\n\n**Function example:**\n```js\n{\n    type: prev => prev > 3 ? 'confirm' : null,\n    name: 'confirm',\n    message: (prev, values) => `Please confirm that you eat ${values.dish} times ${prev} a day?`\n}\n```\n\nThe above prompt will be skipped if the value of the previous prompt is less than 3.\n\n### type\n\nType: `String|Function`\n\nDefines the type of prompt to display. See the list of [prompt types](#-types) for valid values.\n\nIf `type` is a falsy value the prompter will skip that question.\n```js\n{\n  type: null,\n  name: 'forgetme',\n  message: `I'll never be shown anyway`,\n}\n```\n\n### name\n\nType: `String|Function`\n\nThe response will be saved under this key/property in the returned response object.\nIn case you have multiple prompts with the same name only the latest response will be stored.\n\n> Make sure to give prompts unique names if you don't want to overwrite previous values.\n\n### message\n\nType: `String|Function`\n\nThe message to be displayed to the user.\n\n### initial\n\nType: `String|Function`\n\nOptional default prompt value. Async functions are supported too.\n\n### format\n\nType: `Function`\n\nReceive the user input and return the formatted value to be used inside the program.\nThe value returned will be added to the response object.\n\nThe function signature is `(val, values)`, where `val` is the value from the current prompt and\n`values` is the current response object in case you need to format based on previous responses.\n\n**Example:**\n```js\n{\n    type: 'number',\n    name: 'price',\n    message: 'Enter price',\n    format: val => Intl.NumberFormat(undefined, { style: 'currency', currency: 'USD' }).format(val);\n}\n```\n\n### onState\n\nType: `Function`\n\nCallback for when the state of the current prompt changes.\nThe function signature is `(state)` where `state` is an object with a snapshot of the current state.\nThe state object have two properties `value` and `aborted`. E.g `{ value: 'This is ', aborted: false }`\n\n\n![split](https://github.com/terkelg/prompts/raw/master/media/split.png)\n\n\n## ❯ Types\n\n### text(message, [initial], [style])\n> Text prompt for free text input.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/text.gif\" alt=\"text prompt\" width=\"499\" height=\"103\" />\n\n```js\n{\n  type: 'text',\n  name: 'value',\n  message: `What's your twitter handle?`,\n  style: 'default',\n  initial: ''\n}\n```\n\n#### Options\n| Param | Type | Default | Description |\n| --- | --- | --- | --- |\n| message | <code>string</code> |  | Prompt message to display |\n| initial | <code>string</code> | <code>''</code> | Default string value |\n| style | <code>string</code> | <code>'default'</code> | Render style (`default`, `password`, `invisible`) |\n| format | <code>function</code> |  | Receive user input. The returned value will be added to the response object |\n| onState | <code>function</code> |  | On state change callback |\n\n\n### password(message, [initial])\n> Password prompt with masked input.\n\nThis prompt is a similar to a prompt of type `'text'` with `style` set to `'password'`.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/password.gif\" alt=\"password prompt\" width=\"499\" height=\"103\" />\n\n```js\n{\n  type: 'password',\n  name: 'value',\n  message: 'Tell me a secret',\n  initial '',\n}\n```\n\n#### Options\n| Param | Type | Description |\n| --- | --- | --- |\n| message | <code>string</code> | Prompt message to display |\n| initial | <code>string</code> | Default string value |\n| format | <code>function</code> | Receive user input. The returned value will be added to the response object |\n| onState | <code>function</code> | On state change callback | \n\n\n### invisible(message, [initial])\n> Prompts user for invisible text input.\n\nThis prompt is working like `sudo` where the input is invisible.\nThis prompt is a similar to a prompt of type `'text'` with style set to `'invisible'`.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/invisible.gif\" alt=\"invisible prompt\" width=\"499\" height=\"103\" />\n\n```js\n{\n  type: 'invisible',\n  name: 'value',\n  message: 'Enter password',\n  initial: ''\n}\n```\n\n#### Options\n| Param | Type | Description |\n| --- | --- | --- |\n| message | <code>string</code> | Prompt message to display |\n| initial | <code>string</code> | Default string value |\n| format | <code>function</code> | Receive user input. The returned value will be added to the response object |\n| onState | <code>function</code> | On state change callback |\n\n\n### number(message, initial, [max], [min], [style])\n> Prompts user for number input. \n\nYou can type in numbers and use <kbd>up</kbd>/<kbd>down</kbd> to increase/decrease the value. Only numbers are allowed as input.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/number.gif\" alt=\"number prompt\" width=\"499\" height=\"103\" />\n\n```js\n{\n  type: 'number',\n  name: 'value',\n  message: 'How old are you?',\n  initial: 0,\n  style: 'default',\n  min: 2,\n  max: 10\n}\n```\n\n#### Options\n| Param | Type | Default | Description |\n| --- | --- | --- | --- |\n| message | <code>string</code> |  | Prompt message to display |\n| initial | <code>number</code> | `null` | Default number value |\n| format | <code>function</code> |  | Receive user input. The returned value will be added to the response object |\n| max | <code>number</code> | `Infinity` | Max value |\n| min | <code>number</code> | `-infinity` | Min value |\n| style | <code>string</code> | <code>'default'</code> | Render style (`default`, `password`, `invisible`) |\n| onState | <code>function</code> |  | On state change callback | \n\n### confirm(message, [initial])\n> Classic yes/no prompt.\n\nHit <kbd>y</kbd> or <kbd>n</kbd> to confirm/reject.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/confirm.gif\" alt=\"confirm prompt\" width=\"499\" height=\"103\" />\n\n```js\n{\n  type: 'confirm',\n  name: 'value',\n  message: 'Can you confirm?',\n  initial: true\n}\n```\n\n\n#### Options\n| Param | Type | Default | Description |\n| --- | --- | --- | --- |\n| message | <code>string</code> |  | Prompt message to display |\n| initial | <code>boolean</code> | <code>false</code> | Default value |\n| format | <code>function</code> |  | Receive user input. The returned value will be added to the response object |\n| onState | <code>function</code> |  | On state change callback | \n\n### list(message, [initial])\n> List prompt that return an array.\n\nSimilar to the `text` prompt, but the output is an `Array` containing the\nstring separated by `separator`.\n\n```js\n{\n  type: 'list',\n  name: 'value',\n  message: 'Enter keywords',\n  initial: '',\n  separator: ','\n}\n```\n\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/list.gif\" alt=\"list prompt\" width=\"499\" height=\"103\" />\n\n\n| Param | Type | Default | Description |\n| --- | --- | --- | --- |\n| message | <code>string</code> |  | Prompt message to display |\n| initial | <code>boolean</code> | <code>false</code> | Default value |\n| format | <code>function</code> |  | Receive user input. The returned value will be added to the response object |\n| separator | <code>string</code> | <code>','</code> | String separator. Will trim all white-spaces from start and end of string |\n| onState | <code>function</code> |  | On state change callback |\n\n\n### toggle(message, [initial], [active], [inactive])\n> Interactive toggle/switch prompt.\n\nUse tab or <kbd>arrow keys</kbd>/<kbd>tab</kbd>/<kbd>space</kbd> to switch between options.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/toggle.gif\" alt=\"toggle prompt\" width=\"499\" height=\"103\" />\n\n```js\n{\n  type: 'toggle',\n  name: 'value',\n  message: 'Can you confirm?',\n  initial: true,\n  active: 'yes',\n  inactive: 'no'\n}\n```\n\n#### Options\n| Param | Type | Default | Description |\n| --- | --- | --- | --- |\n| message | <code>string</code> |  | Prompt message to display |\n| initial | <code>boolean</code> | <code>false</code> | Default value |\n| format | <code>function</code> |  | Receive user input. The returned value will be added to the response object |\n| active | <code>string</code> | <code>'on'</code> | Text for `active` state |\n| inactive | <code>string</code> | <code>'off'</code> | Text for `inactive` state |\n| onState | <code>function</code> |  | On state change callback |\n\n### select(message, choices, [initial])\n> Interactive select prompt.\n\nUse <kbd>up</kbd>/<kbd>down</kbd> to navigate. Use <kbd>tab</kbd> to cycle the list.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/select.gif\" alt=\"select prompt\" width=\"499\" height=\"130\" />\n\n```js\n{\n    type: 'select',\n    name: 'value',\n    message: 'Pick a color',\n    choices: [\n        { title: 'Red', value: '#ff0000' },\n        { title: 'Green', value: '#00ff00' },\n        { title: 'Blue', value: '#0000ff' }\n    ],\n    initial: 1\n}\n```\n\n#### Options\n| Param | Type | Description |\n| --- | --- | --- |\n| message | <code>string</code> | Prompt message to display |\n| initial | <code>number</code> | Index of default value |\n| format | <code>function</code> | Receive user input. The returned value will be added to the response object |\n| choices | <code>Array</code> | Array of choices objects `[{ title, value }, ...]` |\n| onState | <code>function</code> | On state change callback |\n\n\n### multiselect(message, choices, [initial], [max], [hint])\n> Interactive multi-select prompt.\n\nUse <kbd>space</kbd> to toggle select/unselect and <kbd>up</kbd>/<kbd>down</kbd> to navigate. Use <kbd>tab</kbd> to cycle the list. You can also use <kbd>right</kbd> to select and <kbd>left</kbd> to deselect.\nBy default this prompt returns an `array` containing the **values** of the selected items - not their display title.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/multiselect.gif\" alt=\"multiselect prompt\" width=\"499\" height=\"130\" />\n\n```js\n{\n    type: 'multiselect',\n    name: 'value',\n    message: 'Pick colors',\n    choices: [\n        { title: 'Red', value: '#ff0000' },\n        { title: 'Green', value: '#00ff00' },\n        { title: 'Blue', value: '#0000ff', selected: true }\n    ],\n    initial: 1,\n    max: 2,\n    hint: '- Space to select. Return to submit'\n}\n```\n\n#### Options\n| Param | Type | Description |\n| --- | --- | --- |\n| message | <code>string</code> | Prompt message to display |\n| format | <code>function</code> | Receive user input. The returned value will be added to the response object |\n| choices | <code>Array</code> | Array of choices objects `[{ title, value, [selected] }, ...]` |\n| max | <code>number</code> | Max select |\n| hint | <code>string</code> | Hint to display user |\n| onState | <code>function</code> | On state change callback | \n\nThis is one of the few prompts that don't take a initial value.\nIf you want to predefine selected values, give the choice object an `selected` property of `true`.\n\n\n### autocomplete(message, choices, [initial], [suggest], [limit], [style])\n> Interactive auto complete prompt. \n\nThe prompt will list options based on user input. Type to filter the list.\nUse <kbd>up</kbd>/<kbd>down</kbd> to navigate. Use <kbd>tab</kbd> to cycle the result. Hit <kbd>enter</kbd> to select the highlighted item below the prompt. \n\nThe default suggests function is sorting based on the `title` property of the choices.\nYou can overwrite how choices are being filtered by passing your own suggest function.\n\n#### Example\n<img src=\"https://github.com/terkelg/prompts/raw/master/media/autocomplete.gif\" alt=\"auto complete prompt\" width=\"499\" height=\"163\" />\n\n```js\n{\n    type: 'autocomplete',\n    name: 'value',\n    message: 'Pick your favorite actor',\n    choices: [\n        { title: 'Cage' },\n        { title: 'Clooney', value: 'silver-fox' },\n        { title: 'Gyllenhaal' },\n        { title: 'Gibson' },\n        { title: 'Grant' },\n    ]\n}\n```\n\n#### Options\n| Param | Type | Default | Description |\n| --- | --- | --- | --- |\n| message | <code>string</code> |  | Prompt message to display |\n| format | <code>function</code> |  | Receive user input. The returned value will be added to the response object |\n| choices | <code>Array</code> |  | Array of auto-complete choices objects `[{ title, value }, ...]` |\n| suggest | <code>function</code> | By `title` string | Filter function. Defaults to sort by `title` property. `suggest` should always return a promise |\n| limit | <code>number</code> | <code>10</code> | Max number of results to show |\n| style | <code>string</code> | `'default'` | Render style (`default`, `password`, `invisible`) |\n| onState | <code>function</code> |  | On state change callback |\n\nExample on what a `suggest` function might look like:\n```js\nconst suggestByTitle = (input, choices) =>\n  Promise.resolve(choices.filter(i => i.title.slice(0, input.length) === input))\n```\n\n\n![split](https://github.com/terkelg/prompts/raw/master/media/split.png)\n\n\n## ❯ Credit\nMany of the prompts are based on the work of [derhuerst](https://github.com/derhuerst).\n\n\n## ❯ License\n\nMIT © [Terkel Gjervig](https://terkel.com)"
+}
