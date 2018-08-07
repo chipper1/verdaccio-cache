@@ -1,0 +1,994 @@
+{
+	"name": "@types/lunr",
+	"versions": {
+		"0.5.14-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.14-alpha",
+			"description": "Type definitions for lunr.js 0.5.4 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.14-alpha",
+			"_shasum": "e6bbcab6680bfc34898a74bac9ffd1467cb4863d",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.8.2",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "e6bbcab6680bfc34898a74bac9ffd1467cb4863d",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.14-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.14-alpha.tgz_1463463218426_0.7037805670406669"
+			},
+			"directories": {}
+		},
+		"0.5.15-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.15-alpha",
+			"description": "Type definitions for lunr.js 0.5.4 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.15-alpha",
+			"_shasum": "acf69605a236bd7b736e4d20aadc4ac25c1f92c8",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.8.2",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "acf69605a236bd7b736e4d20aadc4ac25c1f92c8",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.15-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.15-alpha.tgz_1463693922978_0.7952806961257011"
+			},
+			"directories": {}
+		},
+		"0.5.20-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.20-alpha",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.20-alpha",
+			"_shasum": "9ca70370deb63ff083085dc789e4e2715608eeb5",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.8.2",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "9ca70370deb63ff083085dc789e4e2715608eeb5",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.20-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.20-alpha.tgz_1463774845299_0.4731811536476016"
+			},
+			"directories": {}
+		},
+		"0.5.21-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.21-alpha",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.21-alpha",
+			"_shasum": "43fa9bfcd7994e6e439fa4ef32ced66e597f7475",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.8.2",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "43fa9bfcd7994e6e439fa4ef32ced66e597f7475",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.21-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.21-alpha.tgz_1464153914021_0.15469487197697163"
+			},
+			"directories": {}
+		},
+		"0.5.22-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.22-alpha",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.22-alpha",
+			"_shasum": "0b3ddade53373d20b338502588bbb917951810f4",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "0b3ddade53373d20b338502588bbb917951810f4",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.22-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.22-alpha.tgz_1467403348638_0.3601275465916842"
+			},
+			"directories": {}
+		},
+		"0.5.23-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.23-alpha",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.23-alpha",
+			"_shasum": "6af75fee0b3ba9b89ece1edea1708f6e863d6837",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "6af75fee0b3ba9b89ece1edea1708f6e863d6837",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.23-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.23-alpha.tgz_1467415341231_0.49278187355957925"
+			},
+			"directories": {}
+		},
+		"0.5.24-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.24-alpha",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.24-alpha",
+			"_shasum": "780a165fef157914fc6779c79513c3dc1d1906f6",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "780a165fef157914fc6779c79513c3dc1d1906f6",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.24-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.24-alpha.tgz_1467427916132_0.13181031704880297"
+			},
+			"directories": {}
+		},
+		"0.5.25-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.25-alpha",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.25-alpha",
+			"_shasum": "164fd64fa292e4900aa4b3a61afec902930c3c29",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "164fd64fa292e4900aa4b3a61afec902930c3c29",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.25-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.25-alpha.tgz_1467593081282_0.35663547716103494"
+			},
+			"directories": {}
+		},
+		"0.5.26-alpha": {
+			"name": "@types/lunr",
+			"version": "0.5.26-alpha",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.26-alpha",
+			"_shasum": "0493190aa0bb3ace56c0a4b6efb5e40bd514cc81",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "0493190aa0bb3ace56c0a4b6efb5e40bd514cc81",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.26-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.26-alpha.tgz_1468010734228_0.45670660701580346"
+			},
+			"directories": {}
+		},
+		"0.5.27": {
+			"name": "@types/lunr",
+			"version": "0.5.27",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Sebastian Lenz",
+				"email": "https://github.com/sebastian-lenz"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {},
+			"_id": "@types/lunr@0.5.27",
+			"_shasum": "8f1ab4606e8681c12dca656245f14315214f7d0f",
+			"_from": "output\\lunr",
+			"_resolved": "file:output\\lunr",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"dist": {
+				"shasum": "8f1ab4606e8681c12dca656245f14315214f7d0f",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.27.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.27.tgz_1468509624003_0.15420921728946269"
+			},
+			"directories": {}
+		},
+		"0.5.28": {
+			"name": "@types/lunr",
+			"version": "0.5.28",
+			"description": "TypeScript definitions for lunr.js 0.5.4",
+			"license": "MIT",
+			"author": "Sebastian Lenz <https://github.com/sebastian-lenz>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typings": "index.d.ts",
+			"typesPublisherContentHash": "c43373e059c8d1276602f631740d48697b6180cf8aaaf376f1efd75f29c54a32",
+			"_id": "@types/lunr@0.5.28",
+			"dist": {
+				"shasum": "d916433a2802deded2ef320d75ca934c769865c1",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.28.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.28.tgz_1474307385482_0.47322761034592986"
+			},
+			"directories": {}
+		},
+		"0.5.29": {
+			"name": "@types/lunr",
+			"version": "0.5.29",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sebastian Lenz",
+					"url": "https://github.com/sebastian-lenz"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "f33a712b641de5195ba9b6406159890259a80de8f5c90455f8614c86f1120d12",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/lunr@0.5.29",
+			"dist": {
+				"shasum": "9e60552ff4d0d4e0823b7062b21d968caa90f8fb",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.29.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/lunr-0.5.29.tgz_1490371264854_0.19180860184133053"
+			},
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "@types/lunr",
+			"version": "2.1.0",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sean Tan",
+					"url": "https://github.com/seantanly",
+					"githubUsername": "seantanly"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "e2d0f5761e27b20cad33e7a94ce3abcb6430e00e23fd6f790dfcff3f8b14425b",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/lunr@2.1.0",
+			"dist": {
+				"integrity": "sha512-mQbiiUT6X4GGf7cCAuwofY7lLXNMtYoVqbcnBtJ/9x38O/kqBmUTQDrToU+eA2i3YAVcDTUJsLHsPrBXU6BslA==",
+				"shasum": "c71389537a330a499ff8be31c9ebc8ab7f54777d",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-2.1.0.tgz_1505418229714_0.009656761540099978"
+			},
+			"directories": {}
+		},
+		"0.5.30": {
+			"name": "@types/lunr",
+			"version": "0.5.30",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sebastian Lenz",
+					"url": "https://github.com/sebastian-lenz",
+					"githubUsername": "sebastian-lenz"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "43c4a201fe857d4731016a4cf335a2245b47a639e16fa9db235f67d588f4cb46",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/lunr@0.5.30",
+			"dist": {
+				"integrity": "sha512-R1Dd83UFexr8UDd9cdjJvcTjznyybAu9hi7kMuwy5jhNqcIXX7CI97fJQwt2FzEhYmFBloa13R3GBMJ3J3Yyfg==",
+				"shasum": "ac099b93c9e014fe88cdeafcff638b00f28ed6f2",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.30.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-0.5.30.tgz_1505418230560_0.6195796239189804"
+			},
+			"directories": {}
+		},
+		"2.1.1": {
+			"name": "@types/lunr",
+			"version": "2.1.1",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sean Tan",
+					"url": "https://github.com/seantanly",
+					"githubUsername": "seantanly"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "739c740cb8ce7599a9b9740a4d64865d81872b27b1bdb6efbc6b62f1aa2ae429",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/lunr@2.1.1",
+			"dist": {
+				"integrity": "sha512-TaNUqznjY6SdapmLbY0JrInNPoA4Du8a5CF9HQewt6jj6OPfTvWGfR8pAKnYc+N99CjXbN3CZiD0nvAT7RIN0g==",
+				"shasum": "4c7577a91250bd4239737a04961bfb49a2009d9f",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-2.1.1.tgz_1506449942291_0.14239685190841556"
+			},
+			"directories": {}
+		},
+		"2.1.2": {
+			"name": "@types/lunr",
+			"version": "2.1.2",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sean Tan",
+					"url": "https://github.com/seantanly",
+					"githubUsername": "seantanly"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "7500e9cd65d87da5641880708c960544458bbdf91ea09a752436b83d9ec04753",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/lunr@2.1.2",
+			"dist": {
+				"integrity": "sha512-XIFYES8mjHUdB0w+O+T0MnWDgm/OKbZr9P1H2HHIy2Ui/oHeEKSkDOub622k2aGa9cWwb342jwfz2R/Xfy45Ww==",
+				"shasum": "fb2d3529cd2a104f6af23afaca0ab7f392454dee",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-2.1.2.tgz_1507933663069_0.659320013364777"
+			},
+			"directories": {}
+		},
+		"0.5.31": {
+			"name": "@types/lunr",
+			"version": "0.5.31",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sebastian Lenz",
+					"url": "https://github.com/sebastian-lenz",
+					"githubUsername": "sebastian-lenz"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "bea1d8e8854360c2f69fe8bf902540a56f0bfdd1aad5abdd7beccd630a1e2bad",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/lunr@0.5.31",
+			"dist": {
+				"integrity": "sha512-GYOLdBnpESq1mP3hEB/VUjFoDdUqdK68m2LPjOMUfNGucqaZOVaV6Ei7olx44f24pkcN8ImRllV02NR1h3gGOw==",
+				"shasum": "8a56454432945e1be02d29e96949f552c6b96ef4",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.31.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-0.5.31.tgz_1508893590191_0.7305702914018184"
+			},
+			"directories": {}
+		},
+		"2.1.3": {
+			"name": "@types/lunr",
+			"version": "2.1.3",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sean Tan",
+					"url": "https://github.com/seantanly",
+					"githubUsername": "seantanly"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "0937c722818160f9d920934a54cda20f1e321211ab0bf3b609330ae0696ffdd0",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/lunr@2.1.3",
+			"dist": {
+				"integrity": "sha512-bK9pImPLQjm1eDT+6zwEodxS6Zz8Ega/JKH5bSEKN1t9VSJhQVZEv4pjKrdPMhON0fhQcr/2H7bRNZOd3DTHHA==",
+				"shasum": "efa1eb1d2bfa7b86c41bde119774be6ae4016666",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-2.1.3.tgz_1508893959852_0.39177818642929196"
+			},
+			"directories": {}
+		},
+		"2.1.4": {
+			"name": "@types/lunr",
+			"version": "2.1.4",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sean Tan",
+					"url": "https://github.com/seantanly",
+					"githubUsername": "seantanly"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "ab2f24bcdc3255b628a54094088e2a9ec9f38f98d99143f3b513af8f620298f4",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/lunr@2.1.4",
+			"dist": {
+				"integrity": "sha512-gRzQOFLrlCl+IBkpZMlRuJTnI+Hqdi5fGDAxukCHLTQIvggUqVLCr2zCL+mdbwxP3bkTRx/TQgDMmN+QD63PbA==",
+				"shasum": "6b9e4398970644960807e485d8ed169c970efc5b",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-2.1.4.tgz_1512494411136_0.464765555690974"
+			},
+			"directories": {}
+		},
+		"2.1.5": {
+			"name": "@types/lunr",
+			"version": "2.1.5",
+			"description": "TypeScript definitions for lunr.js",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Sean Tan",
+					"url": "https://github.com/seantanly",
+					"githubUsername": "seantanly"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "9153be078e9f596235813693d7e7e7abff8e5a2cced6d21601e115d6e79627e0",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/lunr@2.1.5",
+			"dist": {
+				"integrity": "sha512-esk3CG25hRtHsVHm+LOjiSFYdw8be3uIY653WUwR43Bro914HSimPgPpqgajkhTJ0awK3RQfaIxP7zvbtCpcyg==",
+				"shasum": "afb90226a6d2eb472eb1732cef7493a02b0177fd",
+				"tarball": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-2.1.5.tgz_1512576515306_0.5576970772817731"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:10:21.935Z",
+		"created": "2016-05-17T05:33:42.202Z",
+		"0.5.14-alpha": "2016-05-17T05:33:42.202Z",
+		"0.5.15-alpha": "2016-05-19T21:38:45.499Z",
+		"0.5.20-alpha": "2016-05-20T20:07:26.337Z",
+		"0.5.21-alpha": "2016-05-25T05:25:14.518Z",
+		"0.5.22-alpha": "2016-07-01T20:02:32.175Z",
+		"0.5.23-alpha": "2016-07-01T23:22:21.782Z",
+		"0.5.24-alpha": "2016-07-02T02:51:59.690Z",
+		"0.5.25-alpha": "2016-07-04T00:44:44.567Z",
+		"0.5.26-alpha": "2016-07-08T20:45:36.426Z",
+		"0.5.27": "2016-07-14T15:20:24.615Z",
+		"0.5.28": "2016-09-19T17:49:48.726Z",
+		"0.5.29": "2017-03-24T16:01:07.099Z",
+		"2.1.0": "2017-09-14T19:43:49.855Z",
+		"0.5.30": "2017-09-14T19:43:50.630Z",
+		"2.1.1": "2017-09-26T18:19:02.357Z",
+		"2.1.2": "2017-10-13T22:27:43.138Z",
+		"0.5.31": "2017-10-25T01:06:30.255Z",
+		"2.1.3": "2017-10-25T01:12:39.941Z",
+		"2.1.4": "2017-12-05T17:20:11.296Z",
+		"2.1.5": "2017-12-06T16:08:35.366Z"
+	},
+	"dist-tags": {
+		"latest": "2.1.5",
+		"ts2.0": "0.5.29",
+		"ts2.1": "0.5.29",
+		"ts2.2": "0.5.29",
+		"ts2.3": "2.1.5",
+		"ts2.4": "2.1.5",
+		"ts2.5": "2.1.5",
+		"ts2.6": "2.1.5",
+		"ts2.7": "2.1.5",
+		"ts2.8": "2.1.5",
+		"ts2.9": "2.1.5",
+		"ts3.0": "2.1.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"68139923846356a2410f1f659114704d\"",
+			"fetched": 1530302287753
+		}
+	},
+	"_distfiles": {
+		"lunr-0.5.14-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.14-alpha.tgz",
+			"sha": "e6bbcab6680bfc34898a74bac9ffd1467cb4863d",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.15-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.15-alpha.tgz",
+			"sha": "acf69605a236bd7b736e4d20aadc4ac25c1f92c8",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.20-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.20-alpha.tgz",
+			"sha": "9ca70370deb63ff083085dc789e4e2715608eeb5",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.21-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.21-alpha.tgz",
+			"sha": "43fa9bfcd7994e6e439fa4ef32ced66e597f7475",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.22-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.22-alpha.tgz",
+			"sha": "0b3ddade53373d20b338502588bbb917951810f4",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.23-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.23-alpha.tgz",
+			"sha": "6af75fee0b3ba9b89ece1edea1708f6e863d6837",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.24-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.24-alpha.tgz",
+			"sha": "780a165fef157914fc6779c79513c3dc1d1906f6",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.25-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.25-alpha.tgz",
+			"sha": "164fd64fa292e4900aa4b3a61afec902930c3c29",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.26-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.26-alpha.tgz",
+			"sha": "0493190aa0bb3ace56c0a4b6efb5e40bd514cc81",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.27.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.27.tgz",
+			"sha": "8f1ab4606e8681c12dca656245f14315214f7d0f",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.28.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.28.tgz",
+			"sha": "d916433a2802deded2ef320d75ca934c769865c1",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.29.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.29.tgz",
+			"sha": "9e60552ff4d0d4e0823b7062b21d968caa90f8fb",
+			"registry": "npmjs"
+		},
+		"lunr-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.0.tgz",
+			"sha": "c71389537a330a499ff8be31c9ebc8ab7f54777d",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.30.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.30.tgz",
+			"sha": "ac099b93c9e014fe88cdeafcff638b00f28ed6f2",
+			"registry": "npmjs"
+		},
+		"lunr-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.1.tgz",
+			"sha": "4c7577a91250bd4239737a04961bfb49a2009d9f",
+			"registry": "npmjs"
+		},
+		"lunr-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.2.tgz",
+			"sha": "fb2d3529cd2a104f6af23afaca0ab7f392454dee",
+			"registry": "npmjs"
+		},
+		"lunr-0.5.31.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-0.5.31.tgz",
+			"sha": "8a56454432945e1be02d29e96949f552c6b96ef4",
+			"registry": "npmjs"
+		},
+		"lunr-2.1.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.3.tgz",
+			"sha": "efa1eb1d2bfa7b86c41bde119774be6ae4016666",
+			"registry": "npmjs"
+		},
+		"lunr-2.1.4.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.4.tgz",
+			"sha": "6b9e4398970644960807e485d8ed169c970efc5b",
+			"registry": "npmjs"
+		},
+		"lunr-2.1.5.tgz": {
+			"url": "https://registry.npmjs.org/@types/lunr/-/lunr-2.1.5.tgz",
+			"sha": "afb90226a6d2eb472eb1732cef7493a02b0177fd",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"lunr-2.1.5.tgz": {
+			"shasum": "afb90226a6d2eb472eb1732cef7493a02b0177fd"
+		}
+	},
+	"_rev": "2-d41817f73a32fb95",
+	"readme": "# Installation\r\n> `npm install --save @types/lunr`\r\n\r\n# Summary\r\nThis package contains type definitions for lunr.js (https://github.com/olivernn/lunr.js).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lunr\r\n\r\nAdditional Details\r\n * Last updated: Wed, 06 Dec 2017 16:08:29 GMT\r\n * Dependencies: none\r\n * Global values: lunr\r\n\r\n# Credits\r\nThese definitions were written by Sean Tan <https://github.com/seantanly>."
+}
