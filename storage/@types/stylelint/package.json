@@ -1,0 +1,231 @@
+{
+	"name": "@types/stylelint",
+	"versions": {
+		"7.9.0": {
+			"name": "@types/stylelint",
+			"version": "7.9.0",
+			"description": "TypeScript definitions for stylelint",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Alan Agius",
+					"url": "https://github.com/alan-agius4/"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "521ce8a6d5299277d425df6d2aff0622924e6430da7d99f62a0475aa91ebe2ae",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/stylelint@7.9.0",
+			"dist": {
+				"shasum": "aec5d7f107b4a6c9302c566fc3869d118a150f49",
+				"tarball": "https://registry.npmjs.org/@types/stylelint/-/stylelint-7.9.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/stylelint-7.9.0.tgz_1489130969134_0.5420396220870316"
+			},
+			"directories": {}
+		},
+		"7.9.1": {
+			"name": "@types/stylelint",
+			"version": "7.9.1",
+			"description": "TypeScript definitions for stylelint",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Alan Agius",
+					"url": "https://github.com/alan-agius4/"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "388a2e9a4d82ab882e8ed3e67b97287cb17d063da299afb6d8d6c7ead02836a1",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/stylelint@7.9.1",
+			"dist": {
+				"shasum": "633970b62e393f0e179f3547c64180db0a48dbf3",
+				"tarball": "https://registry.npmjs.org/@types/stylelint/-/stylelint-7.9.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/stylelint-7.9.1.tgz_1490647480850_0.8364151553250849"
+			},
+			"directories": {}
+		},
+		"7.10.0": {
+			"name": "@types/stylelint",
+			"version": "7.10.0",
+			"description": "TypeScript definitions for stylelint",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Alan Agius",
+					"url": "https://github.com/alan-agius4"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "b1099b4f44e4fe797c1bc0714f2fa61ade87b5f0198a526b113e1fa6de279815",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/stylelint@7.10.0",
+			"dist": {
+				"shasum": "ee61a44394e46a6fdd0b301254403dbebd34626b",
+				"tarball": "https://registry.npmjs.org/@types/stylelint/-/stylelint-7.10.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/stylelint-7.10.0.tgz_1492528415049_0.9074982164893299"
+			},
+			"directories": {}
+		},
+		"7.11.0": {
+			"name": "@types/stylelint",
+			"version": "7.11.0",
+			"description": "TypeScript definitions for stylelint",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Alan Agius",
+					"url": "https://github.com/alan-agius4",
+					"githubUsername": "alan-agius4"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "fd14fc6079653705943e00e802139bfb0d161debae5aed739f027c7d833460e0",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/stylelint@7.11.0",
+			"dist": {
+				"integrity": "sha512-jW4IIiwu7as3clD1AJnaM6b6ZzNIPeWIyrAufDUiMRL0SGGtYjxZZQKGEEpvCiG2H8UNboCEqUMOr0D3WWLZ5A==",
+				"shasum": "be7bd071074f4f075948d308b7785574b630a57f",
+				"tarball": "https://registry.npmjs.org/@types/stylelint/-/stylelint-7.11.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/stylelint-7.11.0.tgz_1515363561256_0.5528748189099133"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:18:34.647Z",
+		"created": "2017-03-10T07:29:30.877Z",
+		"7.9.0": "2017-03-10T07:29:30.877Z",
+		"7.9.1": "2017-03-27T20:44:42.662Z",
+		"7.10.0": "2017-04-18T15:13:36.973Z",
+		"7.11.0": "2018-01-07T22:19:21.357Z"
+	},
+	"dist-tags": {
+		"latest": "7.11.0",
+		"ts2.0": "7.11.0",
+		"ts2.1": "7.11.0",
+		"ts2.2": "7.11.0",
+		"ts2.3": "7.11.0",
+		"ts2.4": "7.11.0",
+		"ts2.5": "7.11.0",
+		"ts2.6": "7.11.0",
+		"ts2.7": "7.11.0",
+		"ts2.8": "7.11.0",
+		"ts2.9": "7.11.0",
+		"ts3.0": "7.11.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"02db81cfac7bcaf419996438c2812120\"",
+			"fetched": 1530302288509
+		}
+	},
+	"_distfiles": {
+		"stylelint-7.9.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/stylelint/-/stylelint-7.9.0.tgz",
+			"sha": "aec5d7f107b4a6c9302c566fc3869d118a150f49",
+			"registry": "npmjs"
+		},
+		"stylelint-7.9.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/stylelint/-/stylelint-7.9.1.tgz",
+			"sha": "633970b62e393f0e179f3547c64180db0a48dbf3",
+			"registry": "npmjs"
+		},
+		"stylelint-7.10.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/stylelint/-/stylelint-7.10.0.tgz",
+			"sha": "ee61a44394e46a6fdd0b301254403dbebd34626b",
+			"registry": "npmjs"
+		},
+		"stylelint-7.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/stylelint/-/stylelint-7.11.0.tgz",
+			"sha": "be7bd071074f4f075948d308b7785574b630a57f",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"stylelint-7.11.0.tgz": {
+			"shasum": "be7bd071074f4f075948d308b7785574b630a57f"
+		}
+	},
+	"_rev": "2-ea3c4492c44f0fef",
+	"readme": "# Installation\r\n> `npm install --save @types/stylelint`\r\n\r\n# Summary\r\nThis package contains type definitions for stylelint (https://github.com/stylelint/stylelint).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/stylelint\r\n\r\nAdditional Details\r\n * Last updated: Sun, 07 Jan 2018 22:18:24 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Alan Agius <https://github.com/alan-agius4>."
+}
