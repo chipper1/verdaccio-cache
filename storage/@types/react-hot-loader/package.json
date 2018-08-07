@@ -1,0 +1,449 @@
+{
+	"name": "@types/react-hot-loader",
+	"versions": {
+		"3.0.0": {
+			"name": "@types/react-hot-loader",
+			"version": "3.0.0",
+			"description": "TypeScript definitions for react-hot-loader 3.0",
+			"license": "MIT",
+			"author": "Jacek Jagiello <https://github.com/jacekjagiello/>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"peerDependencies": {},
+			"typings": "index.d.ts",
+			"typesPublisherContentHash": "a149fd3f3ba3bd6f98b2e9b1113996a9d12d617f9b224130a42dd0efa3c58554",
+			"_id": "@types/react-hot-loader@3.0.0",
+			"dist": {
+				"shasum": "8adaa7fba98f369377653c02a7fec26515440016",
+				"tarball": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-hot-loader-3.0.0.tgz_1479243912321_0.08672552835196257"
+			},
+			"directories": {}
+		},
+		"3.0.1": {
+			"name": "@types/react-hot-loader",
+			"version": "3.0.1",
+			"description": "TypeScript definitions for react-hot-loader",
+			"license": "MIT",
+			"author": "Jacek Jagiello <https://github.com/jacekjagiello/>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "497def708dd79a9846da2c0c9fc598e7021d19efcee890fb208da27078bfaeb7",
+			"typeScriptVersion": "2.1",
+			"_id": "@types/react-hot-loader@3.0.1",
+			"dist": {
+				"shasum": "d15e3af68595c5d6c5576cfcc18e28d578924fce",
+				"tarball": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-hot-loader-3.0.1.tgz_1485207283353_0.5613550604321063"
+			},
+			"directories": {}
+		},
+		"3.0.2": {
+			"name": "@types/react-hot-loader",
+			"version": "3.0.2",
+			"description": "TypeScript definitions for react-hot-loader",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Jacek Jagiello",
+					"url": "https://github.com/jacekjagiello/"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "bf889c87334b0c7b634749fc5f493cceeca7af67445b78a0cf6644e4cbaea9b1",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-hot-loader@3.0.2",
+			"dist": {
+				"integrity": "sha512-g3GzjcdKakQsGkmRf6dDUe8ToE+dJJ+YuxHqjzdHHUtYi5/5VfT7pmEBzo4eltUldZTRanvf2czc9+DYvVDtVg==",
+				"shasum": "ab221b38822ec92cd34aa8eefdf5e19241a55487",
+				"tarball": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-hot-loader-3.0.2.tgz_1498239363637_0.5106318020261824"
+			},
+			"directories": {}
+		},
+		"3.0.3": {
+			"name": "@types/react-hot-loader",
+			"version": "3.0.3",
+			"description": "TypeScript definitions for react-hot-loader",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Jacek Jagiello",
+					"url": "https://github.com/jacekjagiello/"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "a15a71a6c9510c7f249567f6f6bf34cfaa29c1920e781aad16a1fade95395cf1",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-hot-loader@3.0.3",
+			"dist": {
+				"integrity": "sha512-XW+Vx6tVWVpO7+CHk7ebtWSBglSwXNsEKwm+60Ge4dbtSQZ8sK93wZsPnl/CQKt5tfqNNIs3TpyaRVjHe+BOgw==",
+				"shasum": "ee02b1999c22713418e198cc3eb090b7e76ce592",
+				"tarball": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-hot-loader-3.0.3.tgz_1498859190445_0.20168490172363818"
+			},
+			"directories": {}
+		},
+		"3.0.4": {
+			"name": "@types/react-hot-loader",
+			"version": "3.0.4",
+			"description": "TypeScript definitions for react-hot-loader",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Jacek Jagiello",
+					"url": "https://github.com/jacekjagiello"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"typesPublisherContentHash": "4ac74d4b0f0c3d7c0def855f47a01ed577cf7e0cd2d4ef50e0acce4b3b15d9f0",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-hot-loader@3.0.4",
+			"dist": {
+				"integrity": "sha512-qCXpnU0p3eker4x+bHCKJvLeyzvJz3+hoX/Vpc2qlu4MvWLKTNj9QXI63XpFPO2rTwjIJRowoX5cuKCbee91kw==",
+				"shasum": "7fc081509830c64218d8a99a865e2fb4a94572ad",
+				"tarball": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-hot-loader-3.0.4.tgz_1503352892151_0.9887717645615339"
+			},
+			"directories": {}
+		},
+		"3.0.5": {
+			"name": "@types/react-hot-loader",
+			"version": "3.0.5",
+			"description": "TypeScript definitions for react-hot-loader",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Jacek Jagiello",
+					"url": "https://github.com/jacekjagiello",
+					"githubUsername": "jacekjagiello"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"typesPublisherContentHash": "2aa6c5f2440be8f9ddd5b08eb19bc028dd7499a5c6a2c4bfcf80a333b0dcaad4",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-hot-loader@3.0.5",
+			"dist": {
+				"integrity": "sha512-KL0OLo1158WBWv+QoP9Z9f+MupiM9DpwJST52D0AyxUpXFmyzV1VskwRp+RZsnZemMcAPoyBy8od44HuJtuVwQ==",
+				"shasum": "b80fe14268e2942a6c2d8ecea829cbfa893a0cbb",
+				"tarball": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-hot-loader-3.0.5.tgz_1508948581188_0.21528694918379188"
+			},
+			"directories": {}
+		},
+		"3.0.6": {
+			"name": "@types/react-hot-loader",
+			"version": "3.0.6",
+			"description": "TypeScript definitions for react-hot-loader",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Jacek Jagiello",
+					"url": "https://github.com/jacekjagiello",
+					"githubUsername": "jacekjagiello"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"typesPublisherContentHash": "ea476ef8acc8c9bb5a824f9dcd07e2c6f77587518b595991a7f1149b041fcf24",
+			"typeScriptVersion": "2.6",
+			"_id": "@types/react-hot-loader@3.0.6",
+			"dist": {
+				"integrity": "sha512-GdGUhpcFbx/outNfNMRll0skfuD9Awqh2U/jZHII1MLBGT3cDc61dr36t9X8niYgtYQwDizOl5afRo3tYnP+2Q==",
+				"shasum": "23b1875a327c32cbab705fbf660d8f207ede4d69",
+				"tarball": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.6.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3028
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-hot-loader_3.0.6_1518469290669_0.382577306441102"
+			}
+		},
+		"4.1.0": {
+			"name": "@types/react-hot-loader",
+			"version": "4.1.0",
+			"description": "TypeScript definitions for react-hot-loader",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Jacek Jagiello",
+					"url": "https://github.com/jacekjagiello",
+					"githubUsername": "jacekjagiello"
+				},
+				{
+					"name": "MartynasZilinskas",
+					"url": "https://github.com/MartynasZilinskas",
+					"githubUsername": "MartynasZilinskas"
+				},
+				{
+					"name": "Dovydas Navickas",
+					"url": "https://github.com/DovydasNavickas",
+					"githubUsername": "DovydasNavickas"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*",
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "e2d0167211dbfbd2b6493c686c83bb4d8d6976f35ccd70175d0004589fa13c70",
+			"typeScriptVersion": "2.8",
+			"_id": "@types/react-hot-loader@4.1.0",
+			"dist": {
+				"integrity": "sha512-N/+Ua6kSrehJ5vpu4b2tAG4NjMcXQPlStnkUzjNlPokae97sUDtj096WlgN3ApefCvggPjJPP5iutyZ5dKBNPQ==",
+				"shasum": "8e072b44331ad0182918228c5d2bf514646760de",
+				"tarball": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-4.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3981,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa4k/+CRA9TVsSAnZWagAAmGoQAJNfwNkUPjQKJCg0+qkG\nh3hfbmxPlD+41N2thBKAG3GyeKx8KM2DBVUwwFzpzaxTIFqLjEfTrYWTbRT6\nXwcVeX6M/xgs0Y4ecN+FpGqqE6TodkffJceZwthP6FWMKTqECyt3nUW/0KDZ\nZDR7UsdQuA1066qSRK9YunmQh8R9nwZZ9ut7eGjcfAhdQm2yCDsfK8aiAPWk\ndsUXGHFSkPoLwyuAosz4J/qkfbRaxcWV7/670uhM2QFXxhui90QXA51KWHg3\nhaE+gmCerocYm+cgEFQPwdjwhDVJLXPq2OhEbQi7qa7s5XfoxSuYPY3wPlrW\n5qOvWb/JePXji4d+kEej9UuUKxK/md9ReVuDxSTRvuRIwzqseQwvMjxrXQ47\nArYi/Wl1D+DlIjZ75uBc+3cBr/sHgPGHPIC+8t7+pPBFyyNr65uUH8if89Iz\nEZrsFdgHq7VZQ7oKL6+NjMKKUFyJgXZlHmBoyyVVm1scQnjsSksIKsUIW5eA\nn0g0SN2qYLlYR/hkDDe1JZoerPoPOaJhRFNmVsLQXBdDjHpuF0whKcOhkHgu\ncpJ8s5nCtP5G0WWNoIW3jVNhY5arNfIyOb8HECuDy1HZxkfNdbPaaXrs/tty\nk7K/sr5j2zNdiIkMN7Y90VPtqBgDo69cUOQLLsIvaTZzHACVaKNHQYjhfyOC\nBKnT\r\n=rwEz\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-hot-loader_4.1.0_1524781054009_0.7264759360912332"
+			}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:14:55.159Z",
+		"created": "2016-11-15T21:05:14.161Z",
+		"3.0.0": "2016-11-15T21:05:14.161Z",
+		"3.0.1": "2017-01-23T21:34:45.227Z",
+		"3.0.2": "2017-06-23T17:36:03.803Z",
+		"3.0.3": "2017-06-30T21:46:30.531Z",
+		"3.0.4": "2017-08-21T22:01:32.219Z",
+		"3.0.5": "2017-10-25T16:23:01.997Z",
+		"3.0.6": "2018-02-12T21:01:30.718Z",
+		"4.1.0": "2018-04-26T22:17:34.108Z"
+	},
+	"dist-tags": {
+		"latest": "4.1.0",
+		"ts2.0": "3.0.0",
+		"ts2.1": "3.0.1",
+		"ts2.2": "3.0.1",
+		"ts2.3": "3.0.5",
+		"ts2.4": "3.0.5",
+		"ts2.5": "3.0.5",
+		"ts2.6": "3.0.6",
+		"ts2.7": "3.0.6",
+		"ts2.8": "4.1.0",
+		"ts2.9": "4.1.0",
+		"ts3.0": "4.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"cb6f6663758cf03e7fbb8e1fb5c8356e\"",
+			"fetched": 1530302287112
+		}
+	},
+	"_distfiles": {
+		"react-hot-loader-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.0.tgz",
+			"sha": "8adaa7fba98f369377653c02a7fec26515440016",
+			"registry": "npmjs"
+		},
+		"react-hot-loader-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.1.tgz",
+			"sha": "d15e3af68595c5d6c5576cfcc18e28d578924fce",
+			"registry": "npmjs"
+		},
+		"react-hot-loader-3.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.2.tgz",
+			"sha": "ab221b38822ec92cd34aa8eefdf5e19241a55487",
+			"registry": "npmjs"
+		},
+		"react-hot-loader-3.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.3.tgz",
+			"sha": "ee02b1999c22713418e198cc3eb090b7e76ce592",
+			"registry": "npmjs"
+		},
+		"react-hot-loader-3.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.4.tgz",
+			"sha": "7fc081509830c64218d8a99a865e2fb4a94572ad",
+			"registry": "npmjs"
+		},
+		"react-hot-loader-3.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.5.tgz",
+			"sha": "b80fe14268e2942a6c2d8ecea829cbfa893a0cbb",
+			"registry": "npmjs"
+		},
+		"react-hot-loader-3.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-3.0.6.tgz",
+			"sha": "23b1875a327c32cbab705fbf660d8f207ede4d69",
+			"registry": "npmjs"
+		},
+		"react-hot-loader-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-hot-loader/-/react-hot-loader-4.1.0.tgz",
+			"sha": "8e072b44331ad0182918228c5d2bf514646760de",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"react-hot-loader-4.1.0.tgz": {
+			"shasum": "8e072b44331ad0182918228c5d2bf514646760de"
+		}
+	},
+	"_rev": "2-bbb5e422bff4a986",
+	"readme": "# Installation\r\n> `npm install --save @types/react-hot-loader`\r\n\r\n# Summary\r\nThis package contains type definitions for react-hot-loader (https://github.com/gaearon/react-hot-loader).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-hot-loader\r\n\r\nAdditional Details\r\n * Last updated: Thu, 26 Apr 2018 22:15:53 GMT\r\n * Dependencies: react, node\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Jacek Jagiello <https://github.com/jacekjagiello>, MartynasZilinskas <https://github.com/MartynasZilinskas>, Dovydas Navickas <https://github.com/DovydasNavickas>."
+}
