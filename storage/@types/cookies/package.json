@@ -1,0 +1,803 @@
+{
+	"name": "@types/cookies",
+	"versions": {
+		"0.5.16-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.16-alpha",
+			"description": "Type definitions for cookie-parser v0.5.1 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"http": "*"
+			},
+			"_id": "@types/cookies@0.5.16-alpha",
+			"_shasum": "05ac20ff549930d076f82b10a13e4fec35269635",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.8.2",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "05ac20ff549930d076f82b10a13e4fec35269635",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.16-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.16-alpha.tgz_1463460063820_0.49337062682025135"
+			},
+			"directories": {}
+		},
+		"0.5.17-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.17-alpha",
+			"description": "Type definitions for cookie-parser v0.5.1 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"http": "*",
+				"@types/node": "*"
+			},
+			"_id": "@types/cookies@0.5.17-alpha",
+			"_shasum": "0accf954cfafc6b3cc5fc26780faface1b5f87aa",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.8.2",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "0accf954cfafc6b3cc5fc26780faface1b5f87aa",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.17-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.17-alpha.tgz_1463690018958_0.36821029451675713"
+			},
+			"directories": {}
+		},
+		"0.5.22-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.22-alpha",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"_id": "@types/cookies@0.5.22-alpha",
+			"_shasum": "9d11c272fc8a2baa9f678fa964c59474e0c6315d",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.8.2",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "9d11c272fc8a2baa9f678fa964c59474e0c6315d",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.22-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.22-alpha.tgz_1463772166514_0.4297370749991387"
+			},
+			"directories": {}
+		},
+		"0.5.23-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.23-alpha",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"_id": "@types/cookies@0.5.23-alpha",
+			"_shasum": "3bcbe807d8ad0acb42030f792a422a7506e268e0",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.8.2",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "3bcbe807d8ad0acb42030f792a422a7506e268e0",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.23-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.23-alpha.tgz_1464151236484_0.42412992799654603"
+			},
+			"directories": {}
+		},
+		"0.5.24-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.24-alpha",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"@types/node": "4.0.*"
+			},
+			"_id": "@types/cookies@0.5.24-alpha",
+			"_shasum": "c593979bc7ea87c63b5cfdbecc67ea3c7d0cff28",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "c593979bc7ea87c63b5cfdbecc67ea3c7d0cff28",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.24-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.24-alpha.tgz_1467400176087_0.18232366046868265"
+			},
+			"directories": {}
+		},
+		"0.5.25-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.25-alpha",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"@types/node": "4.0.23-alpha"
+			},
+			"_id": "@types/cookies@0.5.25-alpha",
+			"_shasum": "c16463c9e24b5defb51a3f88cc9d6fc4d1a7452a",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "c16463c9e24b5defb51a3f88cc9d6fc4d1a7452a",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.25-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.25-alpha.tgz_1467411828831_0.7414968064986169"
+			},
+			"directories": {}
+		},
+		"0.5.26-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.26-alpha",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"@types/node": "4.0.24-alpha"
+			},
+			"_id": "@types/cookies@0.5.26-alpha",
+			"_shasum": "ac0ca83d41bfa5a1ef5fb35dc9551d8776298543",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "ac0ca83d41bfa5a1ef5fb35dc9551d8776298543",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.26-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.26-alpha.tgz_1467425244556_0.03221382503397763"
+			},
+			"directories": {}
+		},
+		"0.5.27-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.27-alpha",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"@types/node": "4.0.26-alpha"
+			},
+			"_id": "@types/cookies@0.5.27-alpha",
+			"_shasum": "a011d57e1f5137eed4d4d08117a9aec4d275d229",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "a011d57e1f5137eed4d4d08117a9aec4d275d229",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.27-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.27-alpha.tgz_1467590375188_0.7866456026677042"
+			},
+			"directories": {}
+		},
+		"0.5.28-alpha": {
+			"name": "@types/cookies",
+			"version": "0.5.28-alpha",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"@types/node": "4.0.27-alpha"
+			},
+			"_id": "@types/cookies@0.5.28-alpha",
+			"_shasum": "742cbf8fb748fd0269994a1b580e0b03525705e7",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ryan.cavanaugh@microsoft.com"
+			},
+			"dist": {
+				"shasum": "742cbf8fb748fd0269994a1b580e0b03525705e7",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.28-alpha.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.28-alpha.tgz_1468007311773_0.864670711569488"
+			},
+			"directories": {}
+		},
+		"0.5.29": {
+			"name": "@types/cookies",
+			"version": "0.5.29",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"main": "",
+			"scripts": {},
+			"author": {
+				"name": "Wang Zishi",
+				"email": "https://github.com/WangZishi/"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"license": "MIT",
+			"typings": "index.d.ts",
+			"dependencies": {
+				"@types/node": "4.0.*"
+			},
+			"_id": "@types/cookies@0.5.29",
+			"_shasum": "be6a8b65d380db066719e0d3a63a29dea66f3a00",
+			"_from": "output\\cookies",
+			"_resolved": "file:output\\cookies",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"dist": {
+				"shasum": "be6a8b65d380db066719e0d3a63a29dea66f3a00",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.29.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.29.tgz_1468506006074_0.9234650479629636"
+			},
+			"directories": {}
+		},
+		"0.5.30": {
+			"name": "@types/cookies",
+			"version": "0.5.30",
+			"description": "TypeScript definitions for cookie-parser v0.5.1",
+			"license": "MIT",
+			"author": "Wang Zishi <https://github.com/WangZishi/>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"typings": "index.d.ts",
+			"typesPublisherContentHash": "85c3325f41be9194559424a61bd59eef985132e2764a039ccfe4426588603d25",
+			"_id": "@types/cookies@0.5.30",
+			"dist": {
+				"shasum": "de798b61d6c6da77d6559ab1db4c6f3c8b4935bd",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.30.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.5.30.tgz_1474303340036_0.388487697346136"
+			},
+			"directories": {}
+		},
+		"0.6.0": {
+			"name": "@types/cookies",
+			"version": "0.6.0",
+			"description": "TypeScript definitions for cookies",
+			"license": "MIT",
+			"author": "Wang Zishi <https://github.com/WangZishi/>, jKey Lu <https://github.com/jkeylu>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/keygrip": "*",
+				"@types/node": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "7b1edb6a235916a104c3e6d0738c1c94983aecb712b9f7e07d33ae40b2432744",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/cookies@0.6.0",
+			"dist": {
+				"shasum": "f5e8df2357502a895d5627e2fb8b174b3b269461",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.6.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.6.0.tgz_1484155076836_0.6238179854117334"
+			},
+			"directories": {}
+		},
+		"0.6.1": {
+			"name": "@types/cookies",
+			"version": "0.6.1",
+			"description": "TypeScript definitions for cookies",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Wang Zishi",
+					"url": "https://github.com/WangZishi/"
+				},
+				{
+					"name": "jKey Lu",
+					"url": "https://github.com/jkeylu"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/keygrip": "*",
+				"@types/node": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "ddb6f6b214f3b22989b50f00613717669dc75e36e6d1bda06f32e6633c3c9ee9",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/cookies@0.6.1",
+			"dist": {
+				"shasum": "d12cbd0f8aa6b9f0d3bfb613b958897a0b348731",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.6.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ryan.cavanaugh@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.6.1.tgz_1490369133469_0.9817457154858857"
+			},
+			"directories": {}
+		},
+		"0.7.0": {
+			"name": "@types/cookies",
+			"version": "0.7.0",
+			"description": "TypeScript definitions for cookies",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Wang Zishi",
+					"url": "https://github.com/WangZishi"
+				},
+				{
+					"name": "jKey Lu",
+					"url": "https://github.com/jkeylu"
+				},
+				{
+					"name": "BendingBender",
+					"url": "https://github.com/BendingBender"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/keygrip": "*",
+				"@types/express": "*",
+				"@types/connect": "*",
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "94b8d77abcba8db6191396fbf076099bf368cfd55e26b39ac7c88b96aa775e74",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/cookies@0.7.0",
+			"dist": {
+				"integrity": "sha512-lbLe3uddY92a2Zcd8GzJUhTwN5bxNGw//ew6PyTfeoQ87OuT/CJVJpdtttEBPMG/v9FG6vBjfQQRwicOKfvVFg==",
+				"shasum": "2ba1e4fbe4218f944540d3b7481218d5593372a1",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.7.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cookies-0.7.0.tgz_1503352222886_0.7297528646886349"
+			},
+			"directories": {}
+		},
+		"0.7.1": {
+			"name": "@types/cookies",
+			"version": "0.7.1",
+			"description": "TypeScript definitions for cookies",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Wang Zishi",
+					"url": "https://github.com/WangZishi",
+					"githubUsername": "WangZishi"
+				},
+				{
+					"name": "jKey Lu",
+					"url": "https://github.com/jkeylu",
+					"githubUsername": "jkeylu"
+				},
+				{
+					"name": "BendingBender",
+					"url": "https://github.com/BendingBender",
+					"githubUsername": "BendingBender"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/keygrip": "*",
+				"@types/express": "*",
+				"@types/connect": "*",
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "a7ec21a8671b3dc44eb9920343d5ff8a19852742de1fd176e23f5338344df257",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/cookies@0.7.1",
+			"dist": {
+				"integrity": "sha512-ku6IvbucEyuC6i4zAVK/KnuzWNXdbFd1HkXlNLg/zhWDGTtQT5VhumiPruB/BHW34PWVFwyfwGftDQHfWNxu3Q==",
+				"shasum": "f9f204bd6767d389eea3b87609e30c090c77a540",
+				"tarball": "https://registry.npmjs.org/@types/cookies/-/cookies-0.7.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cookies-0.7.1.tgz_1509390390937_0.75635647890158"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:01:59.190Z",
+		"created": "2016-05-17T04:41:04.367Z",
+		"0.5.16-alpha": "2016-05-17T04:41:04.367Z",
+		"0.5.17-alpha": "2016-05-19T20:33:42.318Z",
+		"0.5.22-alpha": "2016-05-20T19:22:48.956Z",
+		"0.5.23-alpha": "2016-05-25T04:40:38.935Z",
+		"0.5.24-alpha": "2016-07-01T19:09:36.607Z",
+		"0.5.25-alpha": "2016-07-01T22:23:49.443Z",
+		"0.5.26-alpha": "2016-07-02T02:07:27.883Z",
+		"0.5.27-alpha": "2016-07-03T23:59:38.491Z",
+		"0.5.28-alpha": "2016-07-08T19:48:34.428Z",
+		"0.5.29": "2016-07-14T14:20:08.360Z",
+		"0.5.30": "2016-09-19T16:42:21.971Z",
+		"0.6.0": "2017-01-11T17:17:57.078Z",
+		"0.6.1": "2017-03-24T15:25:33.729Z",
+		"0.7.0": "2017-08-21T21:50:22.989Z",
+		"0.7.1": "2017-10-30T19:06:31.010Z"
+	},
+	"dist-tags": {
+		"latest": "0.7.1",
+		"ts2.0": "0.7.0",
+		"ts2.1": "0.7.0",
+		"ts2.2": "0.7.0",
+		"ts2.3": "0.7.1",
+		"ts2.4": "0.7.1",
+		"ts2.5": "0.7.1",
+		"ts2.6": "0.7.1",
+		"ts2.7": "0.7.1",
+		"ts2.8": "0.7.1",
+		"ts2.9": "0.7.1",
+		"ts3.0": "0.7.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"fbd0d77c92f630a63616393cd5b0dda6\"",
+			"fetched": 1530302287098
+		}
+	},
+	"_distfiles": {
+		"cookies-0.5.16-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.16-alpha.tgz",
+			"sha": "05ac20ff549930d076f82b10a13e4fec35269635",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.17-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.17-alpha.tgz",
+			"sha": "0accf954cfafc6b3cc5fc26780faface1b5f87aa",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.22-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.22-alpha.tgz",
+			"sha": "9d11c272fc8a2baa9f678fa964c59474e0c6315d",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.23-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.23-alpha.tgz",
+			"sha": "3bcbe807d8ad0acb42030f792a422a7506e268e0",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.24-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.24-alpha.tgz",
+			"sha": "c593979bc7ea87c63b5cfdbecc67ea3c7d0cff28",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.25-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.25-alpha.tgz",
+			"sha": "c16463c9e24b5defb51a3f88cc9d6fc4d1a7452a",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.26-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.26-alpha.tgz",
+			"sha": "ac0ca83d41bfa5a1ef5fb35dc9551d8776298543",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.27-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.27-alpha.tgz",
+			"sha": "a011d57e1f5137eed4d4d08117a9aec4d275d229",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.28-alpha.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.28-alpha.tgz",
+			"sha": "742cbf8fb748fd0269994a1b580e0b03525705e7",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.29.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.29.tgz",
+			"sha": "be6a8b65d380db066719e0d3a63a29dea66f3a00",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.30.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.5.30.tgz",
+			"sha": "de798b61d6c6da77d6559ab1db4c6f3c8b4935bd",
+			"registry": "npmjs"
+		},
+		"cookies-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.6.0.tgz",
+			"sha": "f5e8df2357502a895d5627e2fb8b174b3b269461",
+			"registry": "npmjs"
+		},
+		"cookies-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.6.1.tgz",
+			"sha": "d12cbd0f8aa6b9f0d3bfb613b958897a0b348731",
+			"registry": "npmjs"
+		},
+		"cookies-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.7.0.tgz",
+			"sha": "2ba1e4fbe4218f944540d3b7481218d5593372a1",
+			"registry": "npmjs"
+		},
+		"cookies-0.7.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/cookies/-/cookies-0.7.1.tgz",
+			"sha": "f9f204bd6767d389eea3b87609e30c090c77a540",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"cookies-0.7.1.tgz": {
+			"shasum": "f9f204bd6767d389eea3b87609e30c090c77a540"
+		}
+	},
+	"_rev": "2-53120d0c776365bd",
+	"readme": "# Installation\r\n> `npm install --save @types/cookies`\r\n\r\n# Summary\r\nThis package contains type definitions for cookies (https://github.com/pillarjs/cookies).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cookies\r\n\r\nAdditional Details\r\n * Last updated: Mon, 30 Oct 2017 19:05:37 GMT\r\n * Dependencies: http, keygrip, express, connect, node\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Wang Zishi <https://github.com/WangZishi>, jKey Lu <https://github.com/jkeylu>, BendingBender <https://github.com/BendingBender>."
+}
