@@ -1,0 +1,335 @@
+{
+	"name": "@types/react-syntax-highlighter",
+	"versions": {
+		"0.0.0": {
+			"name": "@types/react-syntax-highlighter",
+			"version": "0.0.0",
+			"description": "TypeScript definitions for react-syntax-highlighter",
+			"license": "MIT",
+			"author": "Ivo Stratev <https://github.com/NoHomey>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"peerDependencies": {},
+			"typings": "index.d.ts",
+			"typesPublisherContentHash": "1a0c874a84edd0f243ac40d5c977dac11cff705658d7b029f1156a0d19ae3c83",
+			"_id": "@types/react-syntax-highlighter@0.0.0",
+			"dist": {
+				"shasum": "7da080ae0bb3aea0e0176f1e5c97f38c681bb394",
+				"tarball": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-syntax-highlighter-0.0.0.tgz_1479152244015_0.9769829758442938"
+			},
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "@types/react-syntax-highlighter",
+			"version": "0.0.1",
+			"description": "TypeScript definitions for react-syntax-highlighter",
+			"license": "MIT",
+			"author": "Ivo Stratev <https://github.com/NoHomey>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "bff9a5bd22083d9ef95663f817f3a6bdeef34b60e69530de8bd9196b8c4066e9",
+			"typeScriptVersion": "2.1",
+			"_id": "@types/react-syntax-highlighter@0.0.1",
+			"dist": {
+				"shasum": "617f542e595d3166f19d5366e1baa9608db9f645",
+				"tarball": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-syntax-highlighter-0.0.1.tgz_1485207347179_0.719540371093899"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "@types/react-syntax-highlighter",
+			"version": "0.0.2",
+			"description": "TypeScript definitions for react-syntax-highlighter",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Ivo Stratev",
+					"url": "https://github.com/NoHomey"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "5636463d4f18672eb6935e982f2d2a98dcea25e5b557e32674861433c1f0dd8a",
+			"typeScriptVersion": "2.1",
+			"_id": "@types/react-syntax-highlighter@0.0.2",
+			"dist": {
+				"shasum": "9b49a33f6763696f8bfc97ccbbd13f2fde47841d",
+				"tarball": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-syntax-highlighter-0.0.2.tgz_1489006794576_0.17223342740908265"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "@types/react-syntax-highlighter",
+			"version": "0.0.3",
+			"description": "TypeScript definitions for react-syntax-highlighter",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Ivo Stratev",
+					"url": "https://github.com/NoHomey"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "11c0fc06081c84f580c268363d856a20314bb563322e6c2ddd4354ca5476b3b1",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/react-syntax-highlighter@0.0.3",
+			"dist": {
+				"integrity": "sha512-9WTqi/+uXeUW3Eb9zfVLd4TkE11KKJiZfEUTc4mkwrKIlxumhlcP5BmM3yi27oAcO26LwhUGUZHsT2FD5/p9dw==",
+				"shasum": "c15aeac29eb193d11ac3a70e3d489f8539e6ee1a",
+				"tarball": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-syntax-highlighter-0.0.3.tgz_1498239507584_0.6325886398553848"
+			},
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "@types/react-syntax-highlighter",
+			"version": "0.0.4",
+			"description": "TypeScript definitions for react-syntax-highlighter",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Ivo Stratev",
+					"url": "https://github.com/NoHomey",
+					"githubUsername": "NoHomey"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"typesPublisherContentHash": "f79394016876caa362681958a0305592a2006857a3aa2dae34a6d23bc04e208a",
+			"typeScriptVersion": "2.6",
+			"_id": "@types/react-syntax-highlighter@0.0.4",
+			"dist": {
+				"integrity": "sha512-X+P9rTpVJxXKiJLDQir5axzSewwj3MZYbGry5UGKFdd6qlwWVDFBbQ3PMjl1zKyzE5eytaw4h3XMq7ujgeYc0w==",
+				"shasum": "b3f7ecd76e5f5cca9f1ea71a4bf864ff7b8031de",
+				"tarball": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 20260
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-syntax-highlighter_0.0.4_1518469699823_0.9860518750199576"
+			}
+		},
+		"0.0.5": {
+			"name": "@types/react-syntax-highlighter",
+			"version": "0.0.5",
+			"description": "TypeScript definitions for react-syntax-highlighter",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Ivo Stratev",
+					"url": "https://github.com/NoHomey",
+					"githubUsername": "NoHomey"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/react": "*"
+			},
+			"typesPublisherContentHash": "ed1dba3ff1ab3d093e13af6ce9b2acc73ac42b1582e2f2aa424c09e139b07b03",
+			"typeScriptVersion": "2.6",
+			"_id": "@types/react-syntax-highlighter@0.0.5",
+			"dist": {
+				"integrity": "sha512-QRJL5Lkk+vijY1pigXtV44J/vg2l8hh/SQ5DD/L5whKuVLLbqdrtIa8Zh7X/uurrIjTH6jLlcHenPSZjJjvhIA==",
+				"shasum": "9c100c416faba8a441a39c915042bea498ebc98d",
+				"tarball": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.5.tgz",
+				"fileCount": 4,
+				"unpackedSize": 26254
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-syntax-highlighter_0.0.5_1519988168813_0.18885924940637122"
+			}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:15:27.420Z",
+		"created": "2016-11-14T19:37:24.237Z",
+		"0.0.0": "2016-11-14T19:37:24.237Z",
+		"0.0.1": "2017-01-23T21:35:48.865Z",
+		"0.0.2": "2017-03-08T20:59:54.850Z",
+		"0.0.3": "2017-06-23T17:38:28.244Z",
+		"0.0.4": "2018-02-12T21:08:19.868Z",
+		"0.0.5": "2018-03-02T10:56:08.866Z"
+	},
+	"dist-tags": {
+		"latest": "0.0.5",
+		"ts2.0": "0.0.0",
+		"ts2.1": "0.0.2",
+		"ts2.2": "0.0.2",
+		"ts2.3": "0.0.3",
+		"ts2.4": "0.0.3",
+		"ts2.5": "0.0.3",
+		"ts2.6": "0.0.5",
+		"ts2.7": "0.0.5",
+		"ts2.8": "0.0.5",
+		"ts2.9": "0.0.5",
+		"ts3.0": "0.0.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"81aab67cc499c8bb2eb5996839146c01\"",
+			"fetched": 1530302287799
+		}
+	},
+	"_distfiles": {
+		"react-syntax-highlighter-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.0.tgz",
+			"sha": "7da080ae0bb3aea0e0176f1e5c97f38c681bb394",
+			"registry": "npmjs"
+		},
+		"react-syntax-highlighter-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.1.tgz",
+			"sha": "617f542e595d3166f19d5366e1baa9608db9f645",
+			"registry": "npmjs"
+		},
+		"react-syntax-highlighter-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.2.tgz",
+			"sha": "9b49a33f6763696f8bfc97ccbbd13f2fde47841d",
+			"registry": "npmjs"
+		},
+		"react-syntax-highlighter-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.3.tgz",
+			"sha": "c15aeac29eb193d11ac3a70e3d489f8539e6ee1a",
+			"registry": "npmjs"
+		},
+		"react-syntax-highlighter-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.4.tgz",
+			"sha": "b3f7ecd76e5f5cca9f1ea71a4bf864ff7b8031de",
+			"registry": "npmjs"
+		},
+		"react-syntax-highlighter-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-0.0.5.tgz",
+			"sha": "9c100c416faba8a441a39c915042bea498ebc98d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"react-syntax-highlighter-0.0.5.tgz": {
+			"shasum": "9c100c416faba8a441a39c915042bea498ebc98d"
+		}
+	},
+	"_rev": "2-7c3c5b2713de5076",
+	"readme": "# Installation\r\n> `npm install --save @types/react-syntax-highlighter`\r\n\r\n# Summary\r\nThis package contains type definitions for react-syntax-highlighter (https://github.com/conorhastings/react-syntax-highlighter).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-syntax-highlighter\r\n\r\nAdditional Details\r\n * Last updated: Fri, 02 Mar 2018 10:54:53 GMT\r\n * Dependencies: react\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Ivo Stratev <https://github.com/NoHomey>."
+}
