@@ -1,0 +1,177 @@
+{
+	"name": "convert-hrtime",
+	"versions": {
+		"1.0.0": {
+			"name": "convert-hrtime",
+			"version": "1.0.0",
+			"description": "Convert the result of `process.hrtime()` to seconds, milliseconds, nanoseconds",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/convert-hrtime.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"process",
+				"hrtime",
+				"time",
+				"highres",
+				"perf",
+				"performance",
+				"bench",
+				"benchmark",
+				"measure",
+				"seconds",
+				"milliseconds",
+				"nanoseconds"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"gitHead": "ed4b6f39da5b6956f3bc581e41b5ef2b0340e8e7",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/convert-hrtime/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/convert-hrtime#readme",
+			"_id": "convert-hrtime@1.0.0",
+			"_shasum": "6b466d53f6df1b658f496575cd9a48262a5ca557",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "6b466d53f6df1b658f496575cd9a48262a5ca557",
+				"tarball": "https://registry.npmjs.org/convert-hrtime/-/convert-hrtime-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "convert-hrtime",
+			"version": "2.0.0",
+			"description": "Convert the result of `process.hrtime()` to seconds, milliseconds, nanoseconds",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/convert-hrtime.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"process",
+				"hrtime",
+				"time",
+				"highres",
+				"perf",
+				"performance",
+				"bench",
+				"benchmark",
+				"measure",
+				"seconds",
+				"milliseconds",
+				"nanoseconds"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"xo": "*"
+			},
+			"gitHead": "1c4a3a29c1a521820583dc4f63a3f4eda78f8552",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/convert-hrtime/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/convert-hrtime#readme",
+			"_id": "convert-hrtime@2.0.0",
+			"_shasum": "19bfb2c9162f9e11c2f04c2c79de2b7e8095c627",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.8.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "19bfb2c9162f9e11c2f04c2c79de2b7e8095c627",
+				"tarball": "https://registry.npmjs.org/convert-hrtime/-/convert-hrtime-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/convert-hrtime-2.0.0.tgz_1495519157011_0.7980234669521451"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2017-05-23T05:59:17.115Z",
+		"created": "2015-12-10T19:55:33.074Z",
+		"1.0.0": "2015-12-10T19:55:33.074Z",
+		"2.0.0": "2017-05-23T05:59:17.115Z"
+	},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e0453de97882e3cdec2ba2dc922d680c\"",
+			"fetched": 1531004224484
+		}
+	},
+	"_distfiles": {
+		"convert-hrtime-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/convert-hrtime/-/convert-hrtime-1.0.0.tgz",
+			"sha": "6b466d53f6df1b658f496575cd9a48262a5ca557",
+			"registry": "npmjs"
+		},
+		"convert-hrtime-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/convert-hrtime/-/convert-hrtime-2.0.0.tgz",
+			"sha": "19bfb2c9162f9e11c2f04c2c79de2b7e8095c627",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"convert-hrtime-2.0.0.tgz": {
+			"shasum": "19bfb2c9162f9e11c2f04c2c79de2b7e8095c627"
+		}
+	},
+	"_rev": "2-39c0745ba246bd92",
+	"readme": "# convert-hrtime [![Build Status](https://travis-ci.org/sindresorhus/convert-hrtime.svg?branch=master)](https://travis-ci.org/sindresorhus/convert-hrtime)\n\n> Convert the result of [`process.hrtime()`](https://nodejs.org/api/process.html#process_process_hrtime) to seconds, milliseconds, nanoseconds\n\n\n## Install\n\n```\n$ npm install --save convert-hrtime\n```\n\n\n## Usage\n\n```js\nconst convertHrtime = require('convert-hrtime');\n\nconvertHrtime(process.hrtime(process.hrtime()));\n//=> {seconds: 0.000002399, milliseconds: 0.002399, nanoseconds: 2399}\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
+}
