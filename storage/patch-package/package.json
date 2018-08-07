@@ -1,0 +1,4895 @@
+{
+	"name": "patch-package",
+	"versions": {
+		"1.0.0": {
+			"name": "patch-package",
+			"version": "1.0.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "tsc",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint --fix -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/node": "^7.0.18",
+				"@types/tmp": "^0.0.33",
+				"jest": "^20.0.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.2"
+			},
+			"dependencies": {
+				"app-root-path": "^2.0.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "98a84e2f2d6e18eb0e9e6b61e68c6d039243f4fe",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@1.0.0",
+			"_shasum": "7bead6ce3166e0c7b872f14ce7f466a371cdd08c",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "7bead6ce3166e0c7b872f14ce7f466a371cdd08c",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/patch-package-1.0.0.tgz_1494275559281_0.2736712610349059"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "patch-package",
+			"version": "1.1.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "tsc",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint --fix -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/node": "^7.0.18",
+				"@types/tmp": "^0.0.33",
+				"jest": "^20.0.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "df781cc90066ec47713cfc65c8437484e54b0953",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@1.1.0",
+			"_shasum": "b06bd3cfb0dd561056f4eb7457d05cd44be08799",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "b06bd3cfb0dd561056f4eb7457d05cd44be08799",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/patch-package-1.1.0.tgz_1494285636095_0.7641716815996915"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "patch-package",
+			"version": "1.1.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "tsc",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint --fix -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/node": "^7.0.18",
+				"@types/tmp": "^0.0.33",
+				"jest": "^20.0.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "f5e4cbdb7a44539c25539d94754546b52c29471e",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@1.1.1",
+			"_shasum": "68735dc8ef913af8128d9c216f1cbcab16de2c0d",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "68735dc8ef913af8128d9c216f1cbcab16de2c0d",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/patch-package-1.1.1.tgz_1494288074049_0.5122960631269962"
+			},
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "patch-package",
+			"version": "1.2.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "tsc",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint --fix -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/node": "^7.0.18",
+				"@types/tmp": "^0.0.33",
+				"jest": "^20.0.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "dd1b9c099edc71cd6624523be273fc64973d09fc",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@1.2.0",
+			"_shasum": "81fd926163382818e7dfaa57bd082aaeb2872be3",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "81fd926163382818e7dfaa57bd082aaeb2872be3",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/patch-package-1.2.0.tgz_1494326573467_0.7360574882477522"
+			},
+			"directories": {}
+		},
+		"1.2.1": {
+			"name": "patch-package",
+			"version": "1.2.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "tsc",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint --fix -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "45f59a7478663d25d4f96e1b5149dcc054fc9afc",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@1.2.1",
+			"_shasum": "149ebe7a1584f5a749bfb83db7ae1acae4a5b2a8",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "149ebe7a1584f5a749bfb83db7ae1acae4a5b2a8",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/patch-package-1.2.1.tgz_1494358369509_0.6929907565936446"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "patch-package",
+			"version": "2.0.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "tsc",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint --fix -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"peerDependencies": {
+				"yarn": "^0.23.4"
+			},
+			"gitHead": "05c0d02f827c2eea522d7362bbb9240c8682a67e",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@2.0.0",
+			"_shasum": "9e189c18df810737131a4c862d7998ee733ff855",
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "9e189c18df810737131a4c862d7998ee733ff855",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/patch-package-2.0.0.tgz_1494518728909_0.4207894883584231"
+			},
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "patch-package",
+			"version": "2.1.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"np": "^2.15.0",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "59b8e51c10e75bfabc4546a96b2d2de3a2e9345b",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@2.1.0",
+			"_shasum": "7485c8d7682ef730e469735e46addf239dd35cd7",
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "7485c8d7682ef730e469735e46addf239dd35cd7",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-2.1.0.tgz_1496244889755_0.4243043134920299"
+			},
+			"directories": {}
+		},
+		"2.1.1": {
+			"name": "patch-package",
+			"version": "2.1.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"np": "^2.15.0",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "8eb3bf107fdf816f4716b3c5593f9f406961ee1c",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@2.1.1",
+			"_npmVersion": "5.0.1",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-YYlvInzJeUVhHM8vC+H1pBi+5wsvsC11BCF07PujYmLjTGonzSJUU4+GAj/JvZkcN2e7yjNN36BB2XzwXUnzxw==",
+				"shasum": "041182d3a69ec09b7d350930716052f48b5ec874",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-2.1.1.tgz_1496685916106_0.9867998112458736"
+			},
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "patch-package",
+			"version": "3.0.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/jest": "^19.2.4",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.4"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "a6160f08d043be7d0346a7f2bab7cda4f1f70eda",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.0.0",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-g1MtykRAO7PjcMBeZg8TX7OOY2ch54JnCj1SM0nVCUHPTpxwMxXjpjhkG7aBE0a+jACaEgjRAGZicpPY0KpLgw==",
+				"shasum": "f6adf182ed2136662c1f5c3ea320902b0ed77021",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.0.0.tgz_1497480495813_0.6097058535087854"
+			},
+			"directories": {}
+		},
+		"3.1.0": {
+			"name": "patch-package",
+			"version": "3.1.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/jest": "^19.2.4",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.4"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31"
+			},
+			"gitHead": "6ecfb9f0ad4d6ae189bd881ca07c199d1e2dddf6",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.1.0",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "8.0.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Xjh+gmY9sC0MIVgH5QOsPmy1fPvjfACcZ8FU6aoJl+zh7segTJ5Ix9767I74Z2GhPVog5pFshScsxKh6sSMQNg==",
+				"shasum": "9a55b3d1ae460beb7b86ec07614107d04ed03fe4",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.1.0.tgz_1498315539679_0.8333869003690779"
+			},
+			"directories": {}
+		},
+		"3.2.0": {
+			"name": "patch-package",
+			"version": "3.2.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/jest": "^19.2.4",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.4"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "fd1daf718fb86cdd9024e02d36e5b6b0b3c2428b",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.2.0",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "8.0.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-6IZ3M1JeqA8OZJaYmSMI1AJZsEcksgyXQegkH35/AvJV7zVJsoZbPbqzS53ESN/iNB2y/EVmCq/YF+aBPMwAyg==",
+				"shasum": "73e4441fec3b5c64221d06385e0756c260e90ccb",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.2.0.tgz_1498316081597_0.16025182930752635"
+			},
+			"directories": {}
+		},
+		"3.2.1": {
+			"name": "patch-package",
+			"version": "3.2.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/jest": "^19.2.4",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.4"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "6ff9d39f5628991121450c4dd747fc8891246ef5",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.2.1",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "8.0.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-qDrU2J5p8wKSrcrfuj807y4EEH8DruCAoYv5AKcnQ8k6V+a+x+KOHrIydZqqCK8w9EeJKzFv0Efwo81/Eu9SPg==",
+				"shasum": "555cfd4812123666e19cd632cea2089f8ac3781c",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.2.1.tgz_1498318662642_0.5345391980372369"
+			},
+			"directories": {}
+		},
+		"3.3.0": {
+			"name": "patch-package",
+			"version": "3.3.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/jest": "^19.2.4",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.4"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "f7c3cc42acb22c53a3882b7fdd94cc22e62fd129",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.3.0",
+			"_shasum": "f9a6610f63a0f6de1c2790537115c1431eb7f15c",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "f9a6610f63a0f6de1c2790537115c1431eb7f15c",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.3.0.tgz_1501088153560_0.9047594291623682"
+			},
+			"directories": {}
+		},
+		"3.3.1": {
+			"name": "patch-package",
+			"version": "3.3.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"git add"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^19.2.4",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.4"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"shell-escape": "^0.2.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "d603bb15c1e55382f41a709e56a5794034a4c231",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.3.1",
+			"_shasum": "bfdf6f172c1af319a8e6f0779d024045eea60c0b",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "bfdf6f172c1af319a8e6f0779d024045eea60c0b",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.3.1.tgz_1501864837763_0.8952742908149958"
+			},
+			"directories": {}
+		},
+		"3.3.2": {
+			"name": "patch-package",
+			"version": "3.3.2",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^19.2.4",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.4"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "8e8ded88c8657dcac335299190a175470330e308",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.3.2",
+			"_shasum": "b0ae2530872c37c70bb6e8101b8c98a31976b3f7",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "b0ae2530872c37c70bb6e8101b8c98a31976b3f7",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.3.2.tgz_1502186122525_0.5450889796484262"
+			},
+			"directories": {}
+		},
+		"3.3.3": {
+			"name": "patch-package",
+			"version": "3.3.3",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^19.2.4",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.1",
+				"tslint": "^5.2.0",
+				"typescript": "^2.3.4"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "ee25f0abc60d89311dac904344f2037e5cce6eda",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.3.3",
+			"_shasum": "4818a8e6f199cad76413f2c3298d63021f258332",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"shasum": "4818a8e6f199cad76413f2c3298d63021f258332",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.3.3.tgz_1502231471140_0.42304483405314386"
+			},
+			"directories": {}
+		},
+		"3.3.4": {
+			"name": "patch-package",
+			"version": "3.3.4",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "2cb6ee2a3cf9c0c9cf08a9ebc4cccf955635ccbb",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.3.4",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-reSYY4R3PzX5xuoRCFgXRSkF+bk4KeNem2mHJ4qWrPxb/Kut78IpP+XwBDFlZ2YzLvgEJiSwYlIxf54zDdtohA==",
+				"shasum": "63d3390800aad1be0200972bb58c65757e05e21f",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.3.4.tgz_1503524393606_0.6839510023128241"
+			},
+			"directories": {}
+		},
+		"3.3.5": {
+			"name": "patch-package",
+			"version": "3.3.5",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "1d832ccf48576f4c1d555ba105ee6afed6cc9998",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.3.5",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-r4yZEffvi1ZQvcLNf+aZVwV/g04ch8ddfMR2FYpVkKW8BW29QbQNOmAsN2rENBniJGlgFwZhuOWsRvuH3DFRsA==",
+				"shasum": "aad6fb2d28da0c9d1a0f96b7f4cd2cd9c626da9a",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.3.5.tgz_1503951098542_0.3732482159975916"
+			},
+			"directories": {}
+		},
+		"3.3.6": {
+			"name": "patch-package",
+			"version": "3.3.6",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "3143bc49f59186ee687961ea110d260ffd16851b",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.3.6",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-doRaymyuYNNCB42TTtjagKDduEdEjDKP97wmdykb7OzX8ojL2nLNMMh5BBDk5C+aLbPTmrBtMaQiYcSFrhkkRw==",
+				"shasum": "553356e2e02dbdae358ef94e87589c502106b311",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.3.6.tgz_1504433610293_0.3431938730645925"
+			},
+			"directories": {}
+		},
+		"3.4.0": {
+			"name": "patch-package",
+			"version": "3.4.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "50964b0b9bb4f3ec26a86a90890ed4c3bdccd2e6",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.4.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-yOOMZmpHeyhsomoNWoJqhPEnZ3S+K21VrsT171rl1M/KLqsmzyepY1XD33Va1T4L/UJqaJeKwdWfQ3b3+TIj4Q==",
+				"shasum": "29a954ad3d04a418334492b00604b0fc73fab5b6",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.4.0.tgz_1505240550918_0.6758739128708839"
+			},
+			"directories": {}
+		},
+		"3.4.1": {
+			"name": "patch-package",
+			"version": "3.4.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "d38215b68db2312d19cfdade42131502c6bfe8aa",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.4.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-RG5vPmLg0b6kiAvefeGMUea1f98S9GXxNasksZh3pP184RckA1CG+KRsgK8ZfCAIjeICABtNsJcDPaO69Vne1A==",
+				"shasum": "ea759298baaef52e64709bd095543a4a3a7e0795",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.4.1.tgz_1506632530968_0.5383487183135003"
+			},
+			"directories": {}
+		},
+		"3.4.2": {
+			"name": "patch-package",
+			"version": "3.4.2",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "2ee53143e13910ce841f6561571c7197908f3738",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.4.2",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-KZKOzBZsZzBwA2yRP7fxTn6VC3ZmrT2yGl1PbrC47JTJ/wRXca5s8BVxCsidx/YaU3TpdEGZ14jblyhP9qvXAQ==",
+				"shasum": "993e8e1e64acfd2e86b58ad930d00b2ca0581192",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.4.2.tgz_1506688139646_0.04964319174177945"
+			},
+			"directories": {}
+		},
+		"3.4.3": {
+			"name": "patch-package",
+			"version": "3.4.3",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "bfe2e3d02bb8c1043c4120e026f647ba37333b55",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.4.3",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-h1pfOBIzRIVwFwFQeqWkUgkDgXDn++i15UO711SYjlZrRUUCdIlMhEzuFBrfXC1LLSYyVksAMm8jeocmesXZqg==",
+				"shasum": "722fd2091b82f9c441486d553d3de3d70ff1b985",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.4.3.tgz_1506774394434_0.8987582956906408"
+			},
+			"directories": {}
+		},
+		"3.4.4": {
+			"name": "patch-package",
+			"version": "3.4.4",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "0f6a1f523a4020c41b9a87f8fd13f378dbdf5a39",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.4.4",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-q/yrx8L4XNdHX2GgCcXo1rlVYSoC2Ks41QzI2YCvTD0laxO05KcMQDEA3ed5PaB/6yYGpR68gTRNH2aj+na9kQ==",
+				"shasum": "9413e4ee6de08265892688f60fbba11027ba1376",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.4.4.tgz_1506777962647_0.20275216246955097"
+			},
+			"directories": {}
+		},
+		"3.4.5": {
+			"name": "patch-package",
+			"version": "3.4.5",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "e2948e89672541d9d47080fe0bdefd80663bf46b",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.4.5",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-mUfYK7DmJl0N+sOvL4pZJSoafkgmSDUt6lflulbkRiBNmtcp3VvJvdExe59J4mxjw2dkT6xHLuThjv9NXIAgwg==",
+				"shasum": "37394806e29be8b9a39d01eec523455d7823a9fd",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.4.5.tgz_1506786312595_0.44745027483440936"
+			},
+			"directories": {}
+		},
+		"3.4.6": {
+			"name": "patch-package",
+			"version": "3.4.6",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "yarn prepublish && yarn pack --filename patch-package.test.$(date +%s).tgz && jest"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "204640470f94fe2e0d00337abee381c7dcd34b2a",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.4.6",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-kZm4/7phwDdQvY/7IslmEGym18nTkVPceKDsJ0zDNZyQN00LtZdI1kbY8ZOxPNpjBe/5EU1TQRWDkVbshs3nKQ==",
+				"shasum": "37277c20c1559aa6b61f8629e6be3657418bc702",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.4.6.tgz_1506965786036_0.5945307116489857"
+			},
+			"directories": {}
+		},
+		"3.5.0": {
+			"name": "patch-package",
+			"version": "3.5.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "7afb5eae61d1d77ae09757e127ba5925422d61fd",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.5.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-1AOFgH6U0s0RUbgIDSm3gPqePwRjw+yJdiI/yNjhAOWPUeduVMYtjWDN3CB9FbyldgeDLYruthIBFT2pKUiLZQ==",
+				"shasum": "ed7a641c1210320084c471de64ab3e133b5f83d8",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.5.0.tgz_1507153117887_0.9885164948645979"
+			},
+			"directories": {}
+		},
+		"3.5.1": {
+			"name": "patch-package",
+			"version": "3.5.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "npm run clean && npm run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "3496f9f90b2a22d7a43ca7032d4ac6a0b65b9f1e",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.5.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-lgu9+x3oizbSwPeFmQsUbSwY3/lOxOxSISNPzJNh1pNSpISSUxQ6qH6yxA8KkXMtmP9LR2udEuWdULiU37qhXA==",
+				"shasum": "197d647c650f3372d622f83a11250465f20850f3",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.5.1.tgz_1508361297306_0.6313609930220991"
+			},
+			"directories": {}
+		},
+		"3.5.2": {
+			"name": "patch-package",
+			"version": "3.5.2",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "3394d995c4d7c399c0957350e354ff6e0299b428",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.5.2",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-8anqno8HfQK8b96DCx2ZFunLN6ehc7/f11p1AQ/CRZkJchzxEobqqARM/tzYWM4tdui58idGsCLSFrireB0usw==",
+				"shasum": "ede08e92afde3b5ca1eb4ce1d68eb6efc3711819",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.5.2.tgz_1509088778800_0.3124052893836051"
+			},
+			"directories": {}
+		},
+		"3.5.3-0": {
+			"name": "patch-package",
+			"version": "3.5.3-0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "c4f6d5338c8afaa8e65ff4f5406d8f8ccf5ee0f1",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.5.3-0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-679VJBTPs5F35sJ7LgwELm6hPniZ3Z128kFehuIiSBTzMKK1b4p3B3T6pIGw47qyifnWWeeutGYbYcNm1G2n8w==",
+				"shasum": "df555ef535eaefd57cd1b46efac4b495067878d2",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.3-0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.5.3-0.tgz_1509314977530_0.03826392465271056"
+			},
+			"directories": {}
+		},
+		"3.5.3": {
+			"name": "patch-package",
+			"version": "3.5.3",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"prepush": "jest",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "24818a352a73dfd034a456565a2b17af1ccb0f2b",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.5.3",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zbkQRFwauALSFGA/2q1sf2SX13EE0YGNEMfLQS3SaGqCZD1HpQ4a89zTymUATOXuuOys9BXE2RuQj5RwqJpE9Q==",
+				"shasum": "eed64a1fce6080d1a82f2f4bc7a2e71fcac8c841",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.5.3.tgz_1509393947615_0.7787280520424247"
+			},
+			"directories": {}
+		},
+		"3.6.0": {
+			"name": "patch-package",
+			"version": "3.6.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "956b3a84454eb1da59171e5789e19ac59f66184e",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.6.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-uMsVKZkg1uFNKzKg4TwjVn0WWpCEBGw17o7CAbHl2qRHackvsMDdOiYFnG3XjOFarbJiOuPp2zfLsBxqA7HfLQ==",
+				"shasum": "ec8ff532ccf390e78e1228bc35dcef0dbd0985be",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.6.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.6.0.tgz_1509477688053_0.21673372574150562"
+			},
+			"directories": {}
+		},
+		"3.6.1": {
+			"name": "patch-package",
+			"version": "3.6.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "46285cb942ec6868ffc523a0db64adabdf76f88f",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@3.6.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-7vAicpiM1PTkD3mdHooUG+1SsEhygFzatbCaCBxeBN/bA4VsbSB4inQqItPDdTUbn/udR3peTRcjJAGOseClig==",
+				"shasum": "65f13838d9d2c05378ef45b1f718687aad3f87c2",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-3.6.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-3.6.1.tgz_1510758737410_0.703127910848707"
+			},
+			"directories": {}
+		},
+		"4.0.0": {
+			"name": "patch-package",
+			"version": "4.0.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "4715696dfd350a63e1e8bf5ea5103cdd72e8caec",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@4.0.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-GN15HGasLr+nVO1D/6N/QHNPL+fOKJi1iP9la4Ka7nQkRtR83iwDMyagDy86Y8lKBGAXmKwOyv18tG7JAG7Mng==",
+				"shasum": "d57a058f7a4f9a1e4133ad4367e0fc1eac3c9fd8",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-4.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-4.0.0.tgz_1511210655432_0.9318284546025097"
+			},
+			"directories": {}
+		},
+		"5.0.0": {
+			"name": "patch-package",
+			"version": "5.0.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "dbb62b2a66c9a86fa63b9f8f0ee8aa08dcbe75d4",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@5.0.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-uLIS4a0+l4j/EhOsqwRdib24MRlpCXTN2VkC1W79qdYi1b2VlLwakdkB2gYq4ENdGLiWdrGEbbNyhz2V5NChAw==",
+				"shasum": "59d1aee5093f4d026e24ad4921e826c0324a8a6b",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-5.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package-5.0.0.tgz_1512218626619_0.0074277613312006"
+			},
+			"directories": {}
+		},
+		"5.1.0": {
+			"name": "patch-package",
+			"version": "5.1.0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "2ceab0b74c66ae013b8af958e7af41493b05abcd",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@5.1.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-cYmKlgECDRh2A/q8sjLSsqqbCQYKHpL6lRtOBi1IPPJoxhqQIMKQVTStajT+MpJFyj36jvQfhgUsR/5n1klENw==",
+				"shasum": "bc2dc54e27ce43acfb5fb3393d6a3fa1790de587",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-5.1.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 149682
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_5.1.0_1518176016264_0.20278967434620254"
+			}
+		},
+		"5.1.1": {
+			"name": "patch-package",
+			"version": "5.1.1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.5.3",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.4.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.2.0"
+			},
+			"gitHead": "7ed4215d6154f545a7158c8229a5559b9f410def",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@5.1.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-bO+vfFGgTVTtv89kXWGEMIPnrYhhhMtbOnJKStfIhNWUxperVjlI++1ixksi0YPCMPGuFy9W3zsKHxIITV2r2A==",
+				"shasum": "e5e82fe08bed760b773b8eb73a7bcb7c1634f802",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-5.1.1.tgz",
+				"fileCount": 21,
+				"unpackedSize": 149832
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_5.1.1_1518256308537_0.666527633479649"
+			}
+		},
+		"6.0.0-0": {
+			"name": "patch-package",
+			"version": "6.0.0-0",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rm -rf dist && rm -f patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "CI=true ./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.1",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "de1ff6fd0a2201d32f07bfae529a65f8ad161ce0",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-0",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-rtE9GRqdAwxOqxYsUVSsKgSuzFyWinIzopemo8V01Gq4rrfF9NmmYhidrznhFSpzTsRCfoO0Ah8+cLMAou0FkA==",
+				"shasum": "fe345680aede7eb91faf69f0d7bc3f351f152aaa",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-0.tgz",
+				"fileCount": 25,
+				"unpackedSize": 203391
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-0_1522362968098_0.6800250354430581"
+			}
+		},
+		"6.0.0-1": {
+			"name": "patch-package",
+			"version": "6.0.0-1",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "a6a6e69cfe78c5da1f7ed3abcb3d6dd87922555b",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-1",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-PM/EXtHUXpCAAp9U/XHYGPOwvcI3OMfJLwNJuybua/vsbhSfoJSnNf/5d4f11mC3zJNFMugyiwPs3ahx+9fgpw==",
+				"shasum": "c746d9575dd2fcd89061a51988ba3da99b3fe9c9",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-1.tgz",
+				"fileCount": 25,
+				"unpackedSize": 203405
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-1_1522445037411_0.5082055896032496"
+			}
+		},
+		"6.0.0-2": {
+			"name": "patch-package",
+			"version": "6.0.0-2",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "d070e9049bf2eec3e16922cd31838c99d9708ac3",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-2",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-q32aDbMTRrd2MSsNWbBvje2eTfxAUUxUO8hNS1yvHRJ1r/wZjqXnELLYy43UVjry+KkhG18HOlz6aHsqxJVWZw==",
+				"shasum": "7c83695506d5ad76d130242f8c3dbcbf8a36529f",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-2.tgz",
+				"fileCount": 25,
+				"unpackedSize": 209274
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-2_1522705271571_0.6629124383930927"
+			}
+		},
+		"6.0.0-3": {
+			"name": "patch-package",
+			"version": "6.0.0-3",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "5d80e1a4a08e9c2d39e183f495464689359eb869",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-3",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-rjapKiVVtsgRjoTxvi6C4SIU8JZMJVFvQP7lnbffu+YupEmHYgUeD6oWbWVcZwPXIobuQccTuXQNcvvtIJUrFg==",
+				"shasum": "846372c19d187a1a1ffc2973a743c8978d01a0ed",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-3.tgz",
+				"fileCount": 25,
+				"unpackedSize": 212846
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-3_1523318877967_0.8104340647579151"
+			}
+		},
+		"6.0.0-4": {
+			"name": "patch-package",
+			"version": "6.0.0-4",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "d605dcc69f8e3af2e1e7365dbc8f07075771dcf1",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-4",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-u14a9VPntf6+pZ1CCEiltRjuVJ3U/OZQTHss1lNuu2hRM2iI4XKZFDntPECR8NcoiKWNf/Q+K0BZdV0cs7GUsA==",
+				"shasum": "5a6294ccb9cabfcec96830ac58acabee8ce5369d",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-4.tgz",
+				"fileCount": 25,
+				"unpackedSize": 211994,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa36ALCRA9TVsSAnZWagAATZIP/io+MvNB118F+OWAPj2a\nvgWd/nrwoLVNTDrndHKFjJILMEmbGuMaF6kBT033QdVKiX7K0RNu3k/+JXZT\nCYcMZfJI31OSu5lWoqjraZbuOXfRLzwrnny8UI9AaXsbS9Kn/f43NtY/qSvM\nCR02uzZEV1XEzzwX8m7ExkA1gzhnygi3+qzr6c54HH4MENMy2jitxPJtpLYF\nasMC2vkSUQNvi7c9fh7103z1ZqLvVb+6BuNX6I6ZhFHpCO8R6OBH7Y3KxvYc\njE2YdIVEa7Oj1CE41kzZJrGknSFQcZZKSB2aHYbta0WdZ98Rxj7ROPc+dwyo\n6tUVouz5msjVcCgBJjv1urc1VeReUFkIhtZihoHfOaYUxM2eZyZ948hZbnjz\ninc+Bj/7IyIS3iJic045G4CgOzJ7Pk3echdVmWRkHfNSBCssOaPuyXckmnWe\ntwEOWps+Mq77GmF3yss5VRKPGcKXzKka27j5NZZGDW7lhYjbIiGhONnMQPHT\nidWat/Iey45datJXOtV2dpUtXTRFmvkAZrY6X8nZOFX6uVmLA8mnbGBZ9vmR\n8hnQYTPvMIUpuUWwHYQhqFyr++TPjw+StJncR1VfzY1fscVTit1RDyb5f4Yp\n/fG6GdTYiyWEIR83spxfDCTsEs4gBjWFlFuilgq6InXCGdImcVXv5C1+zF2s\nCCCl\r\n=0ZgY\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-4_1524604938880_0.9882274856133886"
+			}
+		},
+		"6.0.0-5": {
+			"name": "patch-package",
+			"version": "6.0.0-5",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./test/run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "src/.*(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "a99c87ab5b32b3d531c431008d67fde359bf4ffd",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-5",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-e/jEjcJ6/OiKJAOVqvRxcVIkTG1fZg895iRfoUY/RhS42Ge/ZHuBSud8CXZlQ0ECvRZXMiwbkDK9rZpq8XRcxA==",
+				"shasum": "9113a193102924c49b6cd5f4997bac378f1e5cf4",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-5.tgz",
+				"fileCount": 25,
+				"unpackedSize": 212490,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa82e5CRA9TVsSAnZWagAAQ38P/1tCk+v6KWur17ShTH01\nfbsziv7Nm8uoFqxEoPISboH4hOav7SCKoCJQw0NDf9SrPTWUZlqrJuTmpoJA\nK48YsqnTyhvA3ULeid1gc9yQyvFLAWJw2ZDUwi3GaBO7iLSsx0yWWxldIj0a\ne71Aw5nWg+FnBJ/QqQgnQvWuRw4drbAG6QnGITjMrB/EWRrlsNCpbzpnEhKz\nCPPaRsKku6gr8PANgepnW3P82guOFwhC3SObx9Q4+nPMzq9hiVmsNUZCc51j\nBo4w0HSnBDVpfPWCrkWhjQITLM4aZlo8ifxgtCiaS128DtXRZzoYDOidAeA3\nwGb2eKSL2HkrS66bscLZXyvLOJiFYLK74FZG/zKM6vWZv/Gl4yvQADICfmsc\nP7a9poF0z4cGnZjdASm70inwqX/Cq5yoVEbc3AFUfOBwNjVlr88Ax6QS2zAr\niWiZ0kwkksCey9xl6ja4mPUmH06LQ0Cj/yyIaP3Fa/cNHtR5qRhQsCL5xR2F\n37YoxyWqPS/gledpVZbj1Cx/mUCtjQZIg5MRKU98KUwGTQE5pJROgxA7jHbG\n4fGTKKE0y1j4nviQOBRPxNolD1V1QZEx7UDCgLffJE8fgqjRzy/7VRIGPGoQ\nz9vkTRYd8DHQ+LW2VND+ZkC7BTZExYJbuzf55qGSjQ6n/NHmPDIsOmZkaI5O\nvclV\r\n=40H9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-5_1525901241571_0.3396861087992995"
+			}
+		},
+		"6.0.0-6": {
+			"name": "patch-package",
+			"version": "6.0.0-6",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"new-integration-test": "ts-node integration-tests/newIntegrationTest.ts",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "/(src|integration-tests)/.+\\.test\\.ts$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"ts-node": "^6.0.3",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "00e22df1b83bf9e9c6ce271dfaed496b2aa53b3b",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-6",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-rDEGPDB1iD6ioqVGWQy9FDjPbxPk7J09KFtN0oedXAjCyJms/DK+nH7kMi2eU1Ui4LsmBGW3ofJ5IPFi/Jj+OQ==",
+				"shasum": "d1c2024e1ea63a9a18d0a1d20c811924e73cb905",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-6.tgz",
+				"fileCount": 6360,
+				"unpackedSize": 11243181,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa93EqCRA9TVsSAnZWagAAl8oP/RoOjVH7F6ShkNUVwlZ7\nA0efCKEybWXKokczRDXLfawNJehfLnuue+yprsNjZl4/h57KBvoOIK6Ah8jp\nFnJ2sXjVWZrbE2+uH/5GrATtM5XsqZY7kzMiApqYdbBz4cdeB5V6mdxf6o08\ncG4s8oyXGifb052XG3UmiJ+kugoc4gXBmCaUy5JaLkuIghQt8irIslW4NaUk\ntgEhtwclNWSa5ki0Q/ogd5w33GgRUjX2f9EMl7lxy5IHvQyo4xEX5YpBaL7U\n73YkvkAJCoASFCpZoaYtWxPRMp7Ic2Nwu3Nz87NjkF20JEL+OvmbnFwW6FMY\noFxoG6pdnlUBQkQ8haqecH4GrV7YCF/KfD/6ZKM0uUhK0n1WwonvLIEkoda7\nzP/Y0nS/8IzUa/YrQVPlR8yhQuJBfqDMP/0u1wbNXMyq1Pz1gW+ADHpkrazt\npld6ZSFRfwo6byhCrpZ0xxPZvfUrUaKjpCbNpnBJ5S3O4ilOQy64Oe2c6a2v\nI62j4Oj8cNhgFL6224tgRejvbCUVjdX08Bx3d0oNI0tq/EFvmsy/YI3qDlm2\noaQfJY/Jd/yGIovHm1yb/H57g5FapkY5pLz8DhqRQPcyGM6d96z3L2vj96/l\nM2pKB5r/9Ruw84su8IPuAFKz/UUwK64fcAcuzSoM5yHFjAyv+FOONWqjN1Ky\nzHTS\r\n=JlP8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-6_1526165801727_0.03383935142702588"
+			}
+		},
+		"6.0.0-7": {
+			"name": "patch-package",
+			"version": "6.0.0-7",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"new-integration-test": "ts-node integration-tests/newIntegrationTest.ts",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "/(src|integration-tests|property-based-tests)/.+\\.test\\.ts$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"ts-node": "^6.0.3",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "ab48c2c05b7ef3d501685fadfbc2e434e861c7f5",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-7",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-K/84abSItZkYFGOLN2dqnGxs942l3v6C6/QSMuN+h2ucK3FzVSlBg6V3BLxlsgEAfhmo4mZ8ctARai74WjtyAg==",
+				"shasum": "247ffad67fed75420e5d0e2c2dba03437359f7f1",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-7.tgz",
+				"fileCount": 6366,
+				"unpackedSize": 11268012,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBFdlCRA9TVsSAnZWagAAG+wP/2LibpRkEo5t0t9WguQw\nqHenrlc5rQss69E8Rs0R1qRWk4+tNPFaGCFySqrlYr2llJEIeF4HYm93IixI\nsp01H2E+xXUmBE7f5c52AzKG3fTs0WNReEfj1ckHlUQSJquVREyUtHvBIGof\n7uDcRHXKq4R1tffFZgoMY7sEQfDsjbLVarqDts1IvAkrzmxw1ZuS68mKg7mD\nc5rxOg9pLb5s/D4ec+RKnvu5CVniML11xNswT3AJhF5sEr0cxMZrs6JFpu+S\nmn5asJe5Rj1DcOHVMvPDOb6vOHfPcjhodkH7Kn1f9BmpNHKYL+oAQINZMUxr\n5S8y3k49o01N5K/VX96m9PlBWPW4TIT3n7PXltbabfo1xXmkbLTOSwMNPSgB\nMHN0NJP+6EgariIOXeVJ2v1mRKVIVtep3yWMa3SE6ZHOhkQ5mWW7Xhnu1ggE\nmviZPm0W34i3/04H2Iai7W+BSRDuqbZtsTNftHzVxjdFRz94rdxoA/8ozudm\n5NkVcWZVMmpq8R03O8+XIuHWMds4yIIDFsJAisnKdz+VUkxWaJsOCN8s/yd1\nZD2OAf1WXO+luhYhoQx5+q4e1LQhg9jKDf9kfqB2waG0La+gxTheKJxMBIE4\nNC06Lk43BtfvcCpmV1fVaymNUT88yYGYzNMLBKY7aJJF+wmcaElA4Y6ujzqb\nUGXz\r\n=3dgq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-7_1527011172854_0.6706384430362831"
+			}
+		},
+		"6.0.0-8": {
+			"name": "patch-package",
+			"version": "6.0.0-8",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"new-integration-test": "ts-node integration-tests/newIntegrationTest.ts",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "/(src|integration-tests|property-based-tests)/.+\\.test\\.ts$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"ts-node": "^6.0.3",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"klaw-sync": "^4.0.0",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "09beb558db4aa1ec56979eb51b813b6a89b58dea",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-8",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-SBskrQnDUafdnOrd8TLAp/qhoufEdvsRmPZcLJyWmXc6HRqrQevNhAl1vHl6deBKOQp4+GnM1BzCUkMtTkCQmw==",
+				"shasum": "8b5d870d117ea329e7731e4d9e4ce846893277f5",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-8.tgz",
+				"fileCount": 6366,
+				"unpackedSize": 11268605,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbKX7nCRA9TVsSAnZWagAArSEP/1RawbxEZs2q2duCfZ5n\nzEDIxEKJ5TykzCa3TKvMhg08VJrEaQFBxuNJtW0g7jcAcUun8jfkDt+lyohL\nlDiyKcwY1/ugim+yJCiwqX3XC2qb3MCQHwBY5kCU7wBMSszSGQWZw3SmtdzE\nCi/4kQVjYewgCLG/tXUBDgpE3nCt1jMW5fsUf8gsOo9qk3Ou7VP2UerXApsX\nDrWQAn60GzFvKnfy1pX5jvtS3herAxZg4E+EiO634fJkOOka2WZBJMnsfF3+\n1alkIFCxbgHrEAky0HFkSRoNfyUnbMR1rRQWae80sPT6Q5e4jrx9SAIqtgri\ncUI+7QT7weCksXFdR5FsJSTFPqwq/Dac4U69XQQbPUkg62wukUFQ4+eBiiCu\nTZKazTI0ejqs1+UZJcwxLB7pUNh4Id57U0eMga9Q4C42X96dE2aHpvWJM+Cu\n9IMhsbIgHDtb80J2MzQVpRMfCA1NAATLtlQWx+S7rEBTK8ZibnyWEuY1HMd6\nUEtRle/AYh6wOHZ402OeGAfKCeW7KxKkEvOh1egvbWf1RhIS42qdJcZODpl/\nOwfmIquTJPI1AxGb+XG7XYhWeILBP07KfxIad4Lmw49h9gYBiJBPmyZrvWtT\nl4it53P+4L4fNJxcsIdxVuzKXT0c1DeYjNhev54tneAo2g9BwjK+MAz7m4jW\navYn\r\n=mweG\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-8_1529446118828_0.09783436530390355"
+			}
+		},
+		"6.0.0-9": {
+			"name": "patch-package",
+			"version": "6.0.0-9",
+			"description": "When forking just won't work, patch it.",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ds300/patch-package.git"
+			},
+			"author": {
+				"name": "David Sheldrick"
+			},
+			"license": "MIT",
+			"engines": {
+				"npm": ">5"
+			},
+			"bin": {
+				"patch-package": "./index.js"
+			},
+			"scripts": {
+				"precommit": "tsc --noEmit && lint-staged",
+				"prepublish": "yarn run clean && yarn run build",
+				"build": "tsc",
+				"new-integration-test": "ts-node integration-tests/newIntegrationTest.ts",
+				"clean": "rimraf dist patch-package.test*.tgz",
+				"format": "prettier --no-semi --write --trailing-comma=all src{/**,}/*.ts",
+				"test": "./run-tests.sh"
+			},
+			"lint-staged": {
+				"*.ts": [
+					"tslint -c tslint.json -p tsconfig.json",
+					"prettier --no-semi --trailing-comma=all --list-different"
+				]
+			},
+			"jest": {
+				"transform": {
+					".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+				},
+				"testRegex": "/(src|integration-tests|property-based-tests)/.+\\.test\\.ts$",
+				"moduleFileExtensions": [
+					"ts",
+					"tsx",
+					"js"
+				]
+			},
+			"devDependencies": {
+				"@types/app-root-path": "^1.2.4",
+				"@types/chalk": "^0.4.31",
+				"@types/fs-extra": "^4.0.0",
+				"@types/jest": "^20.0.6",
+				"@types/minimist": "^1.2.0",
+				"@types/node": "^7.0.18",
+				"@types/rimraf": "^0.0.28",
+				"@types/tmp": "^0.0.33",
+				"husky": "^0.13.3",
+				"jest": "^20.0.4",
+				"lint-staged": "^3.4.1",
+				"np": "^2.15.0",
+				"prettier": "^1.11.1",
+				"randomstring": "^1.1.5",
+				"ts-jest": "^20.0.10",
+				"ts-node": "^6.0.3",
+				"tslint": "^5.2.0",
+				"typescript": "^2.7.2"
+			},
+			"dependencies": {
+				"chalk": "^1.1.3",
+				"cross-spawn": "^5.1.0",
+				"fs-extra": "^4.0.1",
+				"klaw-sync": "^4.0.0",
+				"minimist": "^1.2.0",
+				"rimraf": "^2.6.2",
+				"slash": "^1.0.0",
+				"tmp": "^0.0.31",
+				"update-notifier": "^2.4.0"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "e4706bd37f4fce2123fd5603c18335c755783898",
+			"bugs": {
+				"url": "https://github.com/ds300/patch-package/issues"
+			},
+			"homepage": "https://github.com/ds300/patch-package#readme",
+			"_id": "patch-package@6.0.0-9",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "ds300",
+				"email": "djsheldrick@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-xGyzxo5Gmb1ZDTOlNKMMds2120z68REXFkvONxeG8+sw1+zzaP7pTSgyOBZLMAxdayAZ7TZyDsw1jDBRhZBkng==",
+				"shasum": "5b9eae5ee66a08b927caeb16bd40f24fa218bfc2",
+				"tarball": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-9.tgz",
+				"fileCount": 6366,
+				"unpackedSize": 11269003,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbMretCRA9TVsSAnZWagAA+jkQAKEPyJwcLo0zoJaMTmCI\nctc/gATG6GFnRZHJuB8yXBTUDYueqcLdxNPholYpMF4lEGvtWLzUYLSS/3w+\nEVypFEe4gx8bK8oAQV3yKPQAV5EPCgnSUQAsHX0HqnVfIk5RmWnwiTFCSBEJ\nbeJoSaAr4Sexfgy9zKnzOx4ajqbsmK1yXMN7m4XTfKQLZDm/wvKVRxkybUWJ\nSx3vazjoP+SJdyW0kYrTBo1xjdOPjlD3lEsYpMdiWLjEc2/gsx1VLQ1d5E+u\n6kic0J/FmO0IjcF/kcU4nCbvlNcfzQpKVRuCvoBklpRpQ8RElaT/yXPXP0GU\nfdCBWStzmA1yXJ4EmdGg+dA/7FnED9kAphGlIL477Ch6PnB0jn681BavyxVc\n/pYlI2C7Htb5IjmfnDshCXEV/sl9JtLY6sh+iPrxDYFDzpuxEeMgVss2hVn2\nBjHwuwPbH8e11TwunSE8LbL/vsduGdxTEABKtCpsscddmSP3ncltun4/m/AC\nDk8NKKL+GETlZ6nWpN0SM1sQASuyUYrLJUUpKtqVjzHKZXYyQpCcDC+hw+DM\nPJykpAtGG60rHgq5SFCqU9B3RCHtcZyqiO+D17t2MzP70jsH0ZSF1/JZLPd0\njnZb5qWE84QtLTkC9dKPYKqzLURRj6zNthQI/NxEiQByzRh4JupI+eyOLnGA\n1mSs\r\n=+ZNQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ds300",
+					"email": "djsheldrick@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/patch-package_6.0.0-9_1530050477217_0.8965590489245989"
+			}
+		}
+	},
+	"time": {
+		"modified": "2018-06-26T22:01:19.711Z",
+		"created": "2017-05-08T20:32:41.782Z",
+		"1.0.0": "2017-05-08T20:32:41.782Z",
+		"1.1.0": "2017-05-08T23:20:38.087Z",
+		"1.1.1": "2017-05-09T00:01:16.144Z",
+		"1.2.0": "2017-05-09T10:42:54.426Z",
+		"1.2.1": "2017-05-09T19:32:51.767Z",
+		"1.3.0": "2017-05-11T16:04:20.141Z",
+		"2.0.0": "2017-05-11T16:05:30.004Z",
+		"2.1.0": "2017-05-31T15:34:50.787Z",
+		"2.1.1": "2017-06-05T18:05:17.218Z",
+		"3.0.0": "2017-06-14T22:48:16.986Z",
+		"3.1.0": "2017-06-24T14:45:40.744Z",
+		"3.2.0": "2017-06-24T14:54:42.739Z",
+		"3.2.1": "2017-06-24T15:37:43.751Z",
+		"3.3.0": "2017-07-26T16:55:54.713Z",
+		"3.3.1": "2017-08-04T16:40:38.855Z",
+		"3.3.2": "2017-08-08T09:55:23.645Z",
+		"3.3.3": "2017-08-08T22:31:12.218Z",
+		"3.3.4": "2017-08-23T21:39:54.694Z",
+		"3.3.5": "2017-08-28T20:11:39.634Z",
+		"3.3.6": "2017-09-03T10:13:31.300Z",
+		"3.4.0": "2017-09-12T18:22:32.048Z",
+		"3.4.1": "2017-09-28T21:02:12.167Z",
+		"3.4.2": "2017-09-29T12:29:00.638Z",
+		"3.4.3": "2017-09-30T12:26:35.536Z",
+		"3.4.4": "2017-09-30T13:26:03.872Z",
+		"3.4.5": "2017-09-30T15:45:13.594Z",
+		"3.4.6": "2017-10-02T17:36:27.450Z",
+		"3.5.0": "2017-10-04T21:38:39.125Z",
+		"3.5.1": "2017-10-18T21:14:58.808Z",
+		"3.5.2": "2017-10-27T07:19:39.996Z",
+		"3.5.3-0": "2017-10-29T22:09:38.797Z",
+		"3.5.3": "2017-10-30T20:05:48.801Z",
+		"3.6.0": "2017-10-31T19:21:29.469Z",
+		"3.6.1": "2017-11-15T15:12:17.553Z",
+		"4.0.0": "2017-11-20T20:44:15.783Z",
+		"5.0.0": "2017-12-02T12:43:47.889Z",
+		"5.1.0": "2018-02-09T11:33:37.211Z",
+		"5.1.1": "2018-02-10T09:51:49.460Z",
+		"6.0.0-0": "2018-03-29T22:36:08.195Z",
+		"6.0.0-1": "2018-03-30T21:23:57.483Z",
+		"6.0.0-2": "2018-04-02T21:41:11.750Z",
+		"6.0.0-3": "2018-04-10T00:07:58.080Z",
+		"6.0.0-4": "2018-04-24T21:22:18.997Z",
+		"6.0.0-5": "2018-05-09T21:27:21.615Z",
+		"6.0.0-6": "2018-05-12T22:56:41.913Z",
+		"6.0.0-7": "2018-05-22T17:46:13.267Z",
+		"6.0.0-8": "2018-06-19T22:08:39.321Z",
+		"6.0.0-9": "2018-06-26T22:01:17.345Z"
+	},
+	"dist-tags": {
+		"latest": "5.1.1",
+		"beta": "6.0.0-9"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"b7bcc977c404002afea8ce5b68726ac8\"",
+			"fetched": 1530990166837
+		}
+	},
+	"_distfiles": {
+		"patch-package-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-1.0.0.tgz",
+			"sha": "7bead6ce3166e0c7b872f14ce7f466a371cdd08c",
+			"registry": "npmjs"
+		},
+		"patch-package-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-1.1.0.tgz",
+			"sha": "b06bd3cfb0dd561056f4eb7457d05cd44be08799",
+			"registry": "npmjs"
+		},
+		"patch-package-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-1.1.1.tgz",
+			"sha": "68735dc8ef913af8128d9c216f1cbcab16de2c0d",
+			"registry": "npmjs"
+		},
+		"patch-package-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-1.2.0.tgz",
+			"sha": "81fd926163382818e7dfaa57bd082aaeb2872be3",
+			"registry": "npmjs"
+		},
+		"patch-package-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-1.2.1.tgz",
+			"sha": "149ebe7a1584f5a749bfb83db7ae1acae4a5b2a8",
+			"registry": "npmjs"
+		},
+		"patch-package-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-2.0.0.tgz",
+			"sha": "9e189c18df810737131a4c862d7998ee733ff855",
+			"registry": "npmjs"
+		},
+		"patch-package-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-2.1.0.tgz",
+			"sha": "7485c8d7682ef730e469735e46addf239dd35cd7",
+			"registry": "npmjs"
+		},
+		"patch-package-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-2.1.1.tgz",
+			"sha": "041182d3a69ec09b7d350930716052f48b5ec874",
+			"registry": "npmjs"
+		},
+		"patch-package-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.0.0.tgz",
+			"sha": "f6adf182ed2136662c1f5c3ea320902b0ed77021",
+			"registry": "npmjs"
+		},
+		"patch-package-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.1.0.tgz",
+			"sha": "9a55b3d1ae460beb7b86ec07614107d04ed03fe4",
+			"registry": "npmjs"
+		},
+		"patch-package-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.2.0.tgz",
+			"sha": "73e4441fec3b5c64221d06385e0756c260e90ccb",
+			"registry": "npmjs"
+		},
+		"patch-package-3.2.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.2.1.tgz",
+			"sha": "555cfd4812123666e19cd632cea2089f8ac3781c",
+			"registry": "npmjs"
+		},
+		"patch-package-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.0.tgz",
+			"sha": "f9a6610f63a0f6de1c2790537115c1431eb7f15c",
+			"registry": "npmjs"
+		},
+		"patch-package-3.3.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.1.tgz",
+			"sha": "bfdf6f172c1af319a8e6f0779d024045eea60c0b",
+			"registry": "npmjs"
+		},
+		"patch-package-3.3.2.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.2.tgz",
+			"sha": "b0ae2530872c37c70bb6e8101b8c98a31976b3f7",
+			"registry": "npmjs"
+		},
+		"patch-package-3.3.3.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.3.tgz",
+			"sha": "4818a8e6f199cad76413f2c3298d63021f258332",
+			"registry": "npmjs"
+		},
+		"patch-package-3.3.4.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.4.tgz",
+			"sha": "63d3390800aad1be0200972bb58c65757e05e21f",
+			"registry": "npmjs"
+		},
+		"patch-package-3.3.5.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.5.tgz",
+			"sha": "aad6fb2d28da0c9d1a0f96b7f4cd2cd9c626da9a",
+			"registry": "npmjs"
+		},
+		"patch-package-3.3.6.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.3.6.tgz",
+			"sha": "553356e2e02dbdae358ef94e87589c502106b311",
+			"registry": "npmjs"
+		},
+		"patch-package-3.4.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.0.tgz",
+			"sha": "29a954ad3d04a418334492b00604b0fc73fab5b6",
+			"registry": "npmjs"
+		},
+		"patch-package-3.4.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.1.tgz",
+			"sha": "ea759298baaef52e64709bd095543a4a3a7e0795",
+			"registry": "npmjs"
+		},
+		"patch-package-3.4.2.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.2.tgz",
+			"sha": "993e8e1e64acfd2e86b58ad930d00b2ca0581192",
+			"registry": "npmjs"
+		},
+		"patch-package-3.4.3.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.3.tgz",
+			"sha": "722fd2091b82f9c441486d553d3de3d70ff1b985",
+			"registry": "npmjs"
+		},
+		"patch-package-3.4.4.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.4.tgz",
+			"sha": "9413e4ee6de08265892688f60fbba11027ba1376",
+			"registry": "npmjs"
+		},
+		"patch-package-3.4.5.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.5.tgz",
+			"sha": "37394806e29be8b9a39d01eec523455d7823a9fd",
+			"registry": "npmjs"
+		},
+		"patch-package-3.4.6.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.4.6.tgz",
+			"sha": "37277c20c1559aa6b61f8629e6be3657418bc702",
+			"registry": "npmjs"
+		},
+		"patch-package-3.5.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.0.tgz",
+			"sha": "ed7a641c1210320084c471de64ab3e133b5f83d8",
+			"registry": "npmjs"
+		},
+		"patch-package-3.5.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.1.tgz",
+			"sha": "197d647c650f3372d622f83a11250465f20850f3",
+			"registry": "npmjs"
+		},
+		"patch-package-3.5.2.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.2.tgz",
+			"sha": "ede08e92afde3b5ca1eb4ce1d68eb6efc3711819",
+			"registry": "npmjs"
+		},
+		"patch-package-3.5.3-0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.3-0.tgz",
+			"sha": "df555ef535eaefd57cd1b46efac4b495067878d2",
+			"registry": "npmjs"
+		},
+		"patch-package-3.5.3.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.5.3.tgz",
+			"sha": "eed64a1fce6080d1a82f2f4bc7a2e71fcac8c841",
+			"registry": "npmjs"
+		},
+		"patch-package-3.6.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.6.0.tgz",
+			"sha": "ec8ff532ccf390e78e1228bc35dcef0dbd0985be",
+			"registry": "npmjs"
+		},
+		"patch-package-3.6.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-3.6.1.tgz",
+			"sha": "65f13838d9d2c05378ef45b1f718687aad3f87c2",
+			"registry": "npmjs"
+		},
+		"patch-package-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-4.0.0.tgz",
+			"sha": "d57a058f7a4f9a1e4133ad4367e0fc1eac3c9fd8",
+			"registry": "npmjs"
+		},
+		"patch-package-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-5.0.0.tgz",
+			"sha": "59d1aee5093f4d026e24ad4921e826c0324a8a6b",
+			"registry": "npmjs"
+		},
+		"patch-package-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-5.1.0.tgz",
+			"sha": "bc2dc54e27ce43acfb5fb3393d6a3fa1790de587",
+			"registry": "npmjs"
+		},
+		"patch-package-5.1.1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-5.1.1.tgz",
+			"sha": "e5e82fe08bed760b773b8eb73a7bcb7c1634f802",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-0.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-0.tgz",
+			"sha": "fe345680aede7eb91faf69f0d7bc3f351f152aaa",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-1.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-1.tgz",
+			"sha": "c746d9575dd2fcd89061a51988ba3da99b3fe9c9",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-2.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-2.tgz",
+			"sha": "7c83695506d5ad76d130242f8c3dbcbf8a36529f",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-3.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-3.tgz",
+			"sha": "846372c19d187a1a1ffc2973a743c8978d01a0ed",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-4.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-4.tgz",
+			"sha": "5a6294ccb9cabfcec96830ac58acabee8ce5369d",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-5.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-5.tgz",
+			"sha": "9113a193102924c49b6cd5f4997bac378f1e5cf4",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-6.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-6.tgz",
+			"sha": "d1c2024e1ea63a9a18d0a1d20c811924e73cb905",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-7.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-7.tgz",
+			"sha": "247ffad67fed75420e5d0e2c2dba03437359f7f1",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-8.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-8.tgz",
+			"sha": "8b5d870d117ea329e7731e4d9e4ce846893277f5",
+			"registry": "npmjs"
+		},
+		"patch-package-6.0.0-9.tgz": {
+			"url": "https://registry.npmjs.org/patch-package/-/patch-package-6.0.0-9.tgz",
+			"sha": "5b9eae5ee66a08b927caeb16bd40f24fa218bfc2",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"patch-package-5.1.1.tgz": {
+			"shasum": "e5e82fe08bed760b773b8eb73a7bcb7c1634f802"
+		}
+	},
+	"_rev": "2-8251350a0c2cac16",
+	"readme": "<img src=\"./patch-package-banner.png\" height=\"80\" alt=\"patch-package\" />\n\n`patch-package` lets app authors instantly make and keep fixes to npm\ndependencies. It's a vital band-aid for those of us living on the bleeding edge.\n\n```sh\n# fix a bug in one of your dependencies\nvim node_modules/some-package/brokenFile.js\n\n# run patch-package to create a .patch file\nnpx patch-package some-package\n\n# commit the patch file to share the fix with your team\ngit add patches/some-package+3.14.15.patch\ngit commit -m \"fix brokenFile.js in some-package\"\n```\n\nPatches created by `patch-package` are automatically and gracefully applied\nwhen you use `npm`(>=5) or `yarn`.\n\nNo more waiting around for pull requests to be merged and published.\nNo more forking repos just to fix that one tiny thing preventing your app from working.\n\n## Set-up\n\nIn package.json\n\n```diff\n \"scripts\": {\n+  \"postinstall\": \"patch-package\"\n }\n```\n\nThen\n\n### npm\n\n    npm i patch-package --save-dev\n\n### yarn\n\n    yarn add --dev patch-package postinstall-postinstall\n\nTo understand why yarn needs the `postinstall-postinstall` package see: [Why use postinstall-postinstall](#why-use-postinstall-postinstall-with-yarn)\n\n## Usage\n\n### Making patches\n\nFirst make changes to the files of a particular package in your node_modules folder, then run\n\n    yarn patch-package package-name\n\nor use npx (included with `npm > 5.2`)\n\n    npx patch-package package-name\n\nwhere `package-name` matches the name of the package you made changes to.\n\nIf this is the first time you've used `patch-package`, it will create a folder called `patches` in\nthe root dir of your app. Inside will be a file called `package-name+0.44.0.patch` or something,\nwhich is a diff between normal old `package-name` and your fixed version. Commit this to share the fix with your team.\n\n#### Options\n\n* `--use-yarn`\n\n  By default, patch-package checks whether you use npm or yarn based on\n  which lockfile you have. If you have both, it uses npm by default.\n  Set this option to override that default and always use yarn.\n\n* `--exclude <regexp>`\n\n  Ignore paths matching the regexp when creating patch files.\n  Paths are relative to the root dir of the package to be patched.\n\n  Default value: `package\\\\.json$`\n\n* `--include <regexp>`\n\n  Only consider paths matching the regexp when creating patch files.\n  Paths are relative to the root dir of the package to be patched.\n\n  Default value: `.*`\n\n* `--case-sensitive-path-filtering`\n\n  Make regexps used in --include or --exclude filters case-sensitive.\n\n### Updating patches\n\nUse exactly the same process as for making patches in the first place, i.e. make more changes, run patch-package, commit the changes to the patch file.\n\n### Applying patches\n\nRun `patch-package` without arguments to apply all patches in your project.\n\n#### Options\n\n* `--reverse`\n\n  Un-applies all patches.\n\n  Note that this will fail if the patched files have changed since being patched. In that case, you'll probably need to re-install `node_modules`.\n\n  This option was added to help people using CircleCI avoid [an issue around caching and patch file updates](https://github.com/ds300/patch-package/issues/37) but might be useful in other contexts too.\n\n#### Notes\n\nTo apply patches individually, you may use `git`:\n\n    git apply --ignore-whitespace patches/package-name+0.44.2.patch\n\nor `patch` in unixy environments:\n\n    patch -p1 -i patches/package-name+0.44.2.patch\n\n## Benefits of patching over forking\n\n* Sometimes forks need extra build steps, e.g. with react-native for Android. Forget that noise.\n* Get told in big red letters when the dependency changed and you need to check that your fix is still valid.\n* Keep your patches colocated with the code that depends on them.\n* Patches can be reviewed as part of your normal review process, forks probably can't\n\n## When to fork instead\n\n* The change is too consequential to be developed in situ.\n* The change would be useful to other people as-is.\n* You can afford to make a proper PR to upstream.\n\n## Isn't this dangerous?\n\nNope. The technique is quite robust. Here are some things to keep in mind though:\n\n* It's easy to forget to run `yarn` or `npm` when switching between branches that do and don't have patch files.\n* Long lived patches can be costly to maintain if they affect an area of code that is updated regularly and you want to update the package regularly too.\n* Big semantic changes can be hard to review. Keep them small and obvious or add plenty of comments.\n* Changes can also impact the behaviour of other untouched packages. It's normally obvious when this will happen, and often desired, but be careful nonetheless.\n\n## Why use postinstall-postinstall with Yarn?\n\nMost times when you do a `yarn`, `yarn add`, `yarn remove`, or `yarn install` (which is the same as just `yarn`) Yarn will completely replace the contents of your node_modules with freshly unpackaged modules. patch-package uses the `postinstall` hook to modify these fresh modules, so that they behave well according to your will.\n\nYarn only runs the `postinstall` hook after `yarn` and `yarn add`, but not after `yarn remove`. The `postinstall-postinstall` package is used to make sure your `postinstall` hook gets executed even after a `yarn remove`.\n\n## License\n\nMIT\n\n[![Empowered by Futurice's open source sponsorship program](https://img.shields.io/badge/sponsor-chilicorn-ff69b4.svg)](http://futurice.com/blog/sponsoring-free-time-open-source-activities?utm_source=github&utm_medium=spice&utm_campaign=patch-package)"
+}
