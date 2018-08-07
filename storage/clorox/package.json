@@ -1,0 +1,291 @@
+{
+	"name": "clorox",
+	"versions": {
+		"1.0.0": {
+			"name": "clorox",
+			"version": "1.0.0",
+			"description": "Node.js library for colorizing text using ANSI escape sequences.",
+			"main": "index.js",
+			"scripts": {
+				"test": "nyc node test.js && nyc report --reporter=text-lcov > coverage/coverage.lcov",
+				"release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/JorgeBucaran/clorox.git"
+			},
+			"files": [
+				"index.js",
+				"ansi.js"
+			],
+			"keywords": [
+				"color",
+				"terminal",
+				"cli",
+				"ansi"
+			],
+			"author": {
+				"name": "Jorge Bucaran"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/JorgeBucaran/clorox/issues"
+			},
+			"homepage": "https://github.com/JorgeBucaran/clorox",
+			"devDependencies": {
+				"nyc": "^11.2.1"
+			},
+			"gitHead": "b7603a8a33e3805d1ef662f184d715cbf8a4593b",
+			"_id": "clorox@1.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.5.0",
+			"_npmUser": {
+				"name": "jorgebucaran",
+				"email": "jbucaran@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-aXVJFJ7kZ9VwlE5aYxRGeaDmE80jAjM0fYws8cpCfa9bnjUh+4rcXZf2g+gli4qqXY6d3TeCkweLT68+ptsAEQ==",
+				"shasum": "0cd2b46ac3728d670895a0e0ff7e37f2eadb0d68",
+				"tarball": "https://registry.npmjs.org/clorox/-/clorox-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jorgebucaran",
+					"email": "jbucaran@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/clorox-1.0.0.tgz_1507809398931_0.2436912595294416"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "clorox",
+			"version": "1.0.1",
+			"description": "Node.js library for colorizing text using ANSI escape sequences.",
+			"main": "index.js",
+			"scripts": {
+				"test": "nyc node test.js && nyc report --reporter=text-lcov > coverage/coverage.lcov",
+				"release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push origin master && git push --tags && npm publish"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/JorgeBucaran/clorox.git"
+			},
+			"files": [
+				"index.js",
+				"ansi.js"
+			],
+			"keywords": [
+				"color",
+				"terminal",
+				"cli",
+				"ansi"
+			],
+			"author": {
+				"name": "Jorge Bucaran"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/JorgeBucaran/clorox/issues"
+			},
+			"homepage": "https://github.com/JorgeBucaran/clorox",
+			"devDependencies": {
+				"nyc": "^11.2.1"
+			},
+			"gitHead": "d09a0313a7c7f8b9eb32078601af7a11192acb25",
+			"_id": "clorox@1.0.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.5.0",
+			"_npmUser": {
+				"name": "jorgebucaran",
+				"email": "jbucaran@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-s2FUmZmBVpSenYv18uZ9S5oFqPrbA1OCroymoDNqxbgX6u8nJ4jE35/+1773OxbrPcx7/SC65UVFkwOChfRuww==",
+				"shasum": "a68773a44cc0857ed64b7a63aa49f5f0cae9ffed",
+				"tarball": "https://registry.npmjs.org/clorox/-/clorox-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jorgebucaran",
+					"email": "jbucaran@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/clorox-1.0.1.tgz_1507827412405_0.7853056609164923"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "clorox",
+			"version": "1.0.2",
+			"description": "Node.js library for colorizing text using ANSI escape sequences.",
+			"main": "index.js",
+			"scripts": {
+				"test": "nyc -r lcov node test.js && nyc report",
+				"release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push origin master && git push --tags && npm publish"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jorgebucaran/clorox.git"
+			},
+			"files": [
+				"index.js",
+				"ansi.js"
+			],
+			"keywords": [
+				"color",
+				"terminal",
+				"cli",
+				"ansi"
+			],
+			"author": {
+				"name": "Jorge Bucaran"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/jorgebucaran/clorox/issues"
+			},
+			"homepage": "https://github.com/jorgebucaran/clorox",
+			"devDependencies": {
+				"nyc": "^11.4.1"
+			},
+			"gitHead": "e48fe3b225baee3162f985b5a53c7392c96ff7b6",
+			"_id": "clorox@1.0.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "jorgebucaran",
+				"email": "mail@jorgebucaran.com"
+			},
+			"dist": {
+				"integrity": "sha512-w/EdAhblli+0C0OtLZV7nmRaGfqjWBUffC3iYDX19c/z54TUrtZ1Lu6i/IZiw8Cs5xLPTD6W+hGDzjt9uY5n6Q==",
+				"shasum": "f89dbaba26046f7327dfabc2dd97e76af91d742d",
+				"tarball": "https://registry.npmjs.org/clorox/-/clorox-1.0.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5721
+			},
+			"maintainers": [
+				{
+					"name": "jorgebucaran",
+					"email": "jbucaran@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/clorox_1.0.2_1519722021155_0.8140050152716374"
+			}
+		},
+		"1.0.3": {
+			"name": "clorox",
+			"version": "1.0.3",
+			"description": "Node.js library for colorizing text using ANSI escape sequences.",
+			"main": "index.js",
+			"scripts": {
+				"test": "nyc -r lcov node test.js && nyc report",
+				"release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push origin master && git push --tags && npm publish"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jorgebucaran/clorox.git"
+			},
+			"files": [
+				"index.js",
+				"ansi.js"
+			],
+			"keywords": [
+				"color",
+				"terminal",
+				"cli",
+				"ansi"
+			],
+			"author": {
+				"name": "Jorge Bucaran"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/jorgebucaran/clorox/issues"
+			},
+			"homepage": "https://github.com/jorgebucaran/clorox",
+			"devDependencies": {
+				"nyc": "^11.4.1"
+			},
+			"gitHead": "549a79324af5e87f968e7a6591daef83c67037b3",
+			"_id": "clorox@1.0.3",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "jorgebucaran",
+				"email": "mail@jorgebucaran.com"
+			},
+			"dist": {
+				"integrity": "sha512-w3gKAUKMJYmmaJyc+p+iDrDtLvsFasrx/y6/zWo2U1TZfsz3y4Vl4T9PHCZrOwk1eMTOSRI6xHdpDR4PhTdy8Q==",
+				"shasum": "6fa63653f280c33d69f548fb14d239ddcfa1590d",
+				"tarball": "https://registry.npmjs.org/clorox/-/clorox-1.0.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5737
+			},
+			"maintainers": [
+				{
+					"name": "jorgebucaran",
+					"email": "jbucaran@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/clorox_1.0.3_1520225676662_0.5847649686750058"
+			}
+		}
+	},
+	"time": {
+		"modified": "2018-04-11T21:42:04.146Z",
+		"created": "2017-10-12T11:56:39.072Z",
+		"1.0.0": "2017-10-12T11:56:39.072Z",
+		"1.0.1": "2017-10-12T16:56:52.478Z",
+		"1.0.2": "2018-02-27T09:00:21.204Z",
+		"1.0.3": "2018-03-05T04:54:36.717Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"3c8ebe5948ea41812f4c3ac35cc147a1\"",
+			"fetched": 1530566268714
+		}
+	},
+	"_distfiles": {
+		"clorox-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/clorox/-/clorox-1.0.0.tgz",
+			"sha": "0cd2b46ac3728d670895a0e0ff7e37f2eadb0d68",
+			"registry": "npmjs"
+		},
+		"clorox-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/clorox/-/clorox-1.0.1.tgz",
+			"sha": "a68773a44cc0857ed64b7a63aa49f5f0cae9ffed",
+			"registry": "npmjs"
+		},
+		"clorox-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/clorox/-/clorox-1.0.2.tgz",
+			"sha": "f89dbaba26046f7327dfabc2dd97e76af91d742d",
+			"registry": "npmjs"
+		},
+		"clorox-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/clorox/-/clorox-1.0.3.tgz",
+			"sha": "6fa63653f280c33d69f548fb14d239ddcfa1590d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"clorox-1.0.3.tgz": {
+			"shasum": "6fa63653f280c33d69f548fb14d239ddcfa1590d"
+		}
+	},
+	"_rev": "7-d0bdb08b195eb1b1",
+	"readme": "# Clorox\n[![](http://img.shields.io/travis/jorgebucaran/clorox.svg)](https://travis-ci.org/jorgebucaran/clorox)\n[![Codecov](https://img.shields.io/codecov/c/github/jorgebucaran/clorox/master.svg)](https://codecov.io/gh/jorgebucaran/clorox)\n[![](https://img.shields.io/npm/v/clorox.svg)](https://www.npmjs.org/package/clorox)\n\nClorox is a Node.js library for colorizing text using ANSI escape sequences.\n\n* **Eco-friendly**: We don't extend the [String.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype).\n* **Concentrated**: Zero dependencies. Clorox is not broken into a dozen modules that only work together.\n* **Non-toxic**: Auto-detect color support without polluting your terminal with unrecognized escape codes.\n\n## Installation\n\n<pre>\nnpm i <a href=\"https://www.npmjs.com/package/clorox\">clorox</a>\n</pre>\n\n## Usage\n\n```jsx\nconst c = require(\"clorox\")\n```\n\n## Examples\n\nCompose a color expression.\n\n```jsx\nconsole.log(`${\n  c.red.bold(\"What's\").newLine.inverse(\"up?\")\n}`)\n```\n\nConcatenate expressions.\n\n```jsx\nconsole.log(\n  c.red.bold(\"What's\") + \"\\n\" + c.red.inverse(\"up?\")\n)\n```\n\nNest expressions to reuse styles.\n\n```jsx\nconsole.log(`${\n  c.bold(c.red(\"Bold & Red\"))\n}`)\n```\n\nCreate your own styles.\n\n```jsx\nconst Styles = {\n  em(s) {\n    return c.bgBlack.yellow(s)\n  }\n}\n\nconsole.log(`${\n  c(Styles.em(\"A funny\")).bold(\" joke.\")\n}`)\n```\n\n## Styles\n\n| Colors  | Background Colors | Modifiers     | Other   |\n|---------|-------------------|---------------|---------|\n| black   | bgBlack           | dim           | newLine |\n| red     | bgRed             | bold          | tab     |\n| green   | bgGreen           | hidden        | reset   |\n| yellow  | bgYellow          | italic        |         |\n| blue    | bgBlue            | underline     |         |\n| magenta | bgMagenta         | inverse       |         |\n| cyan    | bgCyan            | strikethrough |         |\n| white   | bgWhite           |               |         |\n| gray    |                   |               |         |\n\n## License\n\nClorox is MIT licensed. See [LICENSE](LICENSE.md)."
+}
