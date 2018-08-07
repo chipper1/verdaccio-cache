@@ -1,0 +1,195 @@
+{
+	"name": "@types/webpack-bundle-analyzer",
+	"versions": {
+		"2.9.0": {
+			"name": "@types/webpack-bundle-analyzer",
+			"version": "2.9.0",
+			"description": "TypeScript definitions for webpack-bundle-analyzer",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Michael Strobel",
+					"url": "https://github.com/kryops"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "0305a766cead38d50fba58f6303ca064fc99085507679f5e9c00a36fd43cf022",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-bundle-analyzer@2.9.0",
+			"dist": {
+				"integrity": "sha512-jNyLIPXcJlrUy0jHqlxfm75QiL3okoc23+Dv6ay1IeNNWdgu4DDRq6GeIbEmf0VjLF/cf24r4Wj5UVxL3Nt5sA==",
+				"shasum": "824f100941dde6014290eff6e1517f6addd5bfd8",
+				"tarball": "https://registry.npmjs.org/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-2.9.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-bundle-analyzer-2.9.0.tgz_1502300278603_0.21634530881419778"
+			},
+			"directories": {}
+		},
+		"2.9.1": {
+			"name": "@types/webpack-bundle-analyzer",
+			"version": "2.9.1",
+			"description": "TypeScript definitions for webpack-bundle-analyzer",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Michael Strobel",
+					"url": "https://github.com/kryops",
+					"githubUsername": "kryops"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "cd47c2641f2174f5f9a1175242bf7c6db1ca26636a272697e9a017759c0025f2",
+			"typeScriptVersion": "2.2",
+			"_id": "@types/webpack-bundle-analyzer@2.9.1",
+			"dist": {
+				"integrity": "sha512-BbVBPgZhczlQJuGgEyQnj3wvaR5TE5x4sLyEFo72ypmz4d40rbU/qqq0lXun1mzcmGsQJb2wooiZsXDthAg5+w==",
+				"shasum": "90f190f20a8d096cb4a2d15f7a2b4f966b42086b",
+				"tarball": "https://registry.npmjs.org/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-2.9.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5118
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-bundle-analyzer_2.9.1_1518555635564_0.062247747345098414"
+			}
+		},
+		"2.9.2": {
+			"name": "@types/webpack-bundle-analyzer",
+			"version": "2.9.2",
+			"description": "TypeScript definitions for webpack-bundle-analyzer",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Michael Strobel",
+					"url": "https://github.com/kryops",
+					"githubUsername": "kryops"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/webpack": "*"
+			},
+			"typesPublisherContentHash": "54203aa098d29ea7335cd9f10ff84452f558e68600f9ce31a19a2d04f5f7b320",
+			"typeScriptVersion": "2.3",
+			"_id": "@types/webpack-bundle-analyzer@2.9.2",
+			"dist": {
+				"integrity": "sha512-RQub8vZH3P8Afwx+JezWZ2aF0Acy+q1bGctLTAaYVwPecu8XEUsO4Lc0LHHHjWnxF57XcoVxBUM7Sbcvh6B/eQ==",
+				"shasum": "a3f9f4dd8bc3025550001a1704cfd31125773f40",
+				"tarball": "https://registry.npmjs.org/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-2.9.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5118
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-bundle-analyzer_2.9.2_1520648481778_0.5963030599480461"
+			}
+		}
+	},
+	"time": {
+		"modified": "2018-05-18T00:21:09.416Z",
+		"created": "2017-08-09T17:37:58.672Z",
+		"2.9.0": "2017-08-09T17:37:58.672Z",
+		"2.9.1": "2018-02-13T21:00:36.928Z",
+		"2.9.2": "2018-03-10T02:21:21.841Z"
+	},
+	"dist-tags": {
+		"latest": "2.9.2",
+		"ts2.0": "2.9.0",
+		"ts2.1": "2.9.0",
+		"ts2.2": "2.9.1",
+		"ts2.3": "2.9.2",
+		"ts2.4": "2.9.2",
+		"ts2.5": "2.9.2",
+		"ts2.6": "2.9.2",
+		"ts2.7": "2.9.2",
+		"ts2.8": "2.9.2",
+		"ts2.9": "2.9.2",
+		"ts3.0": "2.9.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"330eb319510d706f088e8d1b1ba071c9\"",
+			"fetched": 1530302288999
+		}
+	},
+	"_distfiles": {
+		"webpack-bundle-analyzer-2.9.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-2.9.0.tgz",
+			"sha": "824f100941dde6014290eff6e1517f6addd5bfd8",
+			"registry": "npmjs"
+		},
+		"webpack-bundle-analyzer-2.9.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-2.9.1.tgz",
+			"sha": "90f190f20a8d096cb4a2d15f7a2b4f966b42086b",
+			"registry": "npmjs"
+		},
+		"webpack-bundle-analyzer-2.9.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-bundle-analyzer/-/webpack-bundle-analyzer-2.9.2.tgz",
+			"sha": "a3f9f4dd8bc3025550001a1704cfd31125773f40",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"webpack-bundle-analyzer-2.9.2.tgz": {
+			"shasum": "a3f9f4dd8bc3025550001a1704cfd31125773f40"
+		}
+	},
+	"_rev": "2-a76e38cf6bff54d3",
+	"readme": "# Installation\r\n> `npm install --save @types/webpack-bundle-analyzer`\r\n\r\n# Summary\r\nThis package contains type definitions for webpack-bundle-analyzer (https://github.com/th0r/webpack-bundle-analyzer).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack-bundle-analyzer\r\n\r\nAdditional Details\r\n * Last updated: Sat, 10 Mar 2018 02:17:46 GMT\r\n * Dependencies: webpack\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Michael Strobel <https://github.com/kryops>."
+}
