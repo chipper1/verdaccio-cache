@@ -1,0 +1,1372 @@
+{
+	"name": "yurnalist",
+	"versions": {
+		"0.1.0": {
+			"name": "yurnalist",
+			"version": "0.1.0",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "14b191de6b12873dcd0fd353ba54e0b50471e7b7",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.0",
+			"_shasum": "9aeb7d3d695b244208c29820eee62736eb86339b",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "9aeb7d3d695b244208c29820eee62736eb86339b",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.0.tgz_1492951238750_0.5453592210542411"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "yurnalist",
+			"version": "0.1.1",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "2d12236a7bbe6a1e8bfdbc38570030f81fcc0867",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.1",
+			"_shasum": "8d91f53188094693595d0c5534312a1a11507e57",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "8d91f53188094693595d0c5534312a1a11507e57",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.1.tgz_1492954569481_0.29737167549319565"
+			},
+			"directories": {}
+		},
+		"0.1.2": {
+			"name": "yurnalist",
+			"version": "0.1.2",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "de63e24bcd01db25f92296ed4fcd51f26576b9ef",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.2",
+			"_shasum": "88eccdef44a9b86807787a185b93f3d950732bb8",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "88eccdef44a9b86807787a185b93f3d950732bb8",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.2.tgz_1492955186402_0.13570924079976976"
+			},
+			"directories": {}
+		},
+		"0.1.3": {
+			"name": "yurnalist",
+			"version": "0.1.3",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "9d0b0d373f9595fdbd678ad4bfa5a3a9d1524368",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.3",
+			"_shasum": "16f91856b654d203c80a4686a545cf52a5ef1250",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "16f91856b654d203c80a4686a545cf52a5ef1250",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.3.tgz_1492955519935_0.08025452680885792"
+			},
+			"directories": {}
+		},
+		"0.1.4": {
+			"name": "yurnalist",
+			"version": "0.1.4",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "ffcd98c84f391320b7aa6a0d19609e58b3b666d7",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.4",
+			"_shasum": "4f84c8a465fa32b46bed737fa4411a84e183e51b",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "4f84c8a465fa32b46bed737fa4411a84e183e51b",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.4.tgz_1492957869185_0.630392323480919"
+			},
+			"directories": {}
+		},
+		"0.1.5": {
+			"name": "yurnalist",
+			"version": "0.1.5",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "e01d7db1ab2908de4ea5b92da05bf80a5b895cca",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.5",
+			"_shasum": "54b05dbb1abd62ebd85d9c1bca7877a180b0b2a8",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "54b05dbb1abd62ebd85d9c1bca7877a180b0b2a8",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.5.tgz_1492958519478_0.8997267792001367"
+			},
+			"directories": {}
+		},
+		"0.1.6": {
+			"name": "yurnalist",
+			"version": "0.1.6",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"markdown-toc": "^1.1.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-loader": "^6.2.5",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build && npm run generate-toc",
+				"generate-toc": "markdown-toc -i README.md"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "9746d6df8c837cbd0c2284273e53bc64f67744b5",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.6",
+			"_shasum": "c67bc7a1088665da8b1a95231f40fef8e7465667",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "c67bc7a1088665da8b1a95231f40fef8e7465667",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.6.tgz_1492966630203_0.20880948728881776"
+			},
+			"directories": {}
+		},
+		"0.1.8": {
+			"name": "yurnalist",
+			"version": "0.1.8",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"markdown-toc": "^1.1.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"readline2": "^1.0.1",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build && npm run generate-toc",
+				"generate-toc": "markdown-toc -i README.md"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "7eac004d094c090e0762b7332a85de9670af2468",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.8",
+			"_shasum": "5595c2785044a242ac1be7f7ff773a7e68acb02c",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "5595c2785044a242ac1be7f7ff773a7e68acb02c",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.8.tgz_1493476531765_0.20007676421664655"
+			},
+			"directories": {}
+		},
+		"0.1.9": {
+			"name": "yurnalist",
+			"version": "0.1.9",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"markdown-toc": "^1.1.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"readline": "^1.3.0",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build && npm run generate-toc",
+				"generate-toc": "markdown-toc -i README.md"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "59d16c8a5bde68cc3a70c97e40d6ce944de3c836",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.9",
+			"_shasum": "e55c18dbc2c8837294da42bed7a23a1243909933",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "e55c18dbc2c8837294da42bed7a23a1243909933",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.9.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.9.tgz_1493477913987_0.3476680067833513"
+			},
+			"directories": {}
+		},
+		"0.1.10": {
+			"name": "yurnalist",
+			"version": "0.1.10",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"markdown-toc": "^1.1.0",
+				"minimatch": "^3.0.3",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-flow-strip-types": "^6.22.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-env": "^1.4.0",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "^3.3.1",
+				"eslint-config-fb-strict": "^14.1.3",
+				"eslint-config-fbjs": "^1.0.0",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.15.0",
+				"eslint-plugin-no-async-without-await": "^1.0.0",
+				"eslint-plugin-react": "5.2.2",
+				"flow-bin": "^0.43.0",
+				"jest": "^19.0.2",
+				"mock-stdin": "^0.3.0",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "npm run lint && npm run test-only",
+				"test-only": "jest --coverage --verbose",
+				"lint": "eslint . && flow check",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build && npm run generate-toc",
+				"generate-toc": "markdown-toc -i README.md"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"timers": "fake",
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "f347258a75b93f244585aae5ab7e6d57eb2d9577",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.1.10",
+			"_shasum": "a0ba9a4bdb272e2313775cf20552b81902bfe649",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "a0ba9a4bdb272e2313775cf20552b81902bfe649",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.10.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/yurnalist-0.1.10.tgz_1493478448023_0.29797970899380744"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "yurnalist",
+			"version": "0.2.1",
+			"description": "Elegant console output, borrowed from Yarn",
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/0x80/yurnalist.git"
+			},
+			"author": {
+				"name": "Thijs Koerselman"
+			},
+			"license": "BSD-2-Clause",
+			"preferGlobal": true,
+			"installationMethod": "unknown",
+			"dependencies": {
+				"chalk": "^1.1.1",
+				"death": "^1.0.0",
+				"debug": "^2.2.0",
+				"detect-indent": "^5.0.0",
+				"inquirer": "^3.0.1",
+				"invariant": "^2.2.0",
+				"is-builtin-module": "^1.0.0",
+				"is-ci": "^1.0.10",
+				"leven": "^2.0.0",
+				"loud-rejection": "^1.2.0",
+				"node-emoji": "^1.0.4",
+				"object-path": "^0.11.2",
+				"read": "^1.0.7",
+				"rimraf": "^2.5.0",
+				"semver": "^5.1.0",
+				"strip-bom": "^3.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^6.1.2",
+				"babel-jest": "^19.0.0",
+				"babel-plugin-array-includes": "^2.0.3",
+				"babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+				"babel-plugin-transform-inline-imports-commonjs": "^1.0.0",
+				"babel-plugin-transform-runtime": "^6.4.3",
+				"babel-preset-es2015-node4": "^2.1.0",
+				"babel-preset-node5": "^10.2.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babylon": "^6.5.0",
+				"eslint": "3.19.0",
+				"eslint-config-fb-strict": "20.0.1",
+				"eslint-plugin-babel": "3.3.0",
+				"eslint-plugin-flowtype": "2.32.1",
+				"eslint-plugin-react": "6.7.1",
+				"eslint-plugin-yarn-internal": "file:scripts/eslint-rules",
+				"flow-bin": "0.48",
+				"jest": "^20.0.4",
+				"mock-stdin": "^0.3.0",
+				"prettier": "1.3.1",
+				"temp": "^0.8.3"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"scripts": {
+				"test": "yarn lint && yarn test-only",
+				"test-only": "node --max_old_space_size=4096 ./node_modules/.bin/jest --coverage --verbose",
+				"lint": "yarn run lint-prettier && eslint . && flow check",
+				"lint-prettier": "node scripts/prettier.js lint",
+				"prettier": "node scripts/prettier.js write",
+				"build": "babel src --out-dir dist",
+				"watch": "babel src --out-dir dist --watch",
+				"clean": "rimraf dist",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"jest": {
+				"collectCoverageFrom": [
+					"src/**/*.js"
+				],
+				"testEnvironment": "node",
+				"modulePathIgnorePatterns": [
+					"__tests__/fixtures/"
+				],
+				"testPathIgnorePatterns": [
+					"__tests__/(fixtures|__mocks__)/",
+					"updates/",
+					"/_(temp|mock|install|init|helpers).js$"
+				]
+			},
+			"gitHead": "7ca3ec9385a670b735795991d4a8e8803ce0dd49",
+			"bugs": {
+				"url": "https://github.com/0x80/yurnalist/issues"
+			},
+			"homepage": "https://github.com/0x80/yurnalist#readme",
+			"_id": "yurnalist@0.2.1",
+			"_shasum": "2d32b9618ab6491891c131bd90a5295e19fd4bad",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "thijskoerselman",
+				"email": "thijskoerselman@gmail.com"
+			},
+			"dist": {
+				"shasum": "2d32b9618ab6491891c131bd90a5295e19fd4bad",
+				"tarball": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "thijskoerselman",
+					"email": "thijskoerselman@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/yurnalist-0.2.1.tgz_1499026270036_0.39049634197726846"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2017-07-02T20:11:11.174Z",
+		"created": "2017-04-23T12:40:39.342Z",
+		"0.1.0": "2017-04-23T12:40:39.342Z",
+		"0.1.1": "2017-04-23T13:36:11.548Z",
+		"1.0.0-alpha.1": "2017-04-23T13:40:46.303Z",
+		"0.1.2": "2017-04-23T13:46:28.572Z",
+		"0.1.3": "2017-04-23T13:52:00.631Z",
+		"0.1.4": "2017-04-23T14:31:11.271Z",
+		"1.0.0-alpha.2": "2017-04-23T14:36:32.363Z",
+		"0.1.5": "2017-04-23T14:42:00.185Z",
+		"0.1.6": "2017-04-23T16:57:12.403Z",
+		"0.1.8": "2017-04-29T14:35:32.489Z",
+		"0.1.9": "2017-04-29T14:58:34.798Z",
+		"0.1.10": "2017-04-29T15:07:30.121Z",
+		"0.2.0": "2017-07-02T19:44:04.685Z",
+		"0.2.1": "2017-07-02T20:11:11.174Z"
+	},
+	"dist-tags": {
+		"latest": "0.2.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"084733e3ea2a3906740085fa63a2777c\"",
+			"fetched": 1531004225176
+		}
+	},
+	"_distfiles": {
+		"yurnalist-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.0.tgz",
+			"sha": "9aeb7d3d695b244208c29820eee62736eb86339b",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.1.tgz",
+			"sha": "8d91f53188094693595d0c5534312a1a11507e57",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.2.tgz",
+			"sha": "88eccdef44a9b86807787a185b93f3d950732bb8",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.3.tgz",
+			"sha": "16f91856b654d203c80a4686a545cf52a5ef1250",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.4.tgz",
+			"sha": "4f84c8a465fa32b46bed737fa4411a84e183e51b",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.5.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.5.tgz",
+			"sha": "54b05dbb1abd62ebd85d9c1bca7877a180b0b2a8",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.6.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.6.tgz",
+			"sha": "c67bc7a1088665da8b1a95231f40fef8e7465667",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.8.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.8.tgz",
+			"sha": "5595c2785044a242ac1be7f7ff773a7e68acb02c",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.9.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.9.tgz",
+			"sha": "e55c18dbc2c8837294da42bed7a23a1243909933",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.1.10.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.1.10.tgz",
+			"sha": "a0ba9a4bdb272e2313775cf20552b81902bfe649",
+			"registry": "npmjs"
+		},
+		"yurnalist-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/yurnalist/-/yurnalist-0.2.1.tgz",
+			"sha": "2d32b9618ab6491891c131bd90a5295e19fd4bad",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"yurnalist-0.2.1.tgz": {
+			"shasum": "2d32b9618ab6491891c131bd90a5295e19fd4bad"
+		}
+	},
+	"_rev": "2-2a9d29a51d27b5c4",
+	"readme": "# Yurnalist\nAn elegant console reporter, borrowed from [Yarn](https://yarnpkg.com).\n\n<!-- toc -->\n\n- [Introduction](#introduction)\n  * [Features](#features)\n- [Install](#install)\n- [How to use](#how-to-use)\n- [Requirements](#requirements)\n- [Examples](#examples)\n- [API](#api)\n  * [table](#table)\n  * [step](#step)\n  * [inspect](#inspect)\n  * [list](#list)\n  * [header](#header)\n  * [footer](#footer)\n  * [log](#log)\n  * [success](#success)\n  * [error](#error)\n  * [info](#info)\n  * [command](#command)\n  * [warn](#warn)\n  * [question](#question)\n  * [tree](#tree)\n  * [activitySet](#activityset)\n  * [activity](#activity)\n  * [select](#select)\n  * [progress](#progress)\n  * [close](#close)\n  * [createReporter](#createreporter)\n- [Configuration](#configuration)\n  * [Options](#options)\n- [Language](#language)\n- [Emojis](#emojis)\n- [To Do](#to-do)\n- [Credits](#credits)\n\n<!-- tocstop -->\n\n## Introduction\nPretty console output makes developers happy. Yarn is doing a really nice job. Yurnalist takes the console reporter from Yarn and makes it available for use in other Node.js applications.\n\nYurnalist can be used to report many different things besides simple messages.\n\n### Features\n\n* log, info, warn, succes, error & command messages\n* progress bars\n* activity spinners\n* process steps\n* object inspection\n* lists\n* emojis\n* trees\n* tables\n* user question\n* user select\n* program header & footer\n\n## Install\n```shell\n$ yarn add yurnalist\n```\nOr if your prefer NPM\n```shell\n$ npm install yurnalist\n```\n\n## How to use\n\n```javascript\nimport report from 'yurnalist'\n\n/* A function to fake some async task */\nfunction doSomeWork(ms) {\n  return new Promise((resolve) => setTimeout(resolve, ms));\n}\n\nasync function fetchSomething() {\n  report.info('Wait while I fetch something for you');\n  report.warn('It might take a little while though');\n\n  const spinner = report.activity();\n  spinner.tick('I am on it');\n\n  try {\n    await doSomeWork(1000);\n    spinner.tick('Still busy');\n    await doSomeWork(1000);\n    spinner.tick('Almost there');\n    await doSomeWork(1000);\n    report.success('Done!');\n  } catch (err) {\n    report.error(err);\n  }\n\n  spinner.end();\n}\n\nfetchSomething();\n\n```\n\n## Requirements\nNode >= 4\n\n## Examples\nExamples showing different API functions are found in [/examples](/examples). You can run them directly with node >= 7.6 (because of async/await syntax). For older versions you could use the `--harmony` flag, or otherwise Babel.\n\nTo run the activity example:\n\n```shell\n$ node examples/activity.js\n```\n\n\n## API\nComing soon...\n\n### table\n### step\n### inspect\n### list\n### header\n### footer\n### log\n### success\n### error\n### info\n### command\n### warn\n### question\n### tree\n### activitySet\n### activity\n### select\n### progress\n### close\n### createReporter\n\n\n## Configuration\nA normal import gives you a reporter instance configured with defaults for easy use. If you want something else you can call `createReporter(options)` to give you an instance with different options.\n\n### Options\n\nThese are the options of the reporter as defined by Flow:\n\n```javascript\ntype ReporterOptions = {\n  verbose?: boolean,\n  stdout?: Stdout,\n  stderr?: Stdout,\n  stdin?: Stdin,\n  emoji?: boolean,\n  noProgress?: boolean,\n  silent?: boolean,\n  peekMemoryCounter?: boolean,\n};\n```\n\nThe defaults used are:\n\n```javascript\nconst defaults = {\n  verbose: false,\n  stdout: process.stdout,\n  stderr: process.stderr,\n  stdin: process.stdinn,\n  emoji: true,\n  noProgress: false,\n  silent: false,\n  peekMemoryCounter: false,\n}\n```\n\nThe peekMemoryCounter is disabled by default. If you enable it, you'll have to call `reporter.close()` to stop its running timer. Otherwise your program will not exit. The memory counter can be used to display in the footer data.\n\n## Language\nYarn uses a language file for certain messages. For example if you try to skip a required question, or when you pick an invalid item from a select. This language file is not yet exposed in the Yurnalist API. The only supported language is English, as it is in Yarn at the moment.\n\nI plan to make this configurable so that you can define your own messages in your own language .\n\n## Emojis\nYou can use Emojis in your output. Yurnalist should disable them if they are not allowed in the application environment.\n\nCheck:\n\n- [node-emoji](https://github.com/omnidan/node-emoji)\n- [Emoji cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)\n\n## To Do\nBefore the 1.0 release there is still some work to be done. You can find an overview in the [1.0 milestone](https://github.com/0x80/yurnalist/milestone/1).\n\nIf you'd like to help out it is highly appreciated!\n\n## Credits\nOf course ❤️ and credits to all the contributers of [Yarn](https://yarnpkg.com). The ease with which I was able to extract this module from their codebase is proving some awesome engineering skills."
+}
