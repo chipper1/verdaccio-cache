@@ -1,0 +1,95 @@
+{
+	"name": "pa11y-reporter-csv",
+	"versions": {
+		"1.0.0": {
+			"name": "pa11y-reporter-csv",
+			"version": "1.0.0",
+			"description": "A CSV reporter for Pa11y",
+			"keywords": [
+				"csv",
+				"pa11y",
+				"reporter"
+			],
+			"author": {
+				"name": "Team Pa11y"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/pa11y-reporter-csv/pa11y-reporter-csv.git"
+			},
+			"homepage": "https://github.com/pa11y-reporter-csv/pa11y-reporter-csv",
+			"bugs": {
+				"url": "https://github.com/pa11y-reporter-csv/pa11y-reporter-csv/issues"
+			},
+			"license": "LGPL-3.0",
+			"engines": {
+				"node": ">=8"
+			},
+			"devDependencies": {
+				"eslint": "^3.18.0",
+				"mocha": "^3.5.0",
+				"mockery": "^2.0.0",
+				"nyc": "^10.1.2",
+				"pa11y-lint-config": "^1.2.0",
+				"proclaim": "^3.4.4",
+				"sinon": "^3.2.0"
+			},
+			"main": "./lib/reporter.js",
+			"scripts": {
+				"test": "make ci"
+			},
+			"gitHead": "0a6d45e730356e349734d78729b3c710f36ab039",
+			"_id": "pa11y-reporter-csv@1.0.0",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "rowanmanning",
+				"email": "accounts@rowanmanning.co.uk"
+			},
+			"dist": {
+				"integrity": "sha512-S2gFgbAvONBzAVsVbF8zsYabszrzj7SKhQxrEbw19zF0OFI8wCWn8dFywujYYkg674rmyjweSxSdD+kHTcx4qA==",
+				"shasum": "c19a99e41c14d82669a1dfd907ada7269d423b98",
+				"tarball": "https://registry.npmjs.org/pa11y-reporter-csv/-/pa11y-reporter-csv-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rowanmanning",
+					"email": "accounts@rowanmanning.co.uk"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pa11y-reporter-csv-1.0.0.tgz_1504883595793_0.7760446779429913"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2017-10-16T23:27:31.423Z",
+		"created": "2017-09-08T15:13:16.676Z",
+		"1.0.0": "2017-09-08T15:13:16.676Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"a6977a7d6ccbb3e20a701a29dcf5d7aa\"",
+			"fetched": 1531001964587
+		}
+	},
+	"_distfiles": {
+		"pa11y-reporter-csv-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/pa11y-reporter-csv/-/pa11y-reporter-csv-1.0.0.tgz",
+			"sha": "c19a99e41c14d82669a1dfd907ada7269d423b98",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"pa11y-reporter-csv-1.0.0.tgz": {
+			"shasum": "c19a99e41c14d82669a1dfd907ada7269d423b98"
+		}
+	},
+	"_rev": "5-d7d143335ed4f3e8",
+	"readme": "# Pa11y CSV Reporter\n\nA CSV reporter for [Pa11y 5.0](https://github.com/pa11y).\n\n**:warning: this reporter is built into Pa11y, there's no need to install separately :warning:**\n\n[![NPM version][shield-npm]][info-npm]\n[![Build status][shield-build]][info-build]\n[![LGPL-3.0 licensed][shield-license]][info-license]\n\n\n## Table Of Contents\n\n- [Requirements](#requirements)\n- [Usage](#usage)\n  - [Command-Line](#command-line)\n  - [JavaScript](#javascript)\n- [Contributing](#contributing)\n- [License](#license)\n\n\n## Requirements\n\nPa11y CSV Reporter is compatible with Pa11y 5.0. It will not work with older versions of Pa11y.\n\n\n## Usage\n\n### Command-Line\n\nInstall Pa11y and Pa11y CSV Reporter with [npm][npm] (locally or globally is fine):\n\n```sh\nnpm install -g pa11y pa11y-reporter-csv\n```\n\nRun Pa11y using the CSV reporter:\n\n```sh\npa11y --reporter csv http://example.com\n```\n\n### JavaScript\n\nAssuming you've installed both Pa11y and Pa11y CSV Reporter:\n\n```js\nconst csv = require('pa11y-reporter-csv');\nconst pa11y = require('pa11y');\n\npa11y('http://example.com').then(results => {\n    // Returns a string with the results formatted as CSV\n    const csvResults = csv.results(results);\n    console.log(csvResults);\n});\n```\n\n\n## Contributing\n\nThere are many ways to contribute to Pa11y CSV Reporter, we cover these in the [contributing guide](CONTRIBUTING.md) for this repo.\n\nIf you're ready to contribute some code, clone this repo locally and commit your code on a new branch.\n\nPlease write unit tests for your code, and check that everything works by running the following before opening a <abbr title=\"pull request\">PR</abbr>:\n\n```sh\nmake ci\n```\n\nYou can also run verifications and tests individually:\n\n```sh\nmake verify              # Verify all of the code (ESLint)\nmake test                # Run all tests\nmake test-unit           # Run the unit tests\nmake test-unit-coverage  # Run the unit tests with coverage\n```\n\n\n## License\n\nPa11y CSV Reporter is licensed under the [Lesser General Public License (LGPL-3.0)][info-license].<br/>\nCopyright &copy; 2017, Team Pa11y\n\n\n[info-license]: LICENSE\n[info-npm]: https://www.npmjs.com/package/pa11y\n[info-build]: https://travis-ci.org/pa11y/pa11y\n[shield-license]: https://img.shields.io/badge/license-LGPL%203.0-blue.svg\n[shield-npm]: https://img.shields.io/npm/v/pa11y-reporter-csv.svg\n[shield-build]: https://img.shields.io/travis/pa11y/pa11y-reporter-csv/master.svg"
+}
