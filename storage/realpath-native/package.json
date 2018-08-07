@@ -1,0 +1,123 @@
+{
+	"name": "realpath-native",
+	"versions": {
+		"1.0.0": {
+			"name": "realpath-native",
+			"version": "1.0.0",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"description": "Use the system's native `realpath`",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SimenB/realpath-native.git"
+			},
+			"author": {
+				"name": "Simen Bekkhus",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"realpath"
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "eslint ."
+			},
+			"dependencies": {
+				"util.promisify": "^1.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/cli": "^5.2.5",
+				"@commitlint/config-conventional": "^5.2.3",
+				"eslint": "^4.13.1",
+				"eslint-config-simenb-base": "^14.0.0",
+				"eslint-config-simenb-node": "^0.4.11",
+				"husky": "^0.14.3",
+				"lint-staged": "^6.0.0",
+				"prettier": "^1.9.2",
+				"semantic-release": "11.0.1"
+			},
+			"commitlint": {
+				"extends": [
+					"@commitlint/config-conventional"
+				]
+			},
+			"prettier": {
+				"proseWrap": "always",
+				"singleQuote": true,
+				"trailingComma": "es5"
+			},
+			"lint-staged": {
+				"*.js": [
+					"eslint --fix",
+					"git add"
+				],
+				"*.{md,json}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "6cdcb865f899a1ecd09e2f49ec4c9e0d35b9317a",
+			"bugs": {
+				"url": "https://github.com/SimenB/realpath-native/issues"
+			},
+			"homepage": "https://github.com/SimenB/realpath-native#readme",
+			"_id": "realpath-native@1.0.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.3",
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-XJtlRJ9jf0E1H1SLeJyQ9PGzQD7S65h1pRXEcAeK48doKOnKxcgPeNohJvD5u/2sI9J1oke6E8bZHS/fmW1UiQ==",
+				"shasum": "7885721a83b43bd5327609f0ddecb2482305fdf0",
+				"tarball": "https://registry.npmjs.org/realpath-native/-/realpath-native-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/realpath-native-1.0.0.tgz_1513507613868_0.4931398299522698"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2017-12-17T10:46:54.783Z",
+		"created": "2017-12-17T10:46:54.783Z",
+		"1.0.0": "2017-12-17T10:46:54.783Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"7db8f777615154d2de631dea5fb1b8da\"",
+			"fetched": 1530566236730
+		}
+	},
+	"_distfiles": {
+		"realpath-native-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/realpath-native/-/realpath-native-1.0.0.tgz",
+			"sha": "7885721a83b43bd5327609f0ddecb2482305fdf0",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"realpath-native-1.0.0.tgz": {
+			"shasum": "7885721a83b43bd5327609f0ddecb2482305fdf0"
+		}
+	},
+	"_rev": "7-d6bf5ac4510b1739",
+	"readme": "# realpath-native\n\n> Use the system's native `realpath`\n\n[![NPM Version][npm-image]][npm-url]\n[![Linux & Mac Build Status][travis-image]][travis-url]\n\n[![Greenkeeper Dependency Status][greenkeeper-image]][greenkeeper-url]\n\nNode 9.3 added `fs.realpath(Sync).native`. On older Nodes you have to use\n`process.binding` to access the same function. This module does that check for\nyou.\n\nThe advantage of the native `realpath` over `fs.realpath` is that the native one\nbetter supports paths on Windows.\n\n## Install\n\nInstall the module with `npm`:\n\n```sh\n$ npm install realpath-native\n```\n\n## Usage\n\n```js\nconst realpath = require('realpath-native');\n\nrealpath('some-path'); // returns a promise\n\nrealpath.sync('some-path');\n```\n\n## API\n\n### realpath(path)\n\nReturns a promise for the resolved path of the input.\n\n#### path\n\nType: `string`\n\n### realpath.sync(path)\n\nReturns the resolved path of the input synchronously.\n\n#### path\n\nType: `string`\n\n[npm-url]: https://npmjs.org/package/realpath-native\n[npm-image]: https://img.shields.io/npm/v/realpath-native.svg\n[travis-url]: https://travis-ci.org/SimenB/realpath-native\n[travis-image]: https://img.shields.io/travis/SimenB/realpath-native/master.svg\n[greenkeeper-url]: https://greenkeeper.io/\n[greenkeeper-image]: https://badges.greenkeeper.io/SimenB/realpath-native.svg"
+}
